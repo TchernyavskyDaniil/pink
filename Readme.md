@@ -1,8 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Даниил Крохмаль](https://up.htmlacademy.ru/adaptive/12/user/502911).
-* Наставник: `Неизвестно`.
-
+* Наставник: [Арсений Березин](https://up.htmlacademy.ru/adaptive/12/user/263537).
 ---
 
 **Обратите внимание на файл:**
