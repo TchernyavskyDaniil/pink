@@ -2,11 +2,273 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <title>Главная</title>
+    <!-- CSS Style -->
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
+    <div class="wrapper">
+      <header class="wrapper__header header">
+        <!-- background IMG -->
+        <nav class="header__nav nav">
+          <div class="nav__inner inner">
+            <a class="inner__logo logo" href="index.html">
+              <img class="logo__placeholder" src="http://placehold.it/150x100" alt="Логотип сайта PINK">
+              <!-- SVG P I N K -->
+            </a>
+            <button class="inner__toggle toggle">
+              <img class="logo__placeholder" src="http://placehold.it/150x100" alt="Меню сайта">
+              <!-- SVG 3 lines -->
+            </button>
+          </div>
+          <div class="nav__box-w nav__box-w--closed box-w">
+            <ul class="box-w__list">
+              <li class="box-w__item">
+                <a class="box-w__link" href="index.html">
+                  Главная
+                </a>
+              </li>
+              <li class="box-w__item">
+                <a class="box-w__link" href="photo.html">
+                  Фотографии
+                </a>
+              </li>
+              <li class="box-w__item">
+                <a class="box-w__link" href="form.html">
+                  Конкурс
+                </a>
+              </li>
+              <li class="box-w__item">
+                <a class="box-w__link" href="https://htmlacademy.ru/">
+                  HTML Academy
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="header__wrapper-main wrapper-main">
+          <section class="wrapper-main__links links">
+            <!-- backgroumd IMG -->
+            <div class="links__wrapper">
+              <a class="links__btn btn" href="https://www.apple.com/ru/itunes/working-itunes/market/">
+                Скачать приложение
+              </a>
+              <a class="links__apple apple" href="https://www.apple.com/ru/itunes/working-itunes/market/">
+                <img class="apple__placeholder" src="http://placehold.it/150x100" alt="Логотип Apple">
+                <!-- SVG icon Apple -->
+              </a>
+              <a class="links__android android" href="http://androidmarkets.ru/">
+                <img class="android__placeholder" src="http://placehold.it/150x100" alt="Логотип Android">
+                  <!-- SVG icon Android -->
+              </a>
+              <a class="links__microsoft microsoft" href="https://microsoftstore.ru/">
+                <img class="microsoft__placeholder" src="http://placehold.it/150x100" alt="Логотип Microsoft">
+                  <!-- SVG icon Microsoft -->
+              </a>
+              <p class="links__info info">
+                Доступно для iPhone, iPad, Android, Windows Phone, OS&nbsp;X, Windows&nbsp;8
+              </p>
+            </div>
+          </section>
+        </div>
+      </header>
+      <main class="wrapper__main main">
+        <section class="main__slogan slogan">
+          <div class="slogan__about about">
+            <!-- h1 Взгляните на жизнь иначе ?-->
+            <h2 class="about__title-text title-text">
+              Устали от&nbsp;серости мегаполиса?
+            </h2>
+            <h2 class="about__title-sub title-sub">
+              Нам есть, что вам предложить!
+            </h2>
+          </div>
+          <div class="about__features features">
+            <div class="features__desc desc">
+              <!-- background img -->
+              <ul class="desc__list list">
+                <li class="desc__item item">
+                  <h3 class="item__title">
+                    Поднимает настроение
+                  </h3>
+                  <p class="item__text">
+                    Приложение позволит вам победить осеннюю хандру и&nbsp;депрессию буквально в&nbsp;несколько кликов!
+                  </p>
+                </li>
+                <li class="desc__item item">
+                <!-- background img -->
+                  <h3 class="item__title">
+                    Меняет мир вокруг
+                  </h3>
+                  <p class="item__text">
+                    Сделайте снимок и&nbsp;украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+                  </p>
+                </li>
+                <li class="desc__item item">
+                  <!-- background img -->
+                  <h3 class="item__title">
+                    Заводит новых друзей
+                  </h3>
+                  <p class="item__text">
+                    Ставьте лайки, комментируйте, делитесь фотографиями с&nbsp;друзьями и&nbsp;заводите новых
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="features__img img">
+              <!-- background IMG -->
+            </div>
+          </div>
+        </section>
+        <section class="main__comment comment">
+          <div class="comment__wrapper">
+            <div class="comment__recall recall">
+              <ul class="recall__list list">
+                <li class="recall__item item">
+                  <h3 class="item__title title">
+                    Николай Петров
+                  </h3>
+                  <p class="item__text text">
+                    &laquo;Это приложение перевернуло мой мир и&nbsp;позволило по-новому взглянуть на&nbsp;привычные серые вещи! А&nbsp;еще я&nbsp;познакомился со&nbsp;своей будущей женой в&nbsp;комментариях к&nbsp;выложенной фотографии!&raquo;
+                  </p>
+                </li>
+              </ul>
+              <div class="recall__slider slider">
+                <!--<input class="slider__radio slider__radio&#45;&#45;active" type="radio" id="rev-btn-1" name="rev" checked>-->
+                <!--<input class="slider__radio" type="radio" id="rev-btn-2" name="rev">-->
+                <!--<input class="slider__radio" type="radio" id="rev-btn-3" name="rev">-->
+                <!--<div class="slider__controls controls">-->
+                  <!--<label class="controls__radio controls__radion&#45;&#45;active" for="rev-btn-1"></label>-->
+                  <!--<label class="controls__radio" for="rev-btn-2"></label>-->
+                  <!--<label class="controls__radio" for="rev-btn-3"></label>-->
+                <!--</div>-->
+                <span class="slider__button slider__button--active">1</span>
+                <span class="slider__button">2</span>
+                <span class="slider__button">3</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__prices prices">
+          <div class="prices__wrapper">
+            <div class="prices__items items">
+              <table class="items__list list">
+                <thead class="list__t-head t-head">
+                  <tr class="t-head__tr">
+                    <th class="t-head__price t-head__price--active price">
+                      <p class="price__title">
+                        Стандарт
+                      </p>
+                      <p class="price__cost">
+                        3,99&nbsp;USD
+                      </p>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="list__t-body t-body">
+                  <tr class="t-body__tr">
+                    <td class="t-body__field field">
+                      <p class="field__text">
+                        Розовый фильтр
+                      </p>
+                      <img class="field__placeholder" src="http://placehold.it/150x100" alt="Входит в набор">
+                    </td>
+                  </tr>
+                  <tr class="t-body__tr">
+                    <td class="t-body__field field">
+                      <p class="field__text">
+                        Смайлики
+                      </p>
+                      <img class="field__svg" src="http://placehold.it/150x100" alt="Входит в набор">
+                    </td>
+                  </tr>
+                  <tr class="t-body__tr">
+                    <td class="t-body__field field">
+                      <p class="field__text">
+                        Комментарии
+                      </p>
+                      <img class="field__placeholder" src="http://placehold.it/150x100" alt="В набор не входит">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="items__slider slider">
+                <!--<input class="slider__radio" type="radio" id="price-btn-1" name="price">-->
+                <!--<input class="slider__radio slider__radio&#45;&#45;active" type="radio" id="price-btn-2" name="price" checked>-->
+                <!--<input class="slider__radio" type="radio" id="price-btn-3" name="price">-->
+                <!--<div class="slider__controls controls">-->
+                  <!--<label class="controls__radio controls__radion&#45;&#45;active" for="price-btn-1"></label>-->
+                  <!--<label class="controls__radio" for="price-btn-2"></label>-->
+                  <!--<label class="controls__radio" for="price-btn-3"></label>-->
+                <!--</div>-->
+                <span class="slider__button slider__button-p">1</span>
+                <span class="slider__button slider__button-p slider__button--active">2</span>
+                <span class="slider__button slider__button-p">3</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main__footer footer">
+          <div class="footer__wrapper">
+            <section class="footer__contacts contacts">
+              <h3 class="contacts__title">
+                Остались вопросы? Свяжитесь с&nbsp;нами!
+              </h3>
+              <article class="contacts__links links">
+                <div class="links__phone phone">
+                  <p class="phone__text">
+                    Звоните:
+                  </p>
+                  <p class="phone__number">
+                    +7 (812) 555-66-66
+                  </p>
+                </div>
+                <div class="links__mail mail">
+                  <p class="mail__text">
+                    Пишите:
+                  </p>
+                  <a class="mail__link" href="https://htmlacademy.ru/intensive/adaptive">
+                    mail.htmlacademy.ru
+                  </a>
+                </div>
+              </article>
+            </section>
+            <div class="footer__map map">
+              <img class="map__placeholder" src="http://placehold.it/150x100" alt="Карта, которая покажет путь к нам">
+              <!-- iframe API Yan/Google || API JS -->
+            </div>
+          </div>
+        </section>
+      </main>
+      <!--<footer class="wrapper__footer footer">-->
+        <!--<div class="footer__wrapper">-->
+          <!--<section class="footer__contacts contacts">-->
+            <!--<h3 class="contacts__title">-->
+              <!--Остались вопросы? Свяжитесь с&nbsp;нами!-->
+            <!--</h3>-->
+            <!--<article class="contacts__links links">-->
+              <!--<div class="links__phone phone">
+                <!--<p class="phone__text">-->
+                  <!--Звоните:-->
+                <!--</p>-->
+                <!--<p class="phone__number">-->
+                  <!--+7 (812) 555-66-66-->
+                <!--</p>-->
+              <!--</div>-->
+              <!--<div class="links__mail mail">-->
+                <!--<p class="mail__text">-->
+                  <!--Пишите:-->
+                <!--</p>-->
+                <!--<a class="mail__link" href="https://htmlacademy.ru/intensive/adaptive">-->
+                  <!--mail.htmlacademy.ru-->
+                <!--</a>-->
+              <!--</div>-->
+            <!--</article>-->
+          <!--</section>-->
+          <!--<div class="footer__map map">-->
+            <!--&lt;!&ndash; iframe API Yan/Google || API JS &ndash;&gt;-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</footer>-->
+    </div>
   </body>
 </html>

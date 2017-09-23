@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Конкурс</title>
+  <!-- CSS Style -->
+</head>
+<body>
+  <div class="wrapper">
+    <header class="wrapper__header header">
+      <!-- background IMG -->
+      <nav class="header__nav nav">
+        <div class="nav__inner inner">
+          <a class="inner__logo logo" href="index.html">
+            <img class="logo__placeholder" src="http://placehold.it/150x100" alt="Логотип сайта PINK">
+            <!-- SVG P I N K -->
+          </a>
+          <button class="inner__toggle toggle">
+            <img class="logo__placeholder" src="http://placehold.it/150x100" alt="Меню сайта">
+            <!-- SVG 3 lines -->
+          </button>
+        </div>
+        <div class="nav__box-w nav__box-w--closed box-w">
+          <ul class="box-w__list">
+            <li class="box-w__item">
+              <a class="box-w__link" href="index.html">
+                Главная
+              </a>
+            </li>
+            <li class="box-w__item">
+              <a class="box-w__link" href="photo.html">
+                Фотографии
+              </a>
+            </li>
+            <li class="box-w__item">
+              <a class="box-w__link" href="form.html">
+                Конкурс
+              </a>
+            </li>
+            <li class="box-w__item">
+              <a class="box-w__link" href="https://htmlacademy.ru/">
+                HTML Academy
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__photo photo">
+        <!-- background IMG -->
+        <section class="photo__info info">
+          <div class="info__wrapper">
+            <h1 class="info__title">
+              Кокурс на самое безбашенное путешествие с Пинк
+            </h1>
+          </div>
+        </section>
+      </div>
+    </header>
+    <main class="wrapper__main main">
+      <section class="main__feedback feedback">
+        <form class="feedback__form form" action="echo" method="post">
+          <div class="form__full-name full-name">
+            <fieldset class="full-name__feedback feedback">
+              <legend class="form__text">
+                Поделитесь своей историей и&nbsp;получите шанс выиграть ценный приз&nbsp;&mdash; 1000 миль на&nbsp;вашу бонусную карту!
+              </legend>
+              <div class="full-name__s-name s-name">
+                <label class="s-name__label" for="s-name">
+                  Фамилия:
+                </label>
+                <input class="s-name__text" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию*">
+              </div>
+              <div class="full-name__name name">
+                <label class="name__label" for="name">
+                  Имя:
+                </label>
+                <input class="name__text" type="text" name="name" id="name" placeholder="Введите ваше имя*">
+              </div>
+              <div class="full-name__m-name m-name">
+                <label class="m-name__label" for="m-name">
+                  Отчеств:
+                </label>
+                <input class="m-name__text" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже">
+              </div>
+            </fieldset>
+
+          </div>
+          <div class="form__achieve achieve">
+            <fieldset class="achieve__field field">
+              <legend class="field__text">
+                Ваши безбашенные достижения в путешествии
+              </legend>
+              <ul class="field__list list">
+                <li class="field__item field__item--active item">
+                  <input class="item__checkbox" type="checkbox" name="shark" id="shark" checked>
+                  <label class="item__label" for="shark">
+                    Сделал селфи с акулой
+                  </label>
+                </li>
+                <li class="field__item field__item--active item">
+                  <input class="item__checkbox" type="checkbox" name="beach" id="beach" checked>
+                  <label class="item__label" for="beach">
+                    Обгорел на пляже
+                  </label>
+                </li>
+                <li class="field__item item">
+                  <input class="item__checkbox" type="checkbox" name="Chack" id="Chack">
+                  <label class="item__label" for="Chack">
+                    Видел Часа Норриса
+                  </label>
+                </li>
+                <li class="field__item item">
+                  <input class="item__checkbox" type="checkbox" name="Suv" id="Suv">
+                  <label class="item__label" for="Suv">
+                    Накупил сувениров
+                  </label>
+                </li>
+                <li class="field__item list__item--active item">
+                  <input class="item__checkbox" type="checkbox" name="tower" id="tower" checked>
+                  <label class="item__label" for="tower">
+                    Удержал башню
+                  </label>
+                </li>
+                <li class="field__item item">
+                  <input class="item__checkbox" type="checkbox" name="hotel" id="hotel">
+                  <label class="item__label" for="hotel">
+                    Разгромил отель
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="form__pop-up visually-hidden pop-up">
+            <div class="pop-up__wrapper">
+              <h2 class="pop-up__title">Что-то пошло не так!</h2>
+              <p class="pop-up__text">
+                Проверьте поля, выделенные красным, скорее всего вы&nbsp;забыли их&nbsp;заполнить
+              </p>
+              <button class="pop-up__btn btn" type="button">OK</button>
+            </div>
+          </div>
+          <div class="form__e-contacts e-contacts">
+            <fieldset class="e-contacts__field field">
+              <legend class="field__text visually-hidden">
+                Контактная информация
+              </legend>
+              <ul class="field__list list">
+                <li class="field__item item">
+                  <label class="item__label" for="number">
+                    Номер телефона
+                  </label>
+                  <input class="item__text" name="number" id="number" placeholder="Номер, пожалуйста">
+                </li>
+                <li class="field__item item">
+                  <label class="item__label" for="e-mail">
+                    Адрес почты
+                  </label>
+                  <input class="item__text" name="e-mail" id="e-mail" placeholder="Введите почту*">
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="form__pop-up-copy visually-hidden pop-up-copy">
+            <div class="pop-up-copy__wrapper">
+              <h2 class="pop-up-copy__title">
+                Ваша заявка отправлена
+              </h2>
+              <p class="pop-up-copy__text">
+                Спасибо за&nbsp;ваше участвие, ваша заявка уже поступила к&nbsp;нам. В&nbsp;ближайшее время мы&nbsp;рассмотрим ее&nbsp;и&nbsp;оповестим вас.
+              </p>
+              <button class="pop-up-copy__btn btn">
+                Закрыть окно
+              </button>
+            </div>
+          </div>
+          <div class="form__app app">
+            <fieldset class="app__field field">
+              <legend class="field__text">
+                С каким приложением путешествовали?
+              </legend>
+              <ul class="field__list list">
+                <li class="field__item field__item--active item">
+                  <input class="item__radio" type="radio" name="ios" id="ios" value="ios" checked>
+                  <label class="item__label" for="ios">
+                    Pink для iOS
+                  </label>
+                </li>
+                <li class="field__item item">
+                  <input class="item__radio" type="radio" name="android" id="android" value="android">
+                  <label class="item__label" for="android">
+                    Pink на Android
+                  </label>
+                </li>
+                <li class="field__item item">
+                  <input class="item__radio" type="radio" name="wphone" id="wphone" value="wphone">
+                  <label class="item__label" for="wphone">
+                    Windows Phone
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="form__emoj emoj">
+            <fieldset class="emoj__field field">
+              <legend class="field__text">
+                Опишите свои эмоции
+              </legend>
+              <textarea class="field__textarea" name="emoj" id="emoj" placeholder="Можно прям в красках, не стесняясь в выражениях">
+              </textarea>
+            </fieldset>
+          </div>
+          <div class="form__submit submit">
+            <button class="submit__button btn" type="button">Отправить форму</button>
+            <p class="submit__text-sub text-sub">
+              * - Обязательные поля
+            </p>
+          </div>
+        </form>
+      </section>
+      <section class="main__footer footer__info-s info-s">
+        <a class="info-s__link link" href="index.html" alt="Переход на главную страницу">
+          <img class="link__placeholder" src="http://placehold.it/150x100" alt="Логотип Pink">
+          <img class="link__placeholder-pink" src="http://placehold.it/150x100" alt="Логотип Pink">
+          <!--SVG-->
+        </a>
+        <div class="info-s__social-links social-links">
+          <a class="social-links__link social-links__link--twitter link" href="https://twitter.com/" alt="Переход на нашу страницу сайта Twitter">
+            <img class="link__placeholder--twitter" src="http://placehold.it/150x100" alt="Логотип Twitter">
+            <!--SVG-->
+          </a>
+          <a class="social-links__link social-links__link--facebook link" href="https://facebook.com/" alt="Переход на нашу страницу сайта Facebook">
+            <img class="link__placeholder--facebook" src="http://placehold.it/150x100" alt="Логотип Facebook">
+            <!--SVG-->
+          </a>
+          <a class="social-links__link social-links__link--youtube link" href="https://youtube.com/" alt="Переход на нашу страницу сайта Youtube">
+            <img class="link__placeholder--youtube" src="http://placehold.it/150x100" alt="Логотип Youtube">
+            <!--SVG-->
+          </a>
+        </div>
+        <div class="footer__developer developer">
+          <a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" alt="Переход на нашу страницу интенсива HTML Academy">
+            <p class="link__text">
+              Разработано
+            </p>
+            <img class="link__placeholder--academy" src="http://placehold.it/150x100" alt="Логотип HTML Academy">
+            <!--SVG-->
+          </a>
+        </div>
+      </section>
+    </main>
+    <!--<footer class="wrapper__footer footer">-->
+      <!--<section class="footer__info-s info-s">-->
+        <!--<a class="info-s__link link" href="index.html" alt="Переход на главную страницу">-->
+          <!--<img class="link__placeholder" src="http://placehold.it/150x100" alt="Логотип Pink">-->
+          <!--<img class="link__placeholder-pink" src="http://placehold.it/150x100" alt="Логотип Pink">-->
+          <!--&lt;!&ndash;SVG&ndash;&gt;-->
+        <!--</a>-->
+        <!--<div class="info-s__social-links social-links">-->
+          <!--<a class="social-links__link social-links__link&#45;&#45;twitter link" href="https://twitter.com/" alt="Переход на нашу страницу сайта Twitter">-->
+            <!--<img class="link__placeholder&#45;&#45;twitter" src="http://placehold.it/150x100" alt="Логотип Twitter">-->
+            <!--&lt;!&ndash;SVG&ndash;&gt;-->
+          <!--</a>-->
+          <!--<a class="social-links__link social-links__link&#45;&#45;facebook link" href="https://facebook.com/" alt="Переход на нашу страницу сайта Facebook">-->
+            <!--<img class="link__placeholder&#45;&#45;facebook" src="http://placehold.it/150x100" alt="Логотип Facebook">-->
+            <!--&lt;!&ndash;SVG&ndash;&gt;-->
+          <!--</a>-->
+          <!--<a class="social-links__link social-links__link&#45;&#45;youtube link" href="https://youtube.com/" alt="Переход на нашу страницу сайта Youtube">-->
+            <!--<img class="link__placeholder&#45;&#45;youtube" src="http://placehold.it/150x100" alt="Логотип Youtube">-->
+            <!--&lt;!&ndash;SVG&ndash;&gt;-->
+          <!--</a>-->
+        <!--</div>-->
+        <!--<div class="footer__developer developer">-->
+          <!--<a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" alt="Переход на нашу страницу интенсива HTML Academy">-->
+            <!--<p class="link__text">-->
+              <!--Разработано-->
+            <!--</p>-->
+            <!--<img class="link__placeholder&#45;&#45;academy" src="http://placehold.it/150x100" alt="Логотип HTML Academy">-->
+            <!--&lt;!&ndash;SVG&ndash;&gt;-->
+          <!--</a>-->
+        <!--</div>-->
+      <!--</section>-->
+    <!--</footer>-->
+  </div>
+</body>
