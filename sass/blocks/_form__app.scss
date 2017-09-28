@@ -1,0 +1,43 @@
+.form__app {
+  background-color: #f2f2f2;
+  .app__field {
+    min-height: 337px;
+  }
+}
+
+.field__list-app {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  min-height: 220px;
+  justify-content: space-around;
+}
+
+.input__radio-app {
+  opacity: 0;
+  position: relative;
+}
+
+.item__label-app {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: lighter;
+  &:before {
+    background-color: #ffffff;
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #e5e5e5;
+    border-radius: 50%;
+  }
+  &:after {
+    border-radius: 50%;
+    background-color: #d22856;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+  }
+}
+

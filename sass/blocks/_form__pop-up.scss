@@ -1,0 +1,32 @@
+.form__pop-up {
+  box-shadow: 0px 2px 1px 0px #b0b6bb;
+  min-height: 289px;
+  .pop-up__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 289px;
+    justify-content: space-evenly;
+  }
+}
+
+.pop-up__btn {
+  border: 0;
+  background: #2aab6d;
+  min-width: 276px;
+  min-height: 60px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 21px;
+}
+
+.pop-up__title {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.pop-up__text {
+  font-size: 14px;
+  line-height: 24px;
+}
