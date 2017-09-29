@@ -609,8 +609,8 @@ header {
 
 .features__img {
   background: url("../../img/iphone-screen-mobile@1x-min.png") no-repeat;
-  padding-bottom: 323px;
-  background-position: center 40px; }
+  background-position: center 40px;
+  min-height: 324px; }
 
 .main__comment {
   background-color: #ffffff;
@@ -644,7 +644,8 @@ header {
   border-radius: 50%;
   background-color: #bec2c7;
   width: 6px;
-  height: 6px; }
+  height: 6px;
+  cursor: pointer; }
   .slider__button--active {
     border: 3px solid black;
     background-color: #ffffff; }
@@ -894,7 +895,11 @@ header {
   font-size: 18px;
   line-height: 30px;
   text-align: left;
-  font-weight: lighter; }
+  font-weight: lighter;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
 
 .form__pop-up {
   -webkit-box-shadow: 0px 2px 1px 0px #b0b6bb;
@@ -1027,7 +1032,8 @@ header {
 .item__label-app {
   font-size: 18px;
   line-height: 30px;
-  font-weight: lighter; }
+  font-weight: lighter;
+  position: relative; }
   .item__label-app:before {
     background-color: #ffffff;
     content: "";
@@ -1035,14 +1041,24 @@ header {
     width: 35px;
     height: 35px;
     border: 2px solid #e5e5e5;
-    border-radius: 50%; }
-  .item__label-app:after {
     border-radius: 50%;
-    background-color: #d22856;
-    content: "";
-    width: 20px;
-    height: 20px;
-    position: absolute; }
+    top: -6px;
+    left: -50px; }
+
+.input__radio-app + .item__label-app:active::after,
+.input__radio-app:checked + .item__label-app::after {
+  display: block;
+  border-radius: 50%;
+  background-color: #d22856;
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -40.5px;
+  top: 3px; }
+
+.input__radio-app + .item__label-app::after {
+  display: none; }
 
 .form__emoj {
   min-height: 290px;
@@ -1115,7 +1131,11 @@ header {
   border: 2px solid #e9ebec;
   border-radius: 50%;
   width: 45px;
-  height: 45px; }
+  height: 45px;
+  text-align: center;
+  padding-top: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .developer__link {
   display: -webkit-box;
@@ -1124,7 +1144,11 @@ header {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  min-width: 150px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .photos__text-w {
   width: 280px;
@@ -1206,8 +1230,10 @@ header {
 .photos__list {
   padding-left: 0; }
 
+.photos__item {
+  margin-bottom: 20px; }
+
 .info-section__photo {
-  padding-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1242,27 +1268,51 @@ header {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  border-top: 1px solid #dddfe0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px; }
 
-.options__btn--submit {
-  color: #d22856;
-  border: 3px solid #d22856;
-  border-radius: 30px;
-  background-color: #f2f2f2;
-  padding: 10px 30px 10px 30px;
-  font-size: 18px;
-  line-height: 18px; }
+.options__scale {
+  position: relative; }
+  .options__scale .scale__border {
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #d22856;
+    top: 0px;
+    left: 226px;
+    z-index: 1; }
+  .options__scale .scale__line {
+    position: absolute;
+    min-width: 280px;
+    height: 2px;
+    background: black;
+    top: 11px; }
 
-.options__btn--cansel {
-  margin-top: 20px;
-  color: #cec8c9;
-  border: 3px solid #cec8c9;
-  border-radius: 30px;
-  background-color: #f2f2f2;
-  padding: 10px 30px 10px 30px;
-  font-size: 18px;
-  line-height: 18px;
-  opacity: 0.5; }
+.options__btn {
+  cursor: pointer; }
+  .options__btn--submit {
+    color: #d22856;
+    border: 3px solid #d22856;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    line-height: 18px; }
+  .options__btn--cansel {
+    margin-top: 20px;
+    color: #cec8c9;
+    border: 3px solid #cec8c9;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    opacity: 0.5; }
 
 .photos-load__filter {
   background-color: #f2f2f2;
