@@ -80,8 +80,12 @@
 .photos__list {
   padding-left: 0;
 }
+
+.photos__item {
+  margin-bottom: 20px;
+}
+
 .info-section__photo {
-  padding-top: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;

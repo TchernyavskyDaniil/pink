@@ -11,9 +11,36 @@
 .option__wrapper {
     display: flex;
     flex-direction: column;
+    border-top: 1px solid #dddfe0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.options__scale {
+  position: relative;
+  .scale__border {
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #d22856;
+    top: 0px;
+    left: 226px;
+    z-index: 1;
+  }
+  .scale__line {
+    position: absolute;
+    min-width: 280px;
+    height: 2px;
+    background: black;
+    top: 11px;
+  }
 }
 
 .options__btn {
+  cursor: pointer;
   &--submit {
     color: #d22856;
     border: 3px solid #d22856;
@@ -50,3 +77,4 @@
   padding-top: 40px;
   justify-content: space-around;
 }
+
