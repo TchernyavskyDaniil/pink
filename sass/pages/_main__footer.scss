@@ -1,0 +1,60 @@
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 270px;
+  text-align: center;
+  .contacts__title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: lighter;
+  }
+}
+
+.links__phone {
+  .phone__text {
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 800;
+  }
+  .phone__number {
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 29px;
+    color: #d22856;
+  }
+}
+
+.links__mail {
+  .mail__text {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+  .mail__link {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 0;
+    color: #d22856;
+  }
+}
+
+.links__invite {
+  .invite__text {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+  .invite__address {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 0;
+    color: #d22856;
+  }
+}
+
+
+

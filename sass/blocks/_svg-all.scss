@@ -1,0 +1,57 @@
+.logo__svg,
+.toggle__svg,
+.apple__svg {
+  fill: #ffffff;
+}
+
+.android__svg {
+  fill: rgb(164, 198, 57);
+}
+
+.item__svg-main {
+  fill: #D22856;
+  position: absolute;
+}
+
+.item__svg {
+  &--yes {
+    fill: green;
+    padding-right: 18px;
+  }
+  &--no {
+    fill: #f25b26;
+    padding-right: 18px;
+  }
+}
+
+.footer__svg {
+  fill: #ffffff;
+  width: 100%;
+  fill: #ffffff;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.likes__svg {
+  fill: #d22856;
+}
+
+.crop__svg {
+  fill: #d22856;
+}
+
+.fill__svg {
+  fill: grey;
+  opacity: 0.3;
+}
+
+.content__svg {
+  fill: grey;
+  opacity: 0.3;
+}
+
+.link__svg {
+  fill: #D22856;
+}

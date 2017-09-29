@@ -1,0 +1,40 @@
+.main__slogan {
+  padding-top: 44px;
+  background-color: #ffffff;
+}
+.slogan__about {
+  margin: 0 auto;
+  width: 240px;
+  .about__title-text,
+  .about__title-sub {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: lighter;
+    text-align: center;
+  }
+}
+.about__features {
+  background: url("../../img/bg-triangle-white.svg") top #f2f2f2 no-repeat;
+  padding-top: 100px;
+}
+.desc__list {
+  padding-left: 0px;
+}
+.item__title {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+.item__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 0 30px 0 30px;
+}
+.features__img {
+  background: url("../../img/iphone-screen-mobile@1x-min.png") no-repeat;
+  //padding-bottom: 323px;
+  background-position: center 40px;
+  min-height: 324px;
+}

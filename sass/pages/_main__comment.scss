@@ -1,0 +1,37 @@
+.main__comment {
+  background-color: #ffffff;
+  padding-top: 42px;
+  .comment__wrapper {
+    margin: 0 auto;
+    width: 280px;
+  }
+}
+
+.comment__recall {
+
+  .recall__list {
+    padding-left: 0px;
+
+  }
+}
+.recall__slider {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+}
+.slider__button {
+  font-size: 0;
+  line-height: 0;
+  border-radius: 50%;
+  background-color: #bec2c7;
+  width: 6px;
+  height: 6px;
+  cursor: pointer;
+  &--active {
+    border: 3px solid black;
+    background-color: #ffffff;
+  }
+}

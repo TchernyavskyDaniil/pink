@@ -1,0 +1,34 @@
+.main__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 278px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  .info-s__social-links {
+    min-width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.social-links__link {
+  border: 2px solid #e9ebec;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.developer__link {
+  display: flex;
+  flex-direction: row;
+  min-width: 150px;
+  justify-content: space-between;
+}
