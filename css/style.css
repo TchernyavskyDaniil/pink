@@ -13,7 +13,11 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
+<<<<<<< HEAD
   /* 2 */ }
+=======
+  /* 2 */  }
+>>>>>>> ac98e1071dbc4816528e1b41fd8eb7dc5ef5b2f1
 
 /* Sections
    ========================================================================== */
@@ -609,8 +613,13 @@ header {
 
 .features__img {
   background: url("../../img/iphone-screen-mobile@1x-min.png") no-repeat;
+<<<<<<< HEAD
   background-position: center 40px;
   min-height: 324px; }
+=======
+  padding-bottom: 323px;
+  background-position: center 40px; }
+>>>>>>> ac98e1071dbc4816528e1b41fd8eb7dc5ef5b2f1
 
 .main__comment {
   background-color: #ffffff;
@@ -644,8 +653,12 @@ header {
   border-radius: 50%;
   background-color: #bec2c7;
   width: 6px;
+<<<<<<< HEAD
   height: 6px;
   cursor: pointer; }
+=======
+  height: 6px; }
+>>>>>>> ac98e1071dbc4816528e1b41fd8eb7dc5ef5b2f1
   .slider__button--active {
     border: 3px solid black;
     background-color: #ffffff; }
@@ -895,11 +908,15 @@ header {
   font-size: 18px;
   line-height: 30px;
   text-align: left;
+<<<<<<< HEAD
   font-weight: lighter;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none; }
+=======
+  font-weight: lighter; }
+>>>>>>> ac98e1071dbc4816528e1b41fd8eb7dc5ef5b2f1
 
 .form__pop-up {
   -webkit-box-shadow: 0px 2px 1px 0px #b0b6bb;
@@ -1032,8 +1049,12 @@ header {
 .item__label-app {
   font-size: 18px;
   line-height: 30px;
+<<<<<<< HEAD
   font-weight: lighter;
   position: relative; }
+=======
+  font-weight: lighter; }
+>>>>>>> ac98e1071dbc4816528e1b41fd8eb7dc5ef5b2f1
   .item__label-app:before {
     background-color: #ffffff;
     content: "";
@@ -1041,6 +1062,7 @@ header {
     width: 35px;
     height: 35px;
     border: 2px solid #e5e5e5;
+<<<<<<< HEAD
     border-radius: 50%;
     top: -6px;
     left: -50px; }
@@ -1059,6 +1081,16 @@ header {
 
 .input__radio-app + .item__label-app::after {
   display: none; }
+=======
+    border-radius: 50%; }
+  .item__label-app:after {
+    border-radius: 50%;
+    background-color: #d22856;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute; }
+>>>>>>> ac98e1071dbc4816528e1b41fd8eb7dc5ef5b2f1
 
 .form__emoj {
   min-height: 290px;
@@ -1131,11 +1163,15 @@ header {
   border: 2px solid #e9ebec;
   border-radius: 50%;
   width: 45px;
+<<<<<<< HEAD
   height: 45px;
   text-align: center;
   padding-top: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+=======
+  height: 45px; }
+>>>>>>> ac98e1071dbc4816528e1b41fd8eb7dc5ef5b2f1
 
 .developer__link {
   display: -webkit-box;
@@ -1144,14 +1180,22 @@ header {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
+<<<<<<< HEAD
           flex-direction: row;
   min-width: 150px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
+<<<<<<< HEAD
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+=======
+          justify-content: space-between; }
+=======
+          flex-direction: row; }
+>>>>>>> ac98e1071dbc4816528e1b41fd8eb7dc5ef5b2f1
+>>>>>>> fa5fe897b25847047d9cc60b806f38065bac12b3
 
 .photos__text-w {
   width: 280px;
@@ -1233,10 +1277,15 @@ header {
 .photos__list {
   padding-left: 0; }
 
+<<<<<<< HEAD
 .photos__item {
   margin-bottom: 20px; }
 
 .info-section__photo {
+=======
+.info-section__photo {
+  padding-top: 20px;
+>>>>>>> ac98e1071dbc4816528e1b41fd8eb7dc5ef5b2f1
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1271,6 +1320,7 @@ header {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
+<<<<<<< HEAD
           flex-direction: column;
   border-top: 1px solid #dddfe0;
   padding-top: 20px;
@@ -1316,6 +1366,29 @@ header {
     font-size: 18px;
     line-height: 18px;
     opacity: 0.5; }
+=======
+          flex-direction: column; }
+
+.options__btn--submit {
+  color: #d22856;
+  border: 3px solid #d22856;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  padding: 10px 30px 10px 30px;
+  font-size: 18px;
+  line-height: 18px; }
+
+.options__btn--cansel {
+  margin-top: 20px;
+  color: #cec8c9;
+  border: 3px solid #cec8c9;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  padding: 10px 30px 10px 30px;
+  font-size: 18px;
+  line-height: 18px;
+  opacity: 0.5; }
+>>>>>>> ac98e1071dbc4816528e1b41fd8eb7dc5ef5b2f1
 
 .photos-load__filter {
   background-color: #f2f2f2;
