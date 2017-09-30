@@ -1148,7 +1148,10 @@ header {
   min-width: 150px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .photos__text-w {
   width: 280px;
