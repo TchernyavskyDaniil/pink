@@ -28,8 +28,8 @@
 
 @media (min-width: 768px) {
   .item__svg-main {
-    top: -10px;
-    left: -2px;
+    height: 60px;
+    width: 60px;
   }
 }
 
@@ -61,6 +61,12 @@
   left: 50%;
   transform: translateX(-50%);
   top: -15px;
+}
+
+@media (min-width: 768px) {
+  .footer__svg {
+    top: 0;
+  }
 }
 
 .likes__svg {

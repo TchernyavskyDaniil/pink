@@ -55,6 +55,11 @@
     justify-content: flex-end;
   }
 
+  .table__list {
+    justify-content: flex-end;
+    padding-bottom: 70px;
+  }
+
   .item__desc {
     display: none;
   }
@@ -131,6 +136,10 @@
 
   .item__price {
     font-size: 16px;
+  }
+
+  .table__item {
+    height: 45px;
   }
 }
 

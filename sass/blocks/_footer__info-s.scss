@@ -5,14 +5,15 @@
   min-height: 278px;
   padding-top: 20px;
   justify-content: space-between;
-  .info-s__social-links {
-    min-width: 200px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
+}
+
+.info-s__social-links {
+  min-width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -46,6 +47,15 @@
   text-align: center;
   padding-top: 10px;
   box-sizing: border-box;
+
+  &--twitter {
+    padding-top: 13px;
+  }
+
+  &--youtube {
+    padding-top: 13px;
+    padding-left: 2px;
+  }
 }
 
 .social-links__link:hover {
@@ -63,6 +73,7 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
+
   .link__text {
     color: black;
   }

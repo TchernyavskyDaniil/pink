@@ -2,6 +2,21 @@
   background-color: #f2f2f2;
 }
 
+@media (min-width: 768px) {
+  .form__achieve {
+    background: white;
+  }
+
+  .achieve__field {
+    border: 2px solid #e5e5e5;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    min-height: 540px;
+  }
+}
+
 .field__text {
   color: #d22856;
   padding-left: 25px;
@@ -10,7 +25,6 @@
   line-height: 30px;
   text-transform: uppercase;
   font-weight: lighter;
-  padding-top: 20px;
 }
 
 .field__list {
@@ -20,6 +34,16 @@
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .field__list {
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 50px;
   }
 }
 

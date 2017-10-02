@@ -77,3 +77,18 @@
     color: #d22856;
   }
 }
+
+.main__footer-hide {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .main__footer-hide {
+    display: flex;
+    align-items: center;
+    min-height: 126px;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
