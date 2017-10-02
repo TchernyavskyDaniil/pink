@@ -37,3 +37,12 @@
     padding-left: 15px;
   }
 }
+
+.input__name:hover {
+  border: 2px solid black;
+}
+
+.input__name:focus {
+  border: 2px solid #d22856;
+  outline: none;
+}

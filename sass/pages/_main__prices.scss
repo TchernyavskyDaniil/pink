@@ -9,8 +9,17 @@
   }
 }
 
+.prices__wrapper {
+  overflow: hidden;
+}
+
 .table__wrapper {
   min-height: 286px;
+  display: flex;
+}
+
+@media (min-width: 768px) {
+
 }
 
 .table__list {
@@ -36,7 +45,34 @@
   }
 }
 
-.table__item:nth-child(1){
+.table__list-tablet {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .table__list-tablet {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .item__desc {
+    display: none;
+  }
+
+  .item__desc-table {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: lighter;
+    min-width: 154px;
+    padding: 7px 15px;
+  }
+
+  .item__cost {
+    font-weight: lighter;
+  }
+}
+
+.table__item:nth-child(1) {
   text-align: center;
   border-left: 2px solid white;
   border-right: 2px solid white;
@@ -50,27 +86,51 @@
   align-items: inherit;
   font-size: 18px;
   line-height: 30px;
+
   .item__cost {
     margin-top: 0;
   }
-  &::before {
-    content: "хит";
-    position: absolute;
-    background-color: #d22856;
-    transform: rotate(-45deg);
-    width: 30px;
-    height: 20px;
-    top: 20px;
-    left: 16px;
-    font-size: 14px;
-    line-height: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    z-index: 1;
-  }
+
   .item__price {
     font-weight: 800;
     margin-bottom: 0;
+  }
+}
+
+.table__item:nth-child(1)::before {
+
+}
+
+.table__item--active::before {
+  display: block;
+  content: "хит";
+  position: absolute;
+  background-color: #d22856;
+  transform: rotate(-45deg);
+  width: 30px;
+  height: 20px;
+  top: 20px;
+  left: 16px;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .table__item:nth-child(1) {
+    min-width: 155px;
+    position: relative;
+  }
+
+  .table__item:nth-child(1)::before {
+    top: 14px;
+    left: 6px;
+  }
+
+  .item__price {
+    font-size: 16px;
   }
 }
 
@@ -85,4 +145,15 @@
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0 auto;
+}
+
+
+@media (min-width: 768px) {
+  .items__slider {
+    display: none;
+  }
+
+  .table__item-head {
+    opacity: 0;
+  }
 }

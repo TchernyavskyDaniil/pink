@@ -1,6 +1,8 @@
 @import "helpers/normalize";
 @import "helpers/fonts";
-@import "pages/_body.scss";
+@import "utils/_variables.scss";
+@import "pages/_outlines.scss";
+@import "pages/scaffolding";
 @import "blocks/wrapper";
 @import "pages/_header.scss";
 @import "blocks/svg-all";

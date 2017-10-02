@@ -1,19 +1,100 @@
 .main__comment {
   background-color: #ffffff;
   padding-top: 42px;
+}
+
+.comment__wrapper {
+  margin: 0 auto;
+  width: 280px;
+}
+
+.comment__effect {
+  display: none;
+}
+
+@media (min-width: 768px) {
   .comment__wrapper {
-    margin: 0 auto;
-    width: 280px;
+    width: 660px;
+  }
+
+  .comment__effect {
+    display: block;
+    margin-bottom: 72px;
+    min-height: 420px;
+  }
+
+  .effect__items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding-left: 320px;
+    background-image: url("../../img/icon-editor-diagram-fill.svg"), url("../../img/icon-timer.svg");
+    background-repeat: no-repeat;
+    background-position: 23px 116px, 4px 60px;
+    background-size: 206px 204px, 242px 277px;
+    min-height: 420px;
+
+    &::before {
+      position: absolute;
+      content: "24";
+      font-size: 96px;
+      line-height: 150px;
+      color: #d22856;
+      left: 70px;
+      top: 133px;
+    }
+  }
+
+  .effect__slogan {
+    font-size: 30px;
+    padding-right: 67px;
+    width: 170px;
+    margin-bottom: 15px;
+  }
+
+  .effect__desc {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 24px;
+    padding-right: 45px;
+  }
+
+  .effect__text {
+    text-decoration: underline;
+    color: #d22856;
+    font-size: 14px;
   }
 }
 
 .comment__recall {
-
   .recall__list {
-    padding-left: 0px;
+    padding-left: 0;
 
   }
 }
+
+@media (min-width: 768px) {
+  .item__text {
+    font-size: 18px;
+  }
+
+  .recall__item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .item__title-tablet::after {
+    content: "25 лет, водитель трамвая";
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 400;
+  }
+}
+
 .recall__slider {
   display: flex;
   flex-direction: row;
@@ -22,6 +103,7 @@
   align-items: center;
   width: 100px;
 }
+
 .slider__button {
   font-size: 0;
   line-height: 0;
@@ -30,8 +112,13 @@
   width: 6px;
   height: 6px;
   cursor: pointer;
+
   &--active {
     border: 3px solid black;
     background-color: #ffffff;
   }
+}
+
+.slider__button:hover {
+  background-color: #7e868f;
 }

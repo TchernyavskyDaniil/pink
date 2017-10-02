@@ -11,6 +11,12 @@
   }
 }
 
+@media (min-width: 768px) {
+  .footer__contacts {
+    width: 620px;
+  }
+}
+
 .links__phone {
   .phone__text {
     margin-bottom: 0;
@@ -23,6 +29,14 @@
     font-size: 24px;
     line-height: 29px;
     color: #d22856;
+  }
+}
+
+@media (min-width: 768px) {
+  .links__phone {
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 50px;
   }
 }
 
@@ -41,6 +55,14 @@
   }
 }
 
+@media (min-width: 768px) {
+  .links__mail {
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 50px;
+  }
+}
+
 .links__invite {
   .invite__text {
     font-size: 18px;
@@ -55,6 +77,3 @@
     color: #d22856;
   }
 }
-
-
-

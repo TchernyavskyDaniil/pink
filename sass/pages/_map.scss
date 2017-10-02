@@ -1,8 +1,23 @@
 .footer__map {
   min-height: 210px;
+  position: relative;
+}
+
+.map__api {
+  background: url("../../img/bg-map-mobile@1x-min.png") no-repeat;
+  width: 320px;
+  height: 210px;
+  margin: auto;
+}
+.footer__svg {
+
+}
+
+@media (min-width: 768px) {
   .map__api {
-    background: url("../../img/bg-map-mobile@1x-min.png") no-repeat;
-    width: 320px;
-    height: 210px;
+    background: url("../../img/photo-map-tablet@1x-min.png");
+    width: 768px;
+    height: 337px;
+    background-position: 49px -411px;
   }
 }
