@@ -90,3 +90,11 @@
 .link__svg {
   fill: #d22856;
 }
+
+@media (min-width: 768px) {
+  .fill__svg,
+  .content__svg {
+    fill: #d22856;
+    opacity: 1;
+  }
+}
