@@ -1715,14 +1715,20 @@ header {
 .title-main__wrapper {
   width: 320px;
   height: 137px;
-  position: relative;
-  background: url("../../img/panorama-mobile@1x-min.jpg") no-repeat; }
+  position: relative; }
+
+.title-main__img-tablet {
+  display: none; }
 
 @media (min-width: 768px) {
+  .title-main__img {
+    display: none; }
+  .title-main__img-tablet {
+    display: block;
+    width: 100%; }
   .title-main__wrapper {
-    background: url("../../img/panorama-mobile@2x.png") no-repeat;
     width: 100%;
-    height: 510px;
+    height: 593px;
     background-size: cover; } }
 
 .title-main__top-day {
@@ -1931,16 +1937,17 @@ header {
   border-radius: 50%;
   background: white;
   border: 2px solid #d22856;
-  top: 0px;
-  left: 226px;
+  top: 70px;
+  right: 37px;
   z-index: 1; }
 
 .scale__line {
   position: absolute;
-  min-width: 280px;
+  min-width: 272px;
   height: 2px;
   background: black;
-  top: 11px; }
+  top: 80px;
+  right: -12px; }
 
 .options__btn {
   cursor: pointer; }
@@ -1987,7 +1994,14 @@ header {
           flex-direction: row;
   padding-top: 40px;
   -ms-flex-pack: distribute;
-      justify-content: space-around; }
+      justify-content: space-around;
+  height: 100px; }
+
+.background__img-tablet {
+  display: none; }
+
+.scale-table {
+  display: none; }
 
 @media (min-width: 768px) {
   .photos-load__filter {
@@ -1998,8 +2012,7 @@ header {
   .filter__wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    width: 100%; }
+    display: flex; }
   .filter__options {
     width: 300px;
     padding-left: 40px; }
@@ -2011,7 +2024,9 @@ header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    padding-top: 0;
+    height: 230px; }
   .icons__crop,
   .icons__content,
   .icons__fill {
@@ -2020,13 +2035,9 @@ header {
     display: -ms-flexbox;
     display: flex;
     width: 320px;
-    border-bottom: 1px solid #dddfe0; }
-  .icons__crop {
-    padding-bottom: 28px; }
-  .icons__content,
-  .icons__fill {
-    padding-top: 28px;
-    padding-bottom: 28px; }
+    border-bottom: 1px solid #dddfe0;
+    padding-bottom: 20px;
+    padding-top: 20px; }
   .scale__line {
     top: 18px;
     min-width: 240px; }
@@ -2047,9 +2058,7 @@ header {
   .background__img-tablet {
     display: block; }
   .option__wrapper {
-    border-top: 0; }
-  .menu__icons {
-    padding-top: 0; } }
+    border-top: 0; } }
 
 .item__checkbox:not(checked) {
   position: absolute;

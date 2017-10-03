@@ -27,14 +27,27 @@
   width: 320px;
   height: 137px;
   position: relative;
-  background: url("../../img/panorama-mobile@1x-min.jpg") no-repeat;
+  //background: url("../../img/panorama-mobile@1x-min.jpg") no-repeat;
+}
+
+.title-main__img-tablet {
+  display: none;
 }
 
 @media (min-width: 768px) {
-  .title-main__wrapper {
-    background: url("../../img/panorama-mobile@2x.png") no-repeat;
+  .title-main__img {
+    display: none;
+  }
+
+  .title-main__img-tablet {
+    display: block;
     width: 100%;
-    height: 510px;
+  }
+
+  .title-main__wrapper {
+    //background: url("../../img/panorama-mobile@2x.png") no-repeat;
+    width: 100%;
+    height: 593px;
     background-size: cover;
   }
 }

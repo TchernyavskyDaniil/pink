@@ -43,17 +43,18 @@
   border-radius: 50%;
   background: white;
   border: 2px solid #d22856;
-  top: 0;
-  left: 226px;
+  top: 70px;
+  right: 37px;
   z-index: 1;
 }
 
 .scale__line {
   position: absolute;
-  min-width: 280px;
+  min-width: 272px;
   height: 2px;
   background: black;
-  top: 11px;
+  top: 80px;
+  right: -12px;
 }
 
 .options__btn {
@@ -95,6 +96,15 @@
   flex-direction: row;
   padding-top: 40px;
   justify-content: space-around;
+  height: 100px;
+}
+
+.background__img-tablet {
+  display: none;
+}
+
+.scale-table {
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -107,7 +117,6 @@
 
   .filter__wrapper {
     display: flex;
-    width: 100%;
   }
 
   .filter__options {
@@ -126,6 +135,7 @@
   .menu__icons {
     flex-direction: column;
     padding-top: 0;
+    height: 230px;
   }
 
   .icons__crop,
@@ -135,16 +145,8 @@
     display: flex;
     width: 320px;
     border-bottom: 1px solid #dddfe0;
-  }
-
-  .icons__crop {
-    padding-bottom: 28px;
-  }
-
-  .icons__content,
-  .icons__fill {
-    padding-top: 28px;
-    padding-bottom: 28px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
   .scale__line {
