@@ -24,12 +24,12 @@
 }
 
 .option__wrapper {
-    display: flex;
-    flex-direction: column;
-    border-top: 1px solid #dddfe0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #dddfe0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
 }
 
 .options__scale {
@@ -43,7 +43,7 @@
   border-radius: 50%;
   background: white;
   border: 2px solid #d22856;
-  top: 0px;
+  top: 0;
   left: 226px;
   z-index: 1;
 }
@@ -58,6 +58,7 @@
 
 .options__btn {
   cursor: pointer;
+
   &--submit {
     color: #d22856;
     border: 3px solid #d22856;
@@ -67,6 +68,7 @@
     font-size: 18px;
     line-height: 18px;
   }
+
   &--cansel {
     margin-top: 20px;
     color: #cec8c9;
@@ -123,6 +125,7 @@
 
   .menu__icons {
     flex-direction: column;
+    padding-top: 0;
   }
 
   .icons__crop,
@@ -181,9 +184,5 @@
 
   .option__wrapper {
     border-top: 0;
-  }
-
-  .menu__icons {
-    padding-top: 0;
   }
 }
