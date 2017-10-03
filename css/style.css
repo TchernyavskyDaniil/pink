@@ -450,13 +450,22 @@ header {
     min-height: 620px;
     background: url("../../img/iphone-hand-tablet@1x-min.png") no-repeat bottom; } }
 
+@media (min-width: 1200px) {
+  header {
+    background-size: 2200px auto;
+    min-height: 850px; }
+  .header__wrapper-main {
+    min-height: 740px;
+    background: none; } }
+
 .header__nav {
   position: relative;
   height: 63px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.2); }
-  .header__nav .nav__box-w--closed {
-    display: none; }
+
+.nav__box-w--closed {
+  display: none; }
 
 .nav__inner {
   display: -webkit-box;
@@ -483,6 +492,40 @@ header {
         -ms-flex-pack: justify;
             justify-content: space-between; } }
 
+@media (min-width: 1200px) {
+  .nav__inner {
+    width: 960px; }
+  .nav__box-w {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 110px;
+    margin: 0 auto;
+    width: 1200px; }
+  .box-w__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 630px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 430px;
+    padding-right: 145px; }
+  .box-w__link {
+    color: white;
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #d22856; } }
+
 .inner__logo:hover .logo__svg {
   fill: #d22856; }
 
@@ -499,6 +542,10 @@ header {
   .inner__toggle {
     padding-top: 20px; } }
 
+@media (min-width: 1200px) {
+  .inner__toggle {
+    display: none; } }
+
 .wrapper-main__links {
   padding: 25px 20px 25px 20px;
   min-height: 271px;
@@ -514,10 +561,17 @@ header {
 @media (min-width: 768px) {
   .wrapper-main__links {
     background: transparent;
-    margin-right: 452px; }
+    margin-right: 452px;
+    background: url("../../img/iphone-hand-tablet@1x-min.png") no-repeat bottom; }
   .links__info {
     font-size: 18px;
     line-height: 24px; } }
+
+@media (min-width: 1200px) {
+  .wrapper-main__links {
+    margin: 0 auto;
+    width: 1200px;
+    min-height: 715px; } }
 
 .links__wrapper {
   display: -webkit-box;
@@ -581,6 +635,14 @@ header {
     padding-left: 5px;
     padding-right: 5px; } }
 
+@media (min-width: 1200px) {
+  .links__title {
+    font-size: 50px; }
+  .links__wrapper {
+    min-height: 715px;
+    padding-right: 725px;
+    padding-left: 102px; } }
+
 .links__btn {
   font-size: 18px;
   font-weight: 700; }
@@ -630,6 +692,14 @@ header {
     display: block;
     fill: white; } }
 
+@media (min-width: 768px) {
+  .logo__svg {
+    display: none; }
+  .logo__svg-tablet {
+    display: none; }
+  .logo__svg-desktop {
+    display: block; } }
+
 .android__svg {
   fill: #a4c639; }
 
@@ -663,12 +733,25 @@ header {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  top: -15px; }
+          transform: translateX(-50%); }
+
+.footer__svg-desktop {
+  display: none; }
 
 @media (min-width: 768px) {
   .footer__svg {
     top: 0; } }
+
+@media (min-width: 1200px) {
+  .footer__svg {
+    display: none; }
+  .footer__svg-desktop {
+    height: 110px;
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); } }
 
 .likes__svg {
   fill: #d22856; }
@@ -721,6 +804,16 @@ header {
     width: 400px;
     margin: 0 auto; } }
 
+@media (min-width: 1200px) {
+  .slogan__about {
+    width: 769px; }
+  .about__title-sub {
+    width: 600px; }
+  .about__title-text,
+  .about__title-sub {
+    font-size: 50px;
+    line-height: 60px; } }
+
 .about__features {
   background: url("../../img/bg-triangle-white.svg") top #f2f2f2 no-repeat;
   padding-top: 100px; }
@@ -740,8 +833,23 @@ header {
   .features__desc {
     padding-left: 320px; } }
 
+@media (min-width: 1200px) {
+  .about__features {
+    margin-top: 60px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+  .features__desc {
+    padding-left: 0;
+    margin: 0 auto;
+    width: 960px; } }
+
 .desc__list {
-  padding-left: 0px; }
+  padding-left: 0; }
 
 .item__title {
   font-size: 18px;
@@ -774,6 +882,68 @@ header {
     text-align: left;
     padding-right: 90px;
     font-size: 14px; } }
+
+@media (min-width: 1200px) {
+  .desc__list {
+    min-height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 200px; }
+  .desc__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 230px;
+    position: relative; }
+  .desc__item:nth-child(2) {
+    margin-right: 30px; }
+  .desc__item::before {
+    content: "";
+    background: url("../../img/iphone-screen-desktop-1@1x.png") no-repeat center;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -325px; }
+  .desc__item:nth-child(1)::before {
+    left: 20px; }
+  .desc__item:nth-child(2)::after {
+    content: "";
+    background: url("../../img/Iphone-screen-red.png") no-repeat center;
+    width: 164px;
+    height: 256px;
+    position: absolute;
+    top: -284px;
+    left: 64px;
+    border: 1px solid black; }
+  .desc__item:nth-child(3)::after {
+    content: "";
+    background: url("../../img/Iphone-screen-smile.png") no-repeat center;
+    width: 164px;
+    height: 256px;
+    position: absolute;
+    top: -284px;
+    left: 64px;
+    border: 1px solid black; }
+  .features__img {
+    display: none; }
+  .item__title-slogan {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-left: 30px;
+    padding-right: 30px; }
+  .item__text-slogan {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px; } }
 
 .main__comment {
   background-color: #ffffff;
@@ -834,6 +1004,11 @@ header {
     color: #d22856;
     font-size: 14px; } }
 
+@media (min-width: 1200px) {
+  .main__comment {
+    padding-top: 0;
+    background: #f2f2f2; } }
+
 .comment__recall .recall__list {
   padding-left: 0; }
 
@@ -888,6 +1063,55 @@ header {
 .slider__button:hover {
   background-color: #7e868f; }
 
+.recall__left,
+.recall__right {
+  display: none; }
+
+@media (min-width: 1200px) {
+  .main__comment-recall {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+    padding-top: 30px; }
+  .recall__slider {
+    display: none; }
+  .main__comment-recall::before {
+    content: "";
+    background: url("../../img/quotes.svg") no-repeat center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -65px;
+    left: 434px; }
+  .item__text-tablet {
+    font-size: 18px;
+    line-height: 30px; }
+  .item__title-tablet {
+    font-size: 24px;
+    line-height: 30px; }
+  .recall__left,
+  .recall__right {
+    display: block;
+    position: absolute; }
+  .recall__left {
+    top: 71px;
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    height: 40px;
+    cursor: pointer; }
+  .recall__right {
+    top: 71px;
+    right: -20px;
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    height: 40px;
+    cursor: pointer; } }
+
 .main__prices {
   background: url("../../img/bg-triangle-white.svg") top #f2f2f2 no-repeat;
   padding-top: 70px; }
@@ -914,6 +1138,11 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+@media (min-width: 1200px) {
+  .prices__wrapper {
+    margin: 0 auto;
+    width: 960px; } }
 
 .table__list {
   padding-left: 0px;
@@ -1013,6 +1242,7 @@ header {
   left: 16px;
   font-size: 14px;
   line-height: 14px;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   z-index: 1; }
@@ -1056,6 +1286,18 @@ header {
   .table__item-head {
     opacity: 0; } }
 
+@media (min-width: 1200px) {
+  .table__item:nth-child(1) {
+    width: 236px;
+    min-height: 96px; }
+  .item__price {
+    font-size: 18px; }
+  .item__cost {
+    font-size: 24px; }
+  .item__desc-table {
+    font-size: 18px;
+    line-height: 30px; } }
+
 .footer__contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1067,14 +1309,29 @@ header {
   margin: 0 auto;
   width: 270px;
   text-align: center; }
-  .footer__contacts .contacts__title {
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: lighter; }
+
+.contacts__title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: lighter; }
 
 @media (min-width: 768px) {
   .footer__contacts {
     width: 620px; } }
+
+@media (min-width: 1200px) {
+  .contacts__title {
+    font-size: 50px;
+    line-height: 60px; }
+  .footer__contacts {
+    width: 960px; }
+  .contacts__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
 
 .links__phone .phone__text {
   margin-bottom: 0;
@@ -1153,6 +1410,22 @@ header {
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around; } }
+
+@media (min-width: 1200px) {
+  .footer__wrapper {
+    width: 100%; }
+  .footer__map {
+    min-height: 510px; }
+  .links__phone {
+    padding-right: 0; }
+  .links__invite {
+    padding-left: 0; }
+  .footer__info-s {
+    width: 960px;
+    margin: 0 auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
 
 .field,
 .feedback {
@@ -2119,6 +2392,10 @@ header {
     width: 768px;
     height: 337px;
     background-position: 49px -411px; } }
+
+@media (min-width: 1200px) {
+  .map__api {
+    width: 100%; } }
 
 .form {
   display: -webkit-box;

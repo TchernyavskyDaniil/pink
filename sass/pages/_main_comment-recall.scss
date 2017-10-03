@@ -1,0 +1,63 @@
+.recall__left,
+.recall__right {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .main__comment-recall {
+    display: flex;
+    margin: 0 auto;
+    width: 960px;
+    position: relative;
+    padding-top: 30px;
+  }
+
+  .recall__slider {
+    display: none;
+  }
+
+  .main__comment-recall::before {
+    content: "";
+    background: url("../../img/quotes.svg") no-repeat center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -65px;
+    left: 434px;
+  }
+
+  .item__text-tablet {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .item__title-tablet {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .recall__left,
+  .recall__right {
+    display: block;
+    position: absolute;
+  }
+
+  .recall__left {
+    top: 71px;
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .recall__right {
+    top: 71px;
+    right: -20px;
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+  }
+}

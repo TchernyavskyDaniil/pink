@@ -21,3 +21,9 @@
     background-position: 49px -411px;
   }
 }
+
+@media (min-width: 1200px) {
+  .map__api {
+    width: 100%;
+  }
+}

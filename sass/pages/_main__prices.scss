@@ -18,8 +18,11 @@
   display: flex;
 }
 
-@media (min-width: 768px) {
-
+@media (min-width: 1200px) {
+  .prices__wrapper {
+    margin: 0 auto;
+    width: 960px;
+  }
 }
 
 .table__list {
@@ -118,6 +121,7 @@
   left: 16px;
   font-size: 14px;
   line-height: 14px;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   z-index: 1;
@@ -164,5 +168,26 @@
 
   .table__item-head {
     opacity: 0;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .table__item:nth-child(1) {
+    width: 236px;
+    min-height: 96px;
+  }
+
+  .item__price {
+    font-size: 18px;
+  }
+
+  .item__cost {
+    font-size: 24px;
+  }
+
+  .item__desc-table {
+    font-size: 18px;
+    line-height: 30px;
   }
 }
