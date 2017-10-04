@@ -67,3 +67,13 @@
     background-position: center;
   }
 }
+
+@media (min-width: 1200px) {
+  .field__list-e {
+    display: flex;
+  }
+
+  .field__item-e {
+    width: 40%;
+  }
+}

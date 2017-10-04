@@ -1,0 +1,26 @@
+.wrapper__forms {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .wrapper__main-form {
+    margin: 0 auto;
+    width: 960px;
+  }
+
+  .form__display {
+    display: none;
+  }
+
+  .wrapper__forms {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .form__app,
+  .form__full-name {
+    width: 45%;
+  }
+}
+

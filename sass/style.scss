@@ -4,6 +4,7 @@
 @import "pages/_outlines.scss";
 @import "pages/scaffolding";
 @import "blocks/wrapper";
+@import "pages/_wrapper__main.scss";
 @import "pages/_header.scss";
 @import "blocks/svg-all";
 @import "pages/main__slogan";
@@ -26,4 +27,4 @@
 @import "pages/map";
 @import "blocks/form";
 @import "blocks/visually-hidden";
-@import "blocks/order-tablet";
+@import "blocks/order";

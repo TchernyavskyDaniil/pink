@@ -24,7 +24,8 @@ header {
 }
 
 @media (min-width: 1200px) {
-  header {
+
+  .header-index {
     background-size: 2200px auto;
     min-height: 850px;
   }
@@ -154,7 +155,6 @@ header {
   .wrapper-main__links {
     background: transparent;
     margin-right: 452px;
-    background: url("../../img/iphone-hand-tablet@1x-min.png") no-repeat bottom;
   }
 
   .links__info {
@@ -168,6 +168,8 @@ header {
     margin: 0 auto;
     width: 1200px;
     min-height: 715px;
+    background: url("../../img/iphone-hand-desktop@1x.png") no-repeat bottom;
+    background-position-x: 200px;
   }
 }
 
@@ -282,6 +284,13 @@ header {
     line-height: 60px;
     padding-left: 60px;
     padding-right: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .info__wrapper {
+    width: 920px;
+    margin: 0 auto;
   }
 }
 

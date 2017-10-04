@@ -24,14 +24,22 @@
 }
 
 .submit__button:active {
-  color: rgba(255,255,255,.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .submit__text-sub {
   font-size: 14px;
   line-height: 30px;
   text-transform: uppercase;
+
   .text-sub__star {
-    color: #D22856;
+    color: #d22856;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form__submit {
+    margin-right: 0;
+    margin-left: 0;
   }
 }

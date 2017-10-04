@@ -2,18 +2,42 @@
 .toggle__svg,
 .apple__svg {
   fill: #ffffff;
+
   &-tablet {
     display: none;
   }
+}
+
+.logo__svg-desktop {
+  display: none;
 }
 
 @media (min-width: 768px) {
   .logo__svg {
     display: none;
   }
+
   .logo__svg-tablet {
     display: block;
     fill: white;
+  }
+
+  .logo__svg-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo__svg {
+    display: none;
+  }
+
+  .logo__svg-tablet {
+    display: none;
+  }
+
+  .logo__svg-desktop {
+    display: block;
   }
 }
 
@@ -39,6 +63,7 @@
     padding-right: 18px;
     margin-left: 50px;
   }
+
   &--no {
     fill: #f25b26;
     padding-right: 18px;
@@ -49,6 +74,7 @@
   .item__svg--yes {
     margin: 0 auto;
   }
+
   .item__svg--no {
     margin: 0 auto;
   }
@@ -60,12 +86,30 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: -15px;
+}
+
+.footer__svg-desktop {
+  display: none;
 }
 
 @media (min-width: 768px) {
   .footer__svg {
     top: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer__svg {
+    display: none;
+  }
+
+  .footer__svg-desktop {
+    display: block;
+    height: 110px;
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
