@@ -546,8 +546,7 @@ header {
     color: white;
     font-size: 18px;
     line-height: 18px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #d22856; } }
+    padding-bottom: 20px; } }
 
 .inner__logo:hover .logo__svg {
   fill: #d22856; }
@@ -2067,12 +2066,23 @@ header {
     font-size: 18px;
     font-weight: 400; } }
 
+@media (min-width: 1200px) {
+  .photos__text-w {
+    width: 960px;
+    margin: 0 auto; }
+  .text-w__slogan {
+    padding-left: 160px;
+    padding-right: 160px; } }
+
 .title-main__wrapper {
   width: 320px;
   height: 137px;
   position: relative; }
 
 .title-main__img-tablet {
+  display: none; }
+
+.title-main__img-pc {
   display: none; }
 
 @media (min-width: 768px) {
@@ -2183,6 +2193,10 @@ header {
             justify-content: space-between;
     padding-bottom: 5px; } }
 
+@media (min-width: 1200px) {
+  .title-main__user-review {
+    width: 960px; } }
+
 .likes__text {
   padding-left: 20px;
   color: #d22856; }
@@ -2249,6 +2263,22 @@ header {
     background: no-repeat center;
     width: 280px;
     height: 180px; }
+
+@media (min-width: 1200px) {
+  .title-main__img-tablet {
+    display: none; }
+  .title-main__img-pc {
+    display: block; }
+  .title-main__wrapper {
+    height: 100%; }
+  .title-main__img-wrapper {
+    height: 510px;
+    width: 1200px;
+    margin: 0 auto; }
+  .title-main__top-day {
+    right: 500px; }
+  .photos__tablet {
+    width: 960px; } }
 
 .photos-load__content {
   width: 280px;
@@ -2414,6 +2444,28 @@ header {
     display: block; }
   .option__wrapper {
     border-top: 0; } }
+
+@media (min-width: 1200px) {
+  .main__photos-load {
+    width: 960px;
+    margin: 0 auto; }
+  .filter__wrapper {
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly; }
+  .option__wrapper {
+    width: 380px;
+    min-height: 50px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 100px; }
+  .options__btn {
+    width: 180px; }
+  .options__btn--cansel {
+    margin-top: 0px; } }
 
 .item__checkbox:not(checked) {
   position: absolute;

@@ -188,3 +188,30 @@
     border-top: 0;
   }
 }
+
+@media (min-width: 1200px) {
+  .main__photos-load {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .filter__wrapper {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .option__wrapper {
+    width: 380px;
+    min-height: 50px;
+    flex-direction: row;
+    margin-top: 100px;
+  }
+
+  .options__btn {
+    width: 180px;
+  }
+
+  .options__btn--cansel {
+    margin-top: 0px;
+  }
+}
