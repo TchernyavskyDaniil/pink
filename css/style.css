@@ -457,7 +457,8 @@ a {
 header {
   background: url("../../img/bg-back-mobile@1x-min.jpg") no-repeat;
   background-size: 1400px auto;
-  min-height: 237px; }
+  min-height: 237px;
+  margin-bottom: 60px; }
 
 .header__wrapper-main {
   padding-top: 396px; }
@@ -522,9 +523,7 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    min-height: 110px;
-    margin: 0 auto;
-    width: 1200px; }
+    min-height: 110px; }
   .box-w__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -539,9 +538,7 @@ header {
     width: 630px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding-left: 430px;
-    padding-right: 145px; }
+            justify-content: space-between; }
   .box-w__link {
     color: white;
     font-size: 18px;
@@ -591,10 +588,10 @@ header {
 @media (min-width: 1200px) {
   .wrapper-main__links {
     margin: 0 auto;
-    width: 1200px;
+    width: 920px;
     min-height: 715px;
     background: url("../../img/iphone-hand-desktop@1x.png") no-repeat bottom;
-    background-position-x: 200px; } }
+    background-position-x: 70px; } }
 
 .links__wrapper {
   display: -webkit-box;
@@ -663,8 +660,7 @@ header {
     font-size: 50px; }
   .links__wrapper {
     min-height: 715px;
-    padding-right: 725px;
-    padding-left: 102px; } }
+    width: 300px; } }
 
 .links__btn {
   font-size: 18px;
@@ -811,7 +807,6 @@ header {
     opacity: 1; } }
 
 .main__slogan {
-  padding-top: 44px;
   background-color: #ffffff; }
 
 .slogan__about {

@@ -2,6 +2,7 @@ header {
   background: url("../../img/bg-back-mobile@1x-min.jpg") no-repeat;
   background-size: 1400px auto;
   min-height: 237px;
+  margin-bottom: 60px;
 }
 
 .header__wrapper-main {
@@ -78,8 +79,6 @@ header {
   .nav__box-w {
     display: flex;
     min-height: 110px;
-    margin: 0 auto;
-    width: 1200px;
   }
 
   .box-w__list {
@@ -88,8 +87,6 @@ header {
     align-items: center;
     width: 630px;
     justify-content: space-between;
-    padding-left: 430px;
-    padding-right: 145px;
   }
 
   .box-w__link {
@@ -166,10 +163,10 @@ header {
 @media (min-width: 1200px) {
   .wrapper-main__links {
     margin: 0 auto;
-    width: 1200px;
+    width: 920px;
     min-height: 715px;
     background: url("../../img/iphone-hand-desktop@1x.png") no-repeat bottom;
-    background-position-x: 200px;
+    background-position-x: 70px;
   }
 }
 
@@ -179,6 +176,7 @@ header {
   align-items: center;
   min-height: 260px;
   justify-content: space-around;
+
 
   &::before {
     position: absolute;
@@ -241,8 +239,7 @@ header {
 
   .links__wrapper {
     min-height: 715px;
-    padding-right: 725px;
-    padding-left: 102px;
+    width: 300px;
   }
 }
 
