@@ -72,12 +72,19 @@
     padding-top: 0;
     background: #f2f2f2;
   }
+
+  .comment__effect {
+    margin-bottom: 0;
+  }
+
+  .effect__items {
+    margin-bottom: 73px;
+  }
 }
 
 .comment__recall {
   .recall__list {
     padding-left: 0;
-
   }
 }
 
@@ -128,4 +135,12 @@
 
 .slider__button:hover {
   background-color: #7e868f;
+}
+
+.effect__text:hover {
+  color: black;
+}
+
+.effect__text:active {
+  opacity: 0.3;
 }

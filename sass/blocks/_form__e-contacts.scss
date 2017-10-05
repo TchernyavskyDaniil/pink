@@ -44,11 +44,11 @@
   .field__item-e:nth-child(1)::after {
     background-color: #e5e5e5;
     width: 58px;
-    height: 58px;
+    height: 59px;
     position: absolute;
     content: "";
     top: 6px;
-    right: 2px;
+    right: 0;
     background-image: url("../../img/icon-phone.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -57,11 +57,11 @@
   .field__item-e:nth-child(2)::after {
     background-color: #e5e5e5;
     width: 58px;
-    height: 58px;
+    height: 59px;
     position: absolute;
     content: "";
     top: 6px;
-    right: 2px;
+    right: 0;
     background-image: url("../../img/icon-email.svg");
     background-repeat: no-repeat;
     background-position: center;

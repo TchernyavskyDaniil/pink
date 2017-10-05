@@ -83,6 +83,14 @@
   .developer__link {
     padding-bottom: 0;
   }
+
+  .footer__info-s {
+    display: flex;
+  }
+
+  .main__footer-hide {
+    display: none;
+  }
 }
 
 .developer__link:hover {
@@ -98,12 +106,11 @@
 }
 
 @media (min-width: 1200px) {
-  .main__footer {
+  .footer__info-s {
     display: none;
   }
-}
-@media (min-width: 768px) {
-  .main__footer {
-    display: none;
+
+  .main__footer-hide {
+    display: flex;
   }
 }

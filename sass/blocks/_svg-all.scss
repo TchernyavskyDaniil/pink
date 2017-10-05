@@ -38,6 +38,7 @@
 
   .logo__svg-desktop {
     display: block;
+    fill: white;
   }
 }
 
@@ -83,10 +84,15 @@
 .footer__svg {
   fill: #ffffff;
   width: 100%;
+  top: -15px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
+
+//.footer__svg-tablet {
+//  display: none;
+//}
 
 .footer__svg-desktop {
   display: none;
@@ -94,7 +100,13 @@
 
 @media (min-width: 768px) {
   .footer__svg {
+    display: block;
     top: 0;
+    fill: #ffffff;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
@@ -106,7 +118,6 @@
   .footer__svg-desktop {
     display: block;
     height: 110px;
-    width: 1200px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

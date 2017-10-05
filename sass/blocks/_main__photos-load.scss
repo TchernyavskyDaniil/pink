@@ -212,6 +212,17 @@
   }
 
   .options__btn--cansel {
-    margin-top: 0px;
+    margin-top: 0;
+  }
+
+  .filter__options {
+    padding-left: 0;
+    width: 420px;
+  }
+
+  .filter__background {
+    width: 50%;
+    display: flex;
+    justify-content: center;
   }
 }
