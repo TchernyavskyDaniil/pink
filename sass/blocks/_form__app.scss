@@ -1,7 +1,17 @@
 .form__app {
   background-color: #f2f2f2;
+}
+
+.app__field {
+  min-height: 337px;
+}
+
+@media (min-width: 768px) {
   .app__field {
-    min-height: 337px;
+    border: 2px solid #e5e5e5;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 300px;
   }
 }
 

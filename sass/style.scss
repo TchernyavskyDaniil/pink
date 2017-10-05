@@ -1,11 +1,15 @@
 @import "helpers/normalize";
 @import "helpers/fonts";
-@import "pages/_body.scss";
+@import "helpers/variables";
+@import "pages/_outlines.scss";
+@import "pages/scaffolding";
 @import "blocks/wrapper";
+@import "pages/_wrapper__main.scss";
 @import "pages/_header.scss";
 @import "blocks/svg-all";
 @import "pages/main__slogan";
 @import "pages/main__comment";
+@import "pages/main_comment-recall";
 @import "pages/main__prices";
 @import "pages/main__footer";
 @import "blocks/form__full-name";
@@ -22,3 +26,5 @@
 @import "blocks/checkbox";
 @import "pages/map";
 @import "blocks/form";
+@import "blocks/visually-hidden";
+@import "blocks/order";

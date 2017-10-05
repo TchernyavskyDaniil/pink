@@ -6,6 +6,12 @@ body {
   font-style: normal;
   background-color: #ffffff;
   font-weight: 400;
+  min-width: 320px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 li {

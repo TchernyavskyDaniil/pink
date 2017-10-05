@@ -1,0 +1,52 @@
+@media (max-width: 480px) {
+  .form__full-name {
+    order: 1;
+  }
+
+  .form__achieve {
+    order: 2;
+  }
+
+  .form__e-contacts {
+    order: 3;
+  }
+
+  .form__app {
+    order: 4;
+  }
+
+  .form__emoj {
+    order: 5;
+  }
+
+  .form__submit {
+    order: 6;
+  }
+}
+
+@media (min-width: 768px) {
+  .form__full-name {
+    order: 1;
+  }
+
+  .form__achieve {
+    order: 4;
+  }
+
+  .form__e-contacts {
+    order: 3;
+  }
+
+  .form__app {
+    order: 2;
+    background: white;
+  }
+
+  .form__emoj {
+    order: 5;
+  }
+
+  .form__submit {
+    order: 6;
+  }
+}

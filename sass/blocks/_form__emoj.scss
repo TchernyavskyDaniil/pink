@@ -11,4 +11,33 @@
   //padding: 17px 20px 0px 20px;
 }
 
+@media (min-width: 768px) {
+  .emoj__field {
+    border: 2px solid #e5e5e5;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
 
+  .field__textarea {
+    width: 500px;
+    min-height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .form__submit-emoj {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .field__textarea {
+    width: 820px;
+  }
+}

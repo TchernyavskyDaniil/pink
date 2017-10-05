@@ -2,6 +2,44 @@
 .toggle__svg,
 .apple__svg {
   fill: #ffffff;
+
+  &-tablet {
+    display: none;
+  }
+}
+
+.logo__svg-desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .logo__svg {
+    display: none;
+  }
+
+  .logo__svg-tablet {
+    display: block;
+    fill: white;
+  }
+
+  .logo__svg-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo__svg {
+    display: none;
+  }
+
+  .logo__svg-tablet {
+    display: none;
+  }
+
+  .logo__svg-desktop {
+    display: block;
+    fill: white;
+  }
 }
 
 .android__svg {
@@ -9,29 +47,81 @@
 }
 
 .item__svg-main {
-  fill: #D22856;
+  fill: #d22856;
   position: absolute;
+}
+
+@media (min-width: 768px) {
+  .item__svg-main {
+    height: 60px;
+    width: 60px;
+  }
 }
 
 .item__svg {
   &--yes {
     fill: green;
     padding-right: 18px;
+    margin-left: 50px;
   }
+
   &--no {
     fill: #f25b26;
     padding-right: 18px;
   }
 }
 
+@media (min-width: 768px) {
+  .item__svg--yes {
+    margin: 0 auto;
+  }
+
+  .item__svg--no {
+    margin: 0 auto;
+  }
+}
+
 .footer__svg {
   fill: #ffffff;
   width: 100%;
-  fill: #ffffff;
-  width: 100%;
+  top: -15px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+//.footer__svg-tablet {
+//  display: none;
+//}
+
+.footer__svg-desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .footer__svg {
+    display: block;
+    top: 0;
+    fill: #ffffff;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer__svg {
+    display: none;
+  }
+
+  .footer__svg-desktop {
+    display: block;
+    height: 110px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .likes__svg {
@@ -53,5 +143,13 @@
 }
 
 .link__svg {
-  fill: #D22856;
+  fill: #d22856;
+}
+
+@media (min-width: 768px) {
+  .fill__svg,
+  .content__svg {
+    fill: #d22856;
+    opacity: 1;
+  }
 }
