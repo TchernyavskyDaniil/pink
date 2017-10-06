@@ -2120,11 +2120,11 @@ header {
   .developer__link {
     padding-bottom: 0; }
   .footer__info-s {
+    display: none; }
+  .main__footer-hide {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
-  .main__footer-hide {
-    display: none; } }
+    display: flex; } }
 
 .developer__link:hover .link__svg {
   fill: black; }
