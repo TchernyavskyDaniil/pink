@@ -1,279 +1,119 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <meta
-    name="viewport"
-    content="width=device-width,initial-scale=1">
-  <title>Фотографии</title>
-  <link href="css/style.css" rel="stylesheet">
-  <!-- CSS Style -->
-</head>
-<body>
-  <div class="body__wrapper wrapper">
-    <header class="wrapper__header wrapper__header-min header">
-      <!-- background IMG -->
-      <nav class="header__nav nav">
-        <div class="nav__inner inner">
-          <div class="nav__inner-wrapper">
-            <a class="inner__logo logo" href="index.html">
-              <svg class="logo__svg svg"  width="74.426px" height="22.859px">
-                <use xlink:href="../../img/logo-pink-white-mobile.svg#logo-pink-white-mobile.svg"></use>
-              </svg>
-              <svg class="logo__svg-tablet svg" width="146.3px" height="40.375px">
-                <use xlink:href="../../img/logo-pink-blue-mobile.svg#logo-pink-blue-mobile.svg"></use>
-              </svg>
-              <svg class="logo__svg-desktop svg" width="148" height="40">
-                <use xlink:href="../../img/logotype-white-desktop.svg#logotype-white-desktop.svg"></use>
-              </svg>
-              <!-- SVG P I N K -->
-            </a>
-            <button class="inner__toggle toggle">
-              <svg class="toggle__svg svg" width="49.945px" height="24.007px">
-                <use xlink:href="../../img/icon-menu-burger.svg#icon-menu-burger.svg"></use>
-              </svg>
-              <!-- SVG 3 lines -->
-            </button>
-          </div>
-          <div class="nav__box-w nav__box-w--closed box-w">
-            <ul class="box-w__list">
-              <li class="box-w__item box-w__item-main">
-              </li>
-              <li class="box-w__item">
-                <a class="box-w__link box-w__link--active" href="index.html">
-                  Главная
-                </a>
-              </li>
-              <li class="box-w__item">
-                <a class="box-w__link" href="photo.html">
-                  Фотографии
-                </a>
-              </li>
-              <li class="box-w__item">
-                <a class="box-w__link" href="form.html">
-                  Конкурс
-                </a>
-              </li>
-              <li class="box-w__item">
-                <a class="box-w__link" href="https://htmlacademy.ru/">
-                  HTML Academy
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="header__photo photo">
+  <head>
+    <meta charset="utf-8">
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1">
+    <title>Фотографии</title>
+    <link href="css/style.css" rel="stylesheet">
+    <!-- CSS Style -->
+  </head>
+  <body>
+    <div class="body__wrapper wrapper">
+      <header class="wrapper__header wrapper__header-min header">
         <!-- background IMG -->
-        <section class="photo__info info">
-          <div class="info__wrapper">
-            <h1 class="info__title info__title-photo">
-              Фотографии пользователей
-            </h1>
+        <nav class="header__nav nav">
+          <div class="nav__inner inner">
+            <div class="nav__inner-wrapper">
+              <a class="inner__logo logo" href="index.html">
+                <svg class="logo__svg svg"  width="74.426px" height="22.859px">
+                  <use xlink:href="../../img/logo-pink-white-mobile.svg#logo-pink-white-mobile.svg"></use>
+                </svg>
+                <svg class="logo__svg-tablet svg" width="146.3px" height="40.375px">
+                  <use xlink:href="../../img/logo-pink-blue-mobile.svg#logo-pink-blue-mobile.svg"></use>
+                </svg>
+                <svg class="logo__svg-desktop svg" width="148" height="40">
+                  <use xlink:href="../../img/logotype-white-desktop.svg#logotype-white-desktop.svg"></use>
+                </svg>
+                <!-- SVG P I N K -->
+              </a>
+              <button class="inner__toggle toggle">
+                <svg class="toggle__svg toggle__svg--open svg" width="49.945px" height="24.007px">
+                  <use xlink:href="../../img/icon-menu-burger.svg#icon-menu-burger.svg"></use>
+                </svg>
+                <svg class="toggle__svg toggle__svg--close svg" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23.867px" height="23.867px" viewBox="0 0 23.867 23.867" enable-background="new 0 0 23.867 23.867" xml:space="preserve">
+                    <path fill="#d22856" d="M15.087,11.933l8.56-8.559c0.293-0.293,0.293-0.768,0-1.061L21.554,0.22C21.414,0.079,21.223,0,21.023,0 c-0.199,0-0.391,0.079-0.529,0.22l-8.561,8.56l-8.56-8.56c-0.282-0.282-0.78-0.282-1.061,0L0.22,2.313 c-0.293,0.293-0.293,0.768,0,1.061l8.56,8.559l-8.56,8.559c-0.293,0.293-0.293,0.768,0,1.062l2.093,2.094 c0.141,0.142,0.331,0.22,0.53,0.22c0.199,0,0.39-0.078,0.53-0.22l8.561-8.56l8.56,8.56c0.141,0.142,0.332,0.22,0.53,0.22 c0.199,0,0.39-0.078,0.53-0.22l2.093-2.094c0.293-0.294,0.293-0.769,0-1.062L15.087,11.933z"/>
+                </svg>
+                <!-- SVG 3 lines -->
+              </button>
+            </div>
+            <div class="nav__box-w nav__box-w--closed box-w">
+              <ul class="box-w__list">
+                <li class="box-w__item box-w__item-main">
+                </li>
+                <li class="box-w__item">
+                  <a class="box-w__link" href="index.html">
+                    Главная
+                  </a>
+                </li>
+                <li class="box-w__item">
+                  <a class="box-w__link box-w__link--active" href="photo.html">
+                    Фотографии
+                  </a>
+                </li>
+                <li class="box-w__item">
+                  <a class="box-w__link" href="form.html">
+                    Конкурс
+                  </a>
+                </li>
+                <li class="box-w__item">
+                  <a class="box-w__link" href="https://htmlacademy.ru/">
+                    HTML Academy
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </section>
-      </div>
-    </header>
-    <main class="wrapper__main main">
-      <section class="main__photos photos">
-        <div class="photos__wrapper">
-          <div class="photos__text-w text-w">
-            <p class="text-w__slogan">
-              Взгляните на&nbsp;фотографии, которые выкладывают пользователи! Видите, как не&nbsp;хватает ваших?
-            </p>
-          </div>
+        </nav>
+        <div class="header__photo photo">
+          <!-- background IMG -->
+          <section class="photo__info info">
+            <div class="info__wrapper">
+              <h1 class="info__title info__title-photo">
+                Фотографии пользователей
+              </h1>
+            </div>
+          </section>
+        </div>
+      </header>
+      <main class="wrapper__main main">
+        <section class="main__photos photos">
           <div class="photos__wrapper">
-              <ul class="photos__list">
-              <li class="photos__item-main">
-                <div class="title-main__wrapper">
-                  <div class="title-main__top-day top-day">
-                    <h2 class="top-day">
-                      Панорама дня
-                    </h2>
+            <div class="photos__text-w text-w">
+              <p class="text-w__slogan">
+                Взгляните на&nbsp;фотографии, которые выкладывают пользователи! Видите, как не&nbsp;хватает ваших?
+              </p>
+            </div>
+            <div class="photos__wrapper">
+                <ul class="photos__list">
+                <li class="photos__item-main">
+                  <div class="title-main__wrapper">
+                    <div class="title-main__top-day top-day">
+                      <h2 class="top-day">
+                        Панорама дня
+                      </h2>
+                    </div>
+                    <picture class="title-main__img-wrapper">
+                      <source media="(min-width: 1200px") srcset="../../img/panorama-desktop@1x.jpg, ../../img/panorama-desktop@2x.jpg 2x">
+                      <source media="(min-width: 768px)" srcset="../../img/panorama-tablet@1x.jpg, ../../img/panorama-tablet@2x.jpg 2x">
+                      <img class="title-main__img-pc" src="../../img/panorama-mobile@1x-min.jpg" srcset="../../img/panorama-mobile@2x.jpg 2x" alt="Фото">
+                    </picture>
                   </div>
-                  <picture class="title-main__img-wrapper">
-                    <source media="(min-width: 1200px") srcset="../../img/panorama-desktop@1x.jpg, ../../img/panorama-desktop@2x.jpg 2x">
-                    <source media="(min-width: 768px)" srcset="../../img/panorama-tablet@1x.jpg, ../../img/panorama-tablet@2x.jpg 2x">
-                    <img class="title-main__img-pc" src="../../img/panorama-mobile@1x-min.jpg" srcset="../../img/panorama-mobile@2x.jpg 2x" alt="Фото">
-                  </picture>
-                </div>
-                <div class="title-main__user-review user-review">
-                  <h3 class="user-review__title title-table title">
-                    Анна
-                    <span class="title__minutes">(5 минут назад)</span>
-                  </h3>
-                  <p class="user-review__text user-review__text-table">
-                    Прыгать или нет? Напишите в&nbsp;коментарии свой ответ и&nbsp;смотрите прямую трансляцию в&nbsp;перископе, задавайте свои вопросы!
-                  </p>
-                  <div class="user-review__likes likes">
-                    <p class="likes__text text">
-                      Нравится:
-                      <span class="text__number">
-                      215
-                    </span>
-                    </p>
-                    <svg class="likes__svg svg" width="12.545px" height="11.99px">
-                      <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
-                    </svg>
-                  </div>
-                </div>
-              </li>
-                <div class="photos__tablet">
-                  <li class="photos__item info-section title-user">
-                    <picture class="info-section__photo photo">
-                      <source media="(min-width: 1200px)" srcset="../../img/photo-car-desktop@1x.jpg, ../../img/photo-car-desktop@2x.jpg 2x">
-                      <source media="(min-width: 768px)" srcset="../../img/photo-car-tablet@1x.jpg, ../../img/photo-car-tablet@2x.jpg 2x">
-                      <img class="photo__img-tablet" srcset="../../img/photo-car-mobile@1x-min.jpg, ../../img/photo-car-mobile@2x.jpg 2x" alt="Фото машины">
-                    </picture>
-                    <div class="info-section__user-review user-review">
-                      <h3 class="user-review__title title">
-                        Левон
-                        <span class="title__minutes">(5 часов назад)</span>
-                      </h3>
-                      <p class="user-review__text">
-                        Вчера он&nbsp;на&nbsp;луну летал, сеодня в&nbsp;руки к&nbsp;нам попал.
-                      </p>
-                      <div class="user-review__likes likes">
-                        <p class="likes__text text">
-                          Нравится:
-                          <span class="text__number">
-                              356
-                            </span>
-                        </p>
-                        <svg class="likes__svg svg" width="12.545px" height="11.99px">
-                          <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
-                        </svg>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="photos__item info-section title-user">
-                    <picture class="info-section__photo photo">
-                      <source media="(min-width: 1200px)" srcset="../../img/photo-drumset-desktop@1x.jpg, ../../img/photo-drumset-desktop@2x.jpg 2x">
-                      <source media="(min-width: 768px)" srcset="../../img/photo-drumset-tablet@1x.jpg, ../../img/photo-drumset-tablet@2x.jpg 2x">
-                      <img class="photo__img-tablet" srcset="../../img/photo-drumset-mobile@1x-min.jpg, ../../img/photo-drumset-mobile@2x.jpg 2x" alt="Фото машины">
-                    </picture>
-                    <div class="info-section__user-review user-review">
-                      <h3 class="user-review__title title">
-                        Антон
-                        <span class="title__minutes">(15 часов назад)</span>
-                      </h3>
-                      <p class="user-review__text">
-                        Соседи будут рады!
-                      </p>
-                      <div class="user-review__likes likes">
-                        <p class="likes__text text">
-                          Нравится:
-                          <span class="text__number">
-                              666
-                            </span>
-                        </p>
-                        <svg class="likes__svg svg" width="12.545px" height="11.99px">
-                          <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
-                        </svg>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="photos__item info-section title-user">
-                    <picture class="info-section__photo photo">
-                      <source media="(min-width: 1200px)" srcset="../../img/photo-window-desktop@1x.jpg, ../../img/photo-window-desktop@2x.jpg 2x">
-                      <source media="(min-width: 768px)" srcset="../../img/photo-window-tablet@1x.jpg, ../../img/photo-window-tablet@2x.jpg 2x">
-                      <img class="photo__img-tablet" srcset="../../img/photo-window-mobile@1x-min.jpg, ../../img/photo-window-mobile@2x.jpg 2x" alt="Фото машины">
-                    </picture>
-                    <div class="info-section__user-review user-review">
-                      <h3 class="user-review__title title">
-                        Борис
-                        <span class="title__minutes">(20 часов назад)</span>
-                      </h3>
-                      <p class="user-review__text">
-                        Здесь могла быть ваша цитата о&nbsp;высоком и&nbsp;вечном
-                      </p>
-                      <div class="user-review__likes likes">
-                        <p class="likes__text text">
-                          Нравится:
-                          <span class="text__number">
-                              215
-                            </span>
-                        </p>
-                        <svg class="likes__svg svg" width="12.545px" height="11.99px">
-                          <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
-                        </svg>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="photos__item info-section title-user">
-                    <picture class="info-section__photo photo">
-                      <source media="(min-width: 1200px)" srcset="../../img/photo-fair-desktop@1x.jpg, ../../img/photo-fair-desktop@2x.jpg 2x">
-                      <source media="(min-width: 768px)" srcset="../../img/photo-fair-tablet@1x.jpg, ../../img/photo-fair-tablet@2x.jpg 2x">
-                      <img class="photo__img-tablet" srcset="../../img/photo-fair-mobile@1x-min.jpg, ../../img/photo-fair-mobile@2x.jpg 2x" alt="Фото машины">
-                    </picture>
-                    <div class="info-section__user-review user-review">
-                      <h3 class="user-review__title title">
-                        Сергей
-                        <span class="title__minutes">(25 часов назад)</span>
-                      </h3>
-                      <p class="user-review__text">
-                        Самая кубанская в&nbsp;мире!
-                      </p>
-                      <div class="user-review__likes likes">
-                        <p class="likes__text text">
-                          Нравится:
-                          <span class="text__number">
-                              4
-                            </span>
-                        </p>
-                        <svg class="likes__svg svg" width="12.545px" height="11.99px">
-                          <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
-                        </svg>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="photos__item info-section title-user">
-                    <picture class="info-section__photo photo">
-                      <source media="(min-width: 1200px)" srcset="../../img/photo-pov-desktop@1x.jpg, ../../img/photo-pov-desktop@2x.jpg 2x">
-                      <source media="(min-width: 768px)" srcset="../../img/photo-pov-tablet@1x.jpg, ../../img/photo-pov-tablet@2x.jpg 2x">
-                      <img class="photo__img-tablet" srcset="../../img/photo-pov-mobile@1x-min.jpg, ../../img/photo-pov-mobile@2x.jpg 2x" alt="Фото машины">
-                    </picture>
-                    <div class="info-section__user-review user-review">
-                      <h3 class="user-review__title title">
-                        Максим
-                        <span class="title__minutes">(40 часов назад)</span>
-                      </h3>
-                      <p class="user-review__text">
-                        Где снег-то?
-                      </p>
-                      <div class="user-review__likes likes">
-                        <p class="likes__text text">
-                          Нравится:
-                          <span class="text__number">
-                              150
-                            </span>
-                        </p>
-                        <svg class="likes__svg svg" width="12.545px" height="11.99px">
-                          <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
-                        </svg>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="photos__item info-section title-user">
-                    <picture class="info-section__photo photo">
-                      <source media="(min-width: 1200px)" srcset="../../img/photo-wing-desktop@1x.jpg, ../../img/photo-wing-desktop@2x.jpg 2x">
-                      <source media="(min-width: 768px)" srcset="../../img/photo-wing-tablet@1x.jpg, ../../img/photo-wing-tablet@2x.jpg 2x">
-                      <img class="photo__img-tablet" srcset="../../img/photo-wing-mobile@1x-min.jpg, ../../img/photo-wing-mobile@2x.jpg 2x" alt="Фото машины">
-                    </picture>
-                  <div class="info-section__user-review user-review">
-                    <h3 class="user-review__title title">
-                      Надежда
-                      <span class="title__minutes">(40 часов назад)</span>
+                  <div class="title-main__user-review user-review">
+                    <h3 class="user-review__title title-table title">
+                      Анна
+                      <span class="title__minutes">(5 минут назад)</span>
                     </h3>
-                    <p class="user-review__text">
-                      Всем GM&nbsp;и&nbsp;взаимные лайки!
+                    <p class="user-review__text user-review__text-table">
+                      Прыгать или нет? Напишите в&nbsp;коментарии свой ответ и&nbsp;смотрите прямую трансляцию в&nbsp;перископе, задавайте свои вопросы!
                     </p>
                     <div class="user-review__likes likes">
                       <p class="likes__text text">
                         Нравится:
                         <span class="text__number">
-                          2560
-                        </span>
+                        215
+                      </span>
                       </p>
                       <svg class="likes__svg svg" width="12.545px" height="11.99px">
                         <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
@@ -281,152 +121,317 @@
                     </div>
                   </div>
                 </li>
-                </div>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section class="main__photos-load photos-load">
-        <div class="photos-load__content content">
-          <p class="content__text">
-            Затмите их&nbsp;всех!
-            <br>
-            Выкладывайте все, что накопилось в&nbsp;телефоне!
-          </p>
-        </div>
-        <form class="photos-load__filter filter" action="echo" method="post">
-          <div class="filter__wrapper">
-            <picture class="filter__background background">
-              <source media="(min-width: 1200px)" srcset="../../img/photo-road-desktop@1x.jpg, ../../img/photo-road-desktop@2x.jpg 2x">
-              <source media="(min-width: 768px)" srcset="../../img/photo-road-tablet@1x.jpg, ../../img/photo-road-tablet@2x.jpg 2x">
-              <img class="background__img background__img-mobile" srcset="../../img/photo-road-mobile@1x-min.jpg, ../../img/photo-road-mobile@2x.jpg 2x" alt="Ваша загружаемая фотография">
-            </picture>
-            <div class="filter__options options">
-              <div class="options__menu menu">
-                <div class="menu__icons icons">
-                  <div class="icons__crop">
-                    <svg class="crop__svg svg" width="48px" height="48px">
-                      <use xlink:href="../../img/icon-editor-crop.svg#icon-editor-crop.svg"></use>
-                    </svg>
-                    <div class="options__scale scale-table scale">
-                      <div class="scale__border border-crop">
+                  <div class="photos__tablet">
+                    <li class="photos__item info-section title-user">
+                      <picture class="info-section__photo photo">
+                        <source media="(min-width: 1200px)" srcset="../../img/photo-car-desktop@1x.jpg, ../../img/photo-car-desktop@2x.jpg 2x">
+                        <source media="(min-width: 768px)" srcset="../../img/photo-car-tablet@1x.jpg, ../../img/photo-car-tablet@2x.jpg 2x">
+                        <img class="photo__img-tablet" srcset="../../img/photo-car-mobile@1x-min.jpg, ../../img/photo-car-mobile@2x.jpg 2x" alt="Фото машины">
+                      </picture>
+                      <div class="info-section__user-review user-review">
+                        <h3 class="user-review__title title">
+                          Левон
+                          <span class="title__minutes">(5 часов назад)</span>
+                        </h3>
+                        <p class="user-review__text">
+                          Вчера он&nbsp;на&nbsp;луну летал, сеодня в&nbsp;руки к&nbsp;нам попал.
+                        </p>
+                        <div class="user-review__likes likes">
+                          <p class="likes__text text">
+                            Нравится:
+                            <span class="text__number">
+                                356
+                              </span>
+                          </p>
+                          <svg class="likes__svg svg" width="12.545px" height="11.99px">
+                            <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
+                          </svg>
+                        </div>
                       </div>
-                      <div class="scale__line line-crop">
+                    </li>
+                    <li class="photos__item info-section title-user">
+                      <picture class="info-section__photo photo">
+                        <source media="(min-width: 1200px)" srcset="../../img/photo-drumset-desktop@1x.jpg, ../../img/photo-drumset-desktop@2x.jpg 2x">
+                        <source media="(min-width: 768px)" srcset="../../img/photo-drumset-tablet@1x.jpg, ../../img/photo-drumset-tablet@2x.jpg 2x">
+                        <img class="photo__img-tablet" srcset="../../img/photo-drumset-mobile@1x-min.jpg, ../../img/photo-drumset-mobile@2x.jpg 2x" alt="Фото машины">
+                      </picture>
+                      <div class="info-section__user-review user-review">
+                        <h3 class="user-review__title title">
+                          Антон
+                          <span class="title__minutes">(15 часов назад)</span>
+                        </h3>
+                        <p class="user-review__text">
+                          Соседи будут рады!
+                        </p>
+                        <div class="user-review__likes likes">
+                          <p class="likes__text text">
+                            Нравится:
+                            <span class="text__number">
+                                666
+                              </span>
+                          </p>
+                          <svg class="likes__svg svg" width="12.545px" height="11.99px">
+                            <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="photos__item info-section title-user">
+                      <picture class="info-section__photo photo">
+                        <source media="(min-width: 1200px)" srcset="../../img/photo-window-desktop@1x.jpg, ../../img/photo-window-desktop@2x.jpg 2x">
+                        <source media="(min-width: 768px)" srcset="../../img/photo-window-tablet@1x.jpg, ../../img/photo-window-tablet@2x.jpg 2x">
+                        <img class="photo__img-tablet" srcset="../../img/photo-window-mobile@1x-min.jpg, ../../img/photo-window-mobile@2x.jpg 2x" alt="Фото машины">
+                      </picture>
+                      <div class="info-section__user-review user-review">
+                        <h3 class="user-review__title title">
+                          Борис
+                          <span class="title__minutes">(20 часов назад)</span>
+                        </h3>
+                        <p class="user-review__text">
+                          Здесь могла быть ваша цитата о&nbsp;высоком и&nbsp;вечном
+                        </p>
+                        <div class="user-review__likes likes">
+                          <p class="likes__text text">
+                            Нравится:
+                            <span class="text__number">
+                                215
+                              </span>
+                          </p>
+                          <svg class="likes__svg svg" width="12.545px" height="11.99px">
+                            <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="photos__item info-section title-user">
+                      <picture class="info-section__photo photo">
+                        <source media="(min-width: 1200px)" srcset="../../img/photo-fair-desktop@1x.jpg, ../../img/photo-fair-desktop@2x.jpg 2x">
+                        <source media="(min-width: 768px)" srcset="../../img/photo-fair-tablet@1x.jpg, ../../img/photo-fair-tablet@2x.jpg 2x">
+                        <img class="photo__img-tablet" srcset="../../img/photo-fair-mobile@1x-min.jpg, ../../img/photo-fair-mobile@2x.jpg 2x" alt="Фото машины">
+                      </picture>
+                      <div class="info-section__user-review user-review">
+                        <h3 class="user-review__title title">
+                          Сергей
+                          <span class="title__minutes">(25 часов назад)</span>
+                        </h3>
+                        <p class="user-review__text">
+                          Самая кубанская в&nbsp;мире!
+                        </p>
+                        <div class="user-review__likes likes">
+                          <p class="likes__text text">
+                            Нравится:
+                            <span class="text__number">
+                                4
+                              </span>
+                          </p>
+                          <svg class="likes__svg svg" width="12.545px" height="11.99px">
+                            <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="photos__item info-section title-user">
+                      <picture class="info-section__photo photo">
+                        <source media="(min-width: 1200px)" srcset="../../img/photo-pov-desktop@1x.jpg, ../../img/photo-pov-desktop@2x.jpg 2x">
+                        <source media="(min-width: 768px)" srcset="../../img/photo-pov-tablet@1x.jpg, ../../img/photo-pov-tablet@2x.jpg 2x">
+                        <img class="photo__img-tablet" srcset="../../img/photo-pov-mobile@1x-min.jpg, ../../img/photo-pov-mobile@2x.jpg 2x" alt="Фото машины">
+                      </picture>
+                      <div class="info-section__user-review user-review">
+                        <h3 class="user-review__title title">
+                          Максим
+                          <span class="title__minutes">(40 часов назад)</span>
+                        </h3>
+                        <p class="user-review__text">
+                          Где снег-то?
+                        </p>
+                        <div class="user-review__likes likes">
+                          <p class="likes__text text">
+                            Нравится:
+                            <span class="text__number">
+                                150
+                              </span>
+                          </p>
+                          <svg class="likes__svg svg" width="12.545px" height="11.99px">
+                            <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="photos__item info-section title-user">
+                      <picture class="info-section__photo photo">
+                        <source media="(min-width: 1200px)" srcset="../../img/photo-wing-desktop@1x.jpg, ../../img/photo-wing-desktop@2x.jpg 2x">
+                        <source media="(min-width: 768px)" srcset="../../img/photo-wing-tablet@1x.jpg, ../../img/photo-wing-tablet@2x.jpg 2x">
+                        <img class="photo__img-tablet" srcset="../../img/photo-wing-mobile@1x-min.jpg, ../../img/photo-wing-mobile@2x.jpg 2x" alt="Фото машины">
+                      </picture>
+                    <div class="info-section__user-review user-review">
+                      <h3 class="user-review__title title">
+                        Надежда
+                        <span class="title__minutes">(40 часов назад)</span>
+                      </h3>
+                      <p class="user-review__text">
+                        Всем GM&nbsp;и&nbsp;взаимные лайки!
+                      </p>
+                      <div class="user-review__likes likes">
+                        <p class="likes__text text">
+                          Нравится:
+                          <span class="text__number">
+                            2560
+                          </span>
+                        </p>
+                        <svg class="likes__svg svg" width="12.545px" height="11.99px">
+                          <use xlink:href="../../img/icon-heart.svg#icon-heart.svg"></use>
+                        </svg>
                       </div>
                     </div>
+                  </li>
                   </div>
-                  <div class="icons__fill">
-                    <svg class="fill__svg svg" width="48px" height="48px">
-                      <use xlink:href="../../img/icon-editor-fill.svg#icon-editor-fill.svg"></use>
-                    </svg>
-                    <div class="options__scale scale-table scale">
-                      <div class="scale__border border-fill">
-                      </div>
-                      <div class="scale__line line-fill">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="icons__content">
-                    <svg class="content__svg svg" width="31.92px" height="31.92px">
-                      <use xlink:href="../../img/icon-editor-contrast.svg#icon-editor-contrast.svg"></use>
-                    </svg>
-                    <div class="options__scale scale-table scale">
-                      <div class="scale__border border-content">
-                      </div>
-                      <div class="scale__line line-content">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="options__scale scale">
-                    <div class="scale__border">
-                    </div>
-                    <div class="scale__line">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="option__wrapper">
-                <button class="options__btn options__btn--submit" type="button">
-                  Запостить
-                </button>
-                <button class="options__btn options__btn--cansel" type="button">
-                  Отмена
-                </button>
-              </div>
+              </ul>
             </div>
           </div>
-        </form>
-      </section>
-      <section class="main__footer footer__info-s info-s">
-        <a class="info-s__link link" href="index.html" alt="Переход на главную страницу">
-          <svg class="info-s__svg svg" width="146.3px" height="40.375px">
-            <use xlink:href="../../img/logo-pink-footer.svg#logo-pink-footer.svg"></use>
-          </svg>
-        </a>
-        <div class="info-s__social-links social-links">
-          <a class="social-links__link social-links__link--twitter link" href="https://twitter.com/" alt="Переход на нашу страницу сайта Twitter">
-            <svg class="link__svg svg" width="17.5px" height="14.663px">
-              <use xlink:href="../../img/icon-twitter.svg#icon-twitter.svg"></use>
-            </svg>
-          </a>
-          <a class="social-links__link social-links__link--facebook link" href="https://facebook.com/" alt="Переход на нашу страницу сайта Facebook">
-            <svg class="link__svg svg" width="8.673px" height="18.944px">
-              <use xlink:href="../../img/icon-facebook.svg#icon-facebook.svg"></use>
-            </svg>
-          </a>
-          <a class="social-links__link social-links__link--youtube link" href="https://youtube.com/" alt="Переход на нашу страницу сайта Youtube">
-            <svg class="link__svg svg" width="14.64px" height="13.96px">
-              <use xlink:href="../../img/icon-youtube.svg#icon-youtube.svg"></use>
-            </svg>
-          </a>
-        </div>
-        <div class="footer__developer developer">
-          <a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" alt="Переход на нашу страницу интенсива HTML Academy">
-            <p class="link__text">
-              Разработано
+        </section>
+        <section class="main__photos-load photos-load">
+          <div class="photos-load__content content">
+            <p class="content__text">
+              Затмите их&nbsp;всех!
+              <br>
+              Выкладывайте все, что накопилось в&nbsp;телефоне!
             </p>
-            <svg class="link__svg svg developer__link-svg" width="26.943px" height="34.09px">
-              <use xlink:href="../../img/logo-htmlacademy.svg#logo-htmlacademy.svg"></use>
+          </div>
+          <form class="photos-load__filter filter" action="echo" method="post">
+            <div class="filter__wrapper">
+              <picture class="filter__background background">
+                <source media="(min-width: 1200px)" srcset="../../img/photo-road-desktop@1x.jpg, ../../img/photo-road-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="../../img/photo-road-tablet@1x.jpg, ../../img/photo-road-tablet@2x.jpg 2x">
+                <img class="background__img background__img-mobile" srcset="../../img/photo-road-mobile@1x-min.jpg, ../../img/photo-road-mobile@2x.jpg 2x" alt="Ваша загружаемая фотография">
+              </picture>
+              <div class="filter__options options">
+                <div class="options__menu menu">
+                  <div class="menu__icons icons">
+                    <div class="icons__crop">
+                      <svg class="crop__svg svg" width="48px" height="48px">
+                        <use xlink:href="../../img/icon-editor-crop.svg#icon-editor-crop.svg"></use>
+                      </svg>
+                      <div class="options__scale scale-table scale">
+                        <div class="scale__border border-crop">
+                        </div>
+                        <div class="scale__line line-crop">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="icons__fill">
+                      <svg class="fill__svg svg" width="48px" height="48px">
+                        <use xlink:href="../../img/icon-editor-fill.svg#icon-editor-fill.svg"></use>
+                      </svg>
+                      <div class="options__scale scale-table scale">
+                        <div class="scale__border border-fill">
+                        </div>
+                        <div class="scale__line line-fill">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="icons__content">
+                      <svg class="content__svg svg" width="31.92px" height="31.92px">
+                        <use xlink:href="../../img/icon-editor-contrast.svg#icon-editor-contrast.svg"></use>
+                      </svg>
+                      <div class="options__scale scale-table scale">
+                        <div class="scale__border border-content">
+                        </div>
+                        <div class="scale__line line-content">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="options__scale scale">
+                      <div class="scale__border">
+                      </div>
+                      <div class="scale__line">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="option__wrapper">
+                  <button class="options__btn options__btn--submit" type="button">
+                    Запостить
+                  </button>
+                  <button class="options__btn options__btn--cansel" type="button">
+                    Отмена
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </section>
+        <section class="main__footer footer__info-s info-s">
+          <a class="info-s__link link" href="index.html" alt="Переход на главную страницу">
+            <svg class="info-s__svg svg" width="146.3px" height="40.375px">
+              <use xlink:href="../../img/logo-pink-footer.svg#logo-pink-footer.svg"></use>
             </svg>
           </a>
+          <div class="info-s__social-links social-links">
+            <a class="social-links__link social-links__link--twitter link" href="https://twitter.com/" alt="Переход на нашу страницу сайта Twitter">
+              <svg class="link__svg svg" width="17.5px" height="14.663px">
+                <use xlink:href="../../img/icon-twitter.svg#icon-twitter.svg"></use>
+              </svg>
+            </a>
+            <a class="social-links__link social-links__link--facebook link" href="https://facebook.com/" alt="Переход на нашу страницу сайта Facebook">
+              <svg class="link__svg svg" width="8.673px" height="18.944px">
+                <use xlink:href="../../img/icon-facebook.svg#icon-facebook.svg"></use>
+              </svg>
+            </a>
+            <a class="social-links__link social-links__link--youtube link" href="https://youtube.com/" alt="Переход на нашу страницу сайта Youtube">
+              <svg class="link__svg svg" width="14.64px" height="13.96px">
+                <use xlink:href="../../img/icon-youtube.svg#icon-youtube.svg"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="footer__developer developer">
+            <a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" alt="Переход на нашу страницу интенсива HTML Academy">
+              <p class="link__text">
+                Разработано
+              </p>
+              <svg class="link__svg svg developer__link-svg" width="26.943px" height="34.09px">
+                <use xlink:href="../../img/logo-htmlacademy.svg#logo-htmlacademy.svg"></use>
+              </svg>
+            </a>
+          </div>
+        </section>
+      </main>
+      <footer class="main__footer-hide footer__info-s info-s">
+        <div class="info-s__wrapper">
+          <a class="info-s__link link" href="index.html" alt="Переход на главную страницу">
+            <svg class="info-s__svg svg" width="146.3px" height="40.375px">
+              <use xlink:href="../../img/logo-pink-footer.svg#logo-pink-footer.svg"></use>
+            </svg>
+          </a>
+          <div class="info-s__social-links social-links">
+            <a class="social-links__link social-links__link--twitter link" href="https://twitter.com/" alt="Переход на нашу страницу сайта Twitter">
+              <svg class="link__svg svg" width="17.5px" height="14.663px">
+                <use xlink:href="../../img/icon-twitter.svg#icon-twitter.svg"></use>
+              </svg>
+            </a>
+            <a class="social-links__link social-links__link--facebook link" href="https://facebook.com/" alt="Переход на нашу страницу сайта Facebook">
+              <svg class="link__svg svg" width="8.673px" height="18.944px">
+                <use xlink:href="../../img/icon-facebook.svg#icon-facebook.svg"></use>
+              </svg>
+            </a>
+            <a class="social-links__link social-links__link--youtube link" href="https://youtube.com/" alt="Переход на нашу страницу сайта Youtube">
+              <svg class="link__svg svg" width="14.64px" height="13.96px">
+                <use xlink:href="../../img/icon-youtube.svg#icon-youtube.svg"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="footer__developer developer">
+            <a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" alt="Переход на нашу страницу интенсива HTML Academy">
+              <p class="link__text">
+                Разработано
+              </p>
+              <svg class="link__svg svg developer__link-svg" width="26.943px" height="34.09px">
+                <use xlink:href="../../img/logo-htmlacademy.svg#logo-htmlacademy.svg"></use>
+              </svg>
+            </a>
+          </div>
         </div>
-      </section>
-    </main>
-    <footer class="main__footer-hide footer__info-s info-s">
-      <div class="info-s__wrapper">
-        <a class="info-s__link link" href="index.html" alt="Переход на главную страницу">
-          <svg class="info-s__svg svg" width="146.3px" height="40.375px">
-            <use xlink:href="../../img/logo-pink-footer.svg#logo-pink-footer.svg"></use>
-          </svg>
-        </a>
-        <div class="info-s__social-links social-links">
-          <a class="social-links__link social-links__link--twitter link" href="https://twitter.com/" alt="Переход на нашу страницу сайта Twitter">
-            <svg class="link__svg svg" width="17.5px" height="14.663px">
-              <use xlink:href="../../img/icon-twitter.svg#icon-twitter.svg"></use>
-            </svg>
-          </a>
-          <a class="social-links__link social-links__link--facebook link" href="https://facebook.com/" alt="Переход на нашу страницу сайта Facebook">
-            <svg class="link__svg svg" width="8.673px" height="18.944px">
-              <use xlink:href="../../img/icon-facebook.svg#icon-facebook.svg"></use>
-            </svg>
-          </a>
-          <a class="social-links__link social-links__link--youtube link" href="https://youtube.com/" alt="Переход на нашу страницу сайта Youtube">
-            <svg class="link__svg svg" width="14.64px" height="13.96px">
-              <use xlink:href="../../img/icon-youtube.svg#icon-youtube.svg"></use>
-            </svg>
-          </a>
-        </div>
-        <div class="footer__developer developer">
-          <a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" alt="Переход на нашу страницу интенсива HTML Academy">
-            <p class="link__text">
-              Разработано
-            </p>
-            <svg class="link__svg svg developer__link-svg" width="26.943px" height="34.09px">
-              <use xlink:href="../../img/logo-htmlacademy.svg#logo-htmlacademy.svg"></use>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </footer>
-  </div>
-</body>
+      </footer>
+    </div>
+    <script src="js/hamburger.js"></script>
+  </body>
+</html>
