@@ -61,6 +61,19 @@
   display: none;
 }
 
+.box-w__link:hover {
+  color: #d22856;
+}
+
+.box-w__link:active {
+  opacity: 0.3;
+  color: #ffffff;
+}
+
+.box-w__link--active {
+  color: #d22856;
+}
+
 @media (min-width: 768px) {
   .box-w__item-main {
     height: 108px;
