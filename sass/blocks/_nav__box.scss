@@ -27,7 +27,7 @@
   height: 62px;
   text-align: center;
   background-color: #283645;
-  border-bottom: 1px solid #010101;
+  border-bottom: 1px solid black;
   border-top: 1px solid #485461;
 }
 
@@ -37,4 +37,49 @@
 
 .box-w__link {
   color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .box-w__item-main {
+    height: 108px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav__box-w {
+    position: relative;
+    height: 100%;
+  }
+
+  .box-w__item {
+    background: transparent;
+    border: none;
+  }
+
+  .box-w__link {
+    color: white;
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 20px;
+    text-transform: none;
+    font-weight: 400;
+  }
+
+  .box-w__list {
+    display: flex;
+    flex-direction: row;
+    width: 630px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: flex-end;
+    padding-bottom: 10px;
+  }
 }

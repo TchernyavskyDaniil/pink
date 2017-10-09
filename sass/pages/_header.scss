@@ -65,6 +65,7 @@ header {
   position: relative;
   height: 63px;
   width: 100%;
+  z-index: 1;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -79,14 +80,28 @@ header {
   width: 100%;
 }
 
+.nav__inner-wrapper {
+  display: flex;
+  width: 85%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (min-width: 768px) {
   .header__nav {
     min-height: 110px;
   }
 
   .nav__inner {
-    width: 650px;
+    width: 100%;
     justify-content: space-between;
+  }
+
+  .nav__inner-wrapper {
+    margin: 0 auto;
+    width: 85%;
   }
 }
 
@@ -98,21 +113,6 @@ header {
   .nav__box-w {
     display: flex;
     min-height: 110px;
-  }
-
-  .box-w__list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 630px;
-    justify-content: space-between;
-  }
-
-  .box-w__link {
-    color: white;
-    font-size: 18px;
-    line-height: 18px;
-    padding-bottom: 20px;
   }
 }
 
