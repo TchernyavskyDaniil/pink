@@ -99,8 +99,8 @@
   height: 100px;
 }
 
-.background__img-tablet {
-  display: none;
+.background__img-mobile {
+  display: block;
 }
 
 .scale-table {
@@ -174,14 +174,6 @@
   .line-content,
   .border-fill {
     left: 45px;
-  }
-
-  .background__img {
-    display: none;
-  }
-
-  .background__img-tablet {
-    display: block;
   }
 
   .option__wrapper {

@@ -8,6 +8,11 @@
   width: 100%;
   height: 210px;
   margin: auto;
+
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    background: url("../../img/bg-map-mobile@2x.jpg") no-repeat;
+    background-size: 100%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -16,11 +21,22 @@
     width: 100%;
     height: 337px;
     background-position: 49px -411px;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background: url("../../img/bg-map-tablet@2x.jpg") no-repeat;
+      background-size: 100%;
+    }
   }
 }
 
 @media (min-width: 1200px) {
   .map__api {
     width: 100%;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background: url("../../img/bg-map-desktop@2x.jpg") no-repeat;
+      background-size: 100%;
+      background-position: 49px -411px;
+    }
   }
 }
