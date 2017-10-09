@@ -1,0 +1,40 @@
+.inner__logo {
+  z-index: 1;
+}
+
+.inner__toggle {
+  z-index: 1;
+}
+
+.nav__box-w--closed {
+  display: none;
+}
+
+.nav__box-w {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.box-w__list {
+  margin: 0;
+  padding: 0;
+}
+
+.box-w__item {
+  height: 62px;
+  text-align: center;
+  background-color: #283645;
+  border-bottom: 1px solid #010101;
+  border-top: 1px solid #485461;
+}
+
+.box-w__item-main {
+  height: 64px;
+}
+
+.box-w__link {
+  color: white;
+}
