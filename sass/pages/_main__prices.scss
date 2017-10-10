@@ -18,7 +18,7 @@
   display: flex;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .prices__wrapper {
     margin: 0 auto;
     width: 960px;
@@ -172,7 +172,7 @@
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .table__item:nth-child(1) {
     width: 236px;
     min-height: 96px;

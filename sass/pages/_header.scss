@@ -40,7 +40,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   header {
     background: url("../../img/bg-back-mobile@1x-min.jpg");
     background-size: 1400px auto;
@@ -105,7 +105,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .nav__inner {
     width: 960px;
   }
@@ -154,7 +154,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .inner__toggle {
     display: none;
   }
@@ -186,7 +186,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .wrapper-main__links {
     margin: 0 auto;
     width: 920px;
@@ -269,7 +269,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .links__title {
     font-size: 50px;
   }
@@ -321,7 +321,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .info__wrapper {
     width: 920px;
     margin: 0 auto;
@@ -365,7 +365,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .inner__logo:hover {
     .logo__svg-desktop {
       fill: #d22856;

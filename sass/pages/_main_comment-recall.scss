@@ -3,7 +3,7 @@
   display: none;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .main__comment-recall {
     display: flex;
     margin: 0 auto;
@@ -62,7 +62,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .recall__left {
     left: -17px;
   }
