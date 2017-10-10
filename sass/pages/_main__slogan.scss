@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .slogan__about {
     width: 620px;
   }
@@ -57,7 +57,7 @@
   padding-top: 100px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .about__features {
     display: flex;
     flex-direction: row-reverse;
@@ -114,7 +114,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .features__img {
     background: url("../../img/iphone-screen-3-tablet@1x.png") no-repeat center;
     position: absolute;

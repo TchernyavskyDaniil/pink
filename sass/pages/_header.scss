@@ -15,7 +15,7 @@ header {
   padding-top: 396px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   header {
     min-height: 440px;
     background: url("../../img/bg-back-tablet@1x.jpg");
@@ -89,7 +89,7 @@ header {
   align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .header__nav {
     min-height: 110px;
   }
@@ -148,7 +148,7 @@ header {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .inner__toggle {
     padding-top: 20px;
   }
@@ -174,7 +174,7 @@ header {
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .wrapper-main__links {
     background: transparent;
     margin-right: 452px;
@@ -245,7 +245,7 @@ header {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .links__wrapper {
     justify-content: space-around;
     min-height: 570px;
@@ -311,7 +311,7 @@ header {
   line-height: 30px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .info__title {
     padding-top: 60px;
     font-size: 50px;
@@ -350,7 +350,7 @@ header {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .inner__logo:hover {
     .logo__svg-tablet {
       fill: #d22856;

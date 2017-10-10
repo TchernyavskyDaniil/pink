@@ -52,7 +52,7 @@
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .table__list-tablet {
     display: flex;
     justify-content: flex-end;
@@ -127,7 +127,7 @@
   z-index: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .table__item:nth-child(1) {
     min-width: 155px;
     position: relative;
@@ -161,7 +161,7 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .items__slider {
     display: none;
   }

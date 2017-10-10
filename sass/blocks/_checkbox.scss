@@ -16,7 +16,7 @@
   padding-left: 72px;
 }
 
-.item__checkbox:checked + .item__label:before {
+.item__checkbox:checked + .item__label::before {
   background: url("../../img/icon-yes.svg") no-repeat #ffffff center;
   content: '';
   position: absolute;
