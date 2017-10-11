@@ -6,6 +6,13 @@ var plumber = require("gulp-plumber");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
+var svgSprite = require("gulp-svg-sprites");
+
+gulp.task("sprites", function () {
+  return gulp.src("img/*.svg")
+  .pipe(svgSprite({mode: "symbols"}))
+  .pipe(gulp.dest("img"));
+});
 
 gulp.task("style", function() {
   gulp.src("sass/style.scss")
