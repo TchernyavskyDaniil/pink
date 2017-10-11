@@ -10,7 +10,11 @@ var svgSprite = require("gulp-svg-sprites");
 
 gulp.task("sprites", function () {
   return gulp.src("img/*.svg")
-  .pipe(svgSprite({mode: "symbols"}))
+  .pipe(svgSprite({
+    svg:{
+      sprite: "symbols.svg"
+    },
+    preview: false}))
   .pipe(gulp.dest("img"));
 });
 

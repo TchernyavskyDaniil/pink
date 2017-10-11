@@ -19,7 +19,7 @@
     "editorconfig": "editorconfig-cli",
     "stylelint": "stylelint 'sass/**/*.scss' --syntax scss",
     "test": "npm run editorconfig && npm run stylelint",
-    "build": "gulp style",
+    "build": "gulp style && gulp sprites",
     "start": "gulp serve"
   },
   "browserslist": [

@@ -1,0 +1,371 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../symbols.svg");
+    background-repeat: no-repeat;
+    background-size: 100em 204.3em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../symbols.png");
+}
+
+
+
+  .icon.bg-hit:before {
+      background-position: 0em 0em;
+      width: 7.4em;
+      height: 7.3em;
+  }
+
+
+
+
+  .icon.bg-hit-tablet:before {
+      background-position: 0em -7.3em;
+      width: 6.1em;
+      height: 6.1em;
+  }
+
+
+
+
+  .icon.bg-triangle-white:before {
+      background-position: 0em -13.4em;
+      width: 100em;
+      height: 7.839499999999999em;
+  }
+
+
+
+
+  .icon.bg-triangle-white-footer:before {
+      background-position: 0em -21.3em;
+      width: 59.528em;
+      height: 6.1905em;
+  }
+
+
+
+
+  .icon.htmlacademy:before {
+      background-position: 0em -27.5em;
+      width: 6em;
+      height: 6em;
+  }
+
+
+
+
+  .icon.icon-editor-contrast:before {
+      background-position: 0em -33.5em;
+      width: 3.192em;
+      height: 3.192em;
+  }
+
+
+
+
+  .icon.icon-editor-crop:before {
+      background-position: 0em -36.7em;
+      width: 4.8em;
+      height: 4.8em;
+  }
+
+
+
+
+  .icon.icon-editor-diagram-fill:before {
+      background-position: 0em -41.5em;
+      width: 25.3em;
+      height: 25.3em;
+  }
+
+
+
+
+  .icon.icon-editor-fill:before {
+      background-position: 0em -66.8em;
+      width: 4.8em;
+      height: 4.8em;
+  }
+
+
+
+
+  .icon.icon-email:before {
+      background-position: 0em -71.6em;
+      width: 1.7988em;
+      height: 1.3965999999999998em;
+  }
+
+
+
+
+  .icon.icon-facebook:before {
+      background-position: 0em -73em;
+      width: 0.8673em;
+      height: 1.8943999999999999em;
+  }
+
+
+
+
+  .icon.icon-heart:before {
+      background-position: 0em -74.9em;
+      width: 1.2545em;
+      height: 1.199em;
+  }
+
+
+
+
+  .icon.icon-mail:before {
+      background-position: 0em -76.1em;
+      width: 1.7988em;
+      height: 1.3965999999999998em;
+  }
+
+
+
+
+  .icon.icon-map-marker:before {
+      background-position: 0em -77.5em;
+      width: 3.5982999999999996em;
+      height: 3.5982999999999996em;
+  }
+
+
+
+
+  .icon.icon-menu-burger:before {
+      background-position: 0em -81.1em;
+      width: 4.9945em;
+      height: 2.4007em;
+  }
+
+
+
+
+  .icon.icon-menu-cross:before {
+      background-position: 0em -83.6em;
+      width: 2.3867000000000003em;
+      height: 2.3867000000000003em;
+  }
+
+
+
+
+  .icon.icon-no:before {
+      background-position: 0em -86em;
+      width: 2.6752em;
+      height: 2.6752em;
+  }
+
+
+
+
+  .icon.icon-phone:before {
+      background-position: 0em -88.7em;
+      width: 1.9697em;
+      height: 1.9696000000000002em;
+  }
+
+
+
+
+  .icon.icon-quotes:before {
+      background-position: 0em -90.7em;
+      width: 7.8671999999999995em;
+      height: 6.3789em;
+  }
+
+
+
+
+  .icon.icon-review-arrow-left:before {
+      background-position: 0em -97.1em;
+      width: 2.1706em;
+      height: 4.1719em;
+  }
+
+
+
+
+  .icon.icon-review-arrow-right:before {
+      background-position: 0em -101.3em;
+      width: 2.1706em;
+      height: 4.1719em;
+  }
+
+
+
+
+  .icon.icon-timer:before {
+      background-position: 0em -105.5em;
+      width: 29.8em;
+      height: 34.509699999999995em;
+  }
+
+
+
+
+  .icon.icon-twitter:before {
+      background-position: 0em -140.1em;
+      width: 1.75em;
+      height: 1.4663em;
+  }
+
+
+
+
+  .icon.icon-yes:before {
+      background-position: 0em -141.6em;
+      width: 2.1698em;
+      height: 1.609em;
+  }
+
+
+
+
+  .icon.icon-youtube:before {
+      background-position: 0em -143.3em;
+      width: 1.464em;
+      height: 1.3960000000000001em;
+  }
+
+
+
+
+  .icon.left-arrow:before {
+      background-position: 0em -144.7em;
+      width: 2.2em;
+      height: 4.1em;
+  }
+
+
+
+
+  .icon.logo-android:before {
+      background-position: 0em -148.8em;
+      width: 4.2084em;
+      height: 4.7040999999999995em;
+  }
+
+
+
+
+  .icon.logo-apple:before {
+      background-position: 0em -153.6em;
+      width: 4.621em;
+      height: 5.6753em;
+  }
+
+
+
+
+  .icon.logo-htmlacademy:before {
+      background-position: 0em -159.3em;
+      width: 2.6943em;
+      height: 3.4090000000000003em;
+  }
+
+
+
+
+  .icon.logo-microsoft:before {
+      background-position: 0em -162.8em;
+      width: 4.3922em;
+      height: 4.199199999999999em;
+  }
+
+
+
+
+  .icon.logo-pink-blue-desktop:before {
+      background-position: 0em -167em;
+      width: 14.63em;
+      height: 4.0375em;
+  }
+
+
+
+
+  .icon.logo-pink-blue-mobile:before {
+      background-position: 0em -171.1em;
+      width: 14.63em;
+      height: 4.0375em;
+  }
+
+
+
+
+  .icon.logo-pink-footer:before {
+      background-position: 0em -175.2em;
+      width: 14.63em;
+      height: 4.0375em;
+  }
+
+
+
+
+  .icon.logo-pink-white-desktop:before {
+      background-position: 0em -179.3em;
+      width: 14.63em;
+      height: 4.0375em;
+  }
+
+
+
+
+  .icon.logo-pink-white-mobile:before {
+      background-position: 0em -183.4em;
+      width: 7.4426000000000005em;
+      height: 2.2859000000000003em;
+  }
+
+
+
+
+  .icon.logo-pink-white-tablet:before {
+      background-position: 0em -185.7em;
+      width: 14.63em;
+      height: 4.0375em;
+  }
+
+
+
+
+  .icon.logotype-white-desktop:before {
+      background-position: 0em -189.8em;
+      width: 14.7em;
+      height: 4em;
+  }
+
+
+
+
+  .icon.quotes:before {
+      background-position: 0em -193.8em;
+      width: 7.8671999999999995em;
+      height: 6.3789em;
+  }
+
+
+
+
+  .icon.right-arrow:before {
+      background-position: 0em -200.2em;
+      width: 2.2em;
+      height: 4.1em;
+  }
+
+
+
+
+
