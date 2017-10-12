@@ -6,15 +6,28 @@ var plumber = require("gulp-plumber");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
-var svgSprite = require("gulp-svg-sprites");
+var svgSprite = require("gulp-svg-sprite");
 
-gulp.task("sprites", function () {
+var config = {
+ shape: {
+ spacing: { // Add padding
+ padding: 20
+ }
+ },
+ mode: {
+ css: { // Activate the «css» mode
+ render: {
+ css: true // Activate CSS output (with default options)
+ }
+ },
+ symbol: true
+ }
+};
+
+
+gulp.task("sprite", function () {
   return gulp.src("img/*.svg")
-  .pipe(svgSprite({
-    svg:{
-      sprite: "symbols.svg"
-    },
-    preview: false}))
+  .pipe(svgSprite(config))
   .pipe(gulp.dest("img"));
 });
 
