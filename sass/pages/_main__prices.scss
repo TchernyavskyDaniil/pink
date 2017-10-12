@@ -9,6 +9,13 @@
   }
 }
 
+@media (min-width: 960px) {
+  .main__prices {
+    min-height: 520px;
+    padding-top: 0;
+  }
+}
+
 .prices__wrapper {
   overflow: hidden;
 }
@@ -20,6 +27,7 @@
 
 @media (min-width: 960px) {
   .prices__wrapper {
+    padding-top: 130px;
     margin: 0 auto;
     width: 960px;
   }
@@ -36,9 +44,9 @@
 
 .table__item {
   background-color: white;
-  border-left: 2px solid #e5e5e5;
-  border-right: 2px solid #e5e5e5;
-  border-bottom: 2px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
   display: flex;
   height: 62px;
   align-items: center;
@@ -80,10 +88,16 @@
   }
 }
 
+@media (min-width: 960px) {
+  .table__list {
+    width: 236px;
+  }
+}
+
 .table__item:nth-child(1) {
   text-align: center;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
   background-color: #283644;
   color: #ffffff;
   display: flex;
@@ -97,6 +111,7 @@
 
   .item__cost {
     margin-top: 0;
+    opacity: 0.8;
   }
 
   .item__price {
@@ -176,6 +191,10 @@
   .table__item:nth-child(1) {
     width: 236px;
     min-height: 96px;
+  }
+
+  .table__item {
+    height: 62px;
   }
 
   .item__price {

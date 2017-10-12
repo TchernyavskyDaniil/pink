@@ -108,6 +108,9 @@ header {
 @media (min-width: 960px) {
   .nav__inner {
     width: 960px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
   }
 
   .nav__box-w {
@@ -181,6 +184,8 @@ header {
   }
 
   .links__info {
+    color: #b5b9be;
+    font-weight: lighter;
     font-size: 18px;
     line-height: 24px;
   }

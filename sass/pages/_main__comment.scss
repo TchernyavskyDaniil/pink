@@ -78,7 +78,16 @@
   }
 
   .effect__items {
+    width: 368px;
     margin-bottom: 73px;
+  }
+
+  .effect__slogan {
+    width: 390px;
+  }
+
+  .effect__desc {
+    padding-right: 0;
   }
 }
 
@@ -98,14 +107,16 @@
     flex-direction: column-reverse;
   }
 
-  .item__title-tablet::after {
-    content: "25 лет, водитель трамвая";
-    display: block;
-    padding-top: 10px;
+  .item__title-prof {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .item__text-job {
+    margin-top: 0;
     font-size: 14px;
     line-height: 24px;
     text-align: center;
-    font-weight: 400;
   }
 }
 

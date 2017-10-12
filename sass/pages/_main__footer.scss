@@ -35,6 +35,8 @@
   .contacts__links {
     display: flex;
     justify-content: space-between;
+    width: 880px;
+    margin: 0 auto;
   }
 }
 
@@ -160,10 +162,20 @@
   }
 
   .info-s__wrapper {
-    width: 960px;
+    width: 880px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+  }
+
+  .invite__address {
+    width: 300px;
+  }
+
+  .phone__number,
+  .mail__link,
+  .invite__address {
+    padding-top: 30px;
   }
 }
 
