@@ -17,7 +17,8 @@
 }
 
 .item__checkbox:checked + .item__label::before {
-  background: url("../../img/icon-yes.svg") no-repeat #ffffff center;
+  background: url("../../img/sprite/sprite.svg") #ffffff;
+  background-position: -955px 592px;
   content: '';
   position: absolute;
   top: -4px;

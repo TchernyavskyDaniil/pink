@@ -33,7 +33,8 @@
   line-height: 30px;
   font-weight: lighter;
   position: relative;
-  &:before {
+
+  &::before {
     background-color: #ffffff;
     content: "";
     position: absolute;
