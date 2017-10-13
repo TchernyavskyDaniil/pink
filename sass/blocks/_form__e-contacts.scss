@@ -49,9 +49,8 @@
     content: "";
     top: 6px;
     right: 0;
-    background-image: url("../../img/icon-phone.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("../../img/sprite/sprite.svg");
+    background-position: -1007px 601px;
   }
 
   .field__item-e:nth-child(2)::after {
@@ -62,9 +61,10 @@
     content: "";
     top: 6px;
     right: 0;
-    background-image: url("../../img/icon-email.svg");
-    background-repeat: no-repeat;
-    background-position: 18px 23px;
+
+    background-image: url("../../img/sprite/sprite.svg");
+    background-position: -1174px 601px;
+
   }
 }
 
