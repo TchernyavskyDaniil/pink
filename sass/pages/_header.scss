@@ -15,7 +15,7 @@ header {
   padding-top: 396px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   header {
     min-height: 440px;
     background: url("../../img/bg-back-tablet@1x.jpg");
@@ -40,7 +40,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   header {
     background: url("../../img/bg-back-mobile@1x-min.jpg");
     background-size: 1400px auto;
@@ -89,7 +89,7 @@ header {
   align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .header__nav {
     min-height: 110px;
   }
@@ -105,7 +105,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .nav__inner {
     width: 960px;
   }
@@ -148,13 +148,13 @@ header {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .inner__toggle {
     padding-top: 20px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .inner__toggle {
     display: none;
   }
@@ -174,7 +174,7 @@ header {
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .wrapper-main__links {
     background: transparent;
     margin-right: 452px;
@@ -186,7 +186,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .wrapper-main__links {
     margin: 0 auto;
     width: 920px;
@@ -245,7 +245,7 @@ header {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .links__wrapper {
     justify-content: space-around;
     min-height: 570px;
@@ -269,7 +269,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .links__title {
     font-size: 50px;
   }
@@ -311,7 +311,7 @@ header {
   line-height: 30px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .info__title {
     padding-top: 60px;
     font-size: 50px;
@@ -321,7 +321,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .info__wrapper {
     width: 920px;
     margin: 0 auto;
@@ -350,7 +350,7 @@ header {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .inner__logo:hover {
     .logo__svg-tablet {
       fill: #d22856;
@@ -365,7 +365,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .inner__logo:hover {
     .logo__svg-desktop {
       fill: #d22856;

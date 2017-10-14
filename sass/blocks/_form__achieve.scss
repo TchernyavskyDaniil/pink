@@ -2,7 +2,7 @@
   background-color: #f2f2f2;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .form__achieve {
     background: white;
   }
@@ -30,6 +30,7 @@
 .field__list {
   padding-left: 10px;
   padding-right: 10px;
+
   .item {
     display: flex;
     flex-direction: column-reverse;
@@ -37,7 +38,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .field__list {
     min-height: 480px;
     display: flex;
@@ -55,7 +56,7 @@
   user-select: none;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .achieve__field {
     min-height: 200px;
   }

@@ -12,13 +12,13 @@
   font-weight: lighter;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .footer__contacts {
     width: 620px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .contacts__title {
     font-size: 50px;
     width: 640px;
@@ -53,7 +53,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .links__phone {
     display: inline-flex;
     flex-direction: column;
@@ -87,7 +87,7 @@
   border-bottom: none ;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .links__mail {
     display: inline-flex;
     flex-direction: column;
@@ -115,7 +115,7 @@
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .main__footer-hide {
     display: flex;
     align-items: center;
@@ -138,7 +138,7 @@
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .footer__wrapper {
     width: 100%;
   }

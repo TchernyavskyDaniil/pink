@@ -6,7 +6,7 @@
   min-height: 337px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 660px) {
   .app__field {
     border: 2px solid #e5e5e5;
     margin-left: 20px;
@@ -33,7 +33,8 @@
   line-height: 30px;
   font-weight: lighter;
   position: relative;
-  &:before {
+
+  &::before {
     background-color: #ffffff;
     content: "";
     position: absolute;
