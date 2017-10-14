@@ -159,7 +159,7 @@
         <section class="main__comment-recall comment-recall">
           <div class="comment__recall recall">
             <ul class="recall__list list">
-              <li class="recall__item recall__item-first recall__item--active item">
+              <li class="recall__item recall__item--active item">
                 <p class="item__text item__text-job text">
                   25 лет, водитель трамвая
                 </p>
@@ -170,18 +170,18 @@
                   &laquo;Это приложение перевернуло мой мир и&nbsp;позволило по-новому взглянуть на&nbsp;привычные серые вещи! А&nbsp;еще я&nbsp;познакомился со&nbsp;своей будущей женой в&nbsp;комментариях к&nbsp;выложенной фотографии!&raquo;
                 </p>
               </li>
-              <li class="recall__item recall__item-second item">
+              <li class="recall__item item">
                 <p class="item__text item__text-job text">
-                  21 год, студент КуБГУ
+                  21 год, студент КубГУ
                 </p>
                 <h3 class="item__title item__title-prof item__title-tablet">
                   Даниил Крохмаль
                 </h3>
                 <p class="item__text item__text-tablet text">
-                  &laquo;Как же я устал делать этот PixelPerfect&raquo;
+                  &laquo;Как же я устал делать это&raquo;
                 </p>
               </li>
-              <li class="recall__item recall__item-third item">
+              <li class="recall__item item">
                 <p class="item__text item__text-job text">
                   4 года, HTML Academy
                 </p>
@@ -193,12 +193,12 @@
                 </p>
               </li>
             </ul>
-            <button class="recall__left button">
+            <button class="recall__left button" onclick="plusFun(-1)">
               <svg class="svg__left svg" width="22" height="41">
                 <use xlink:href="../../img/sprite/sprite-symbols.svg#left-arrow"></use>
               </svg>
             </button>
-            <button class="recall__right button">
+            <button class="recall__right button" onclick="plusFun(+1)">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="41">
                 <use xlink:href="../../img/sprite/sprite-symbols.svg#right-arrow"></use>
               </svg>
@@ -212,9 +212,9 @@
               <!--<label class="controls__radio" for="rev-btn-2"></label>-->
               <!--<label class="controls__radio" for="rev-btn-3"></label>-->
               <!--</div>-->
-              <span class="slider__button slider__button--active slider__button-first">1</span>
-              <span class="slider__button slider__button-second">2</span>
-              <span class="slider__button slider__button-third">3</span>
+              <span class="slider__button slider__button-g slider__button--active " onclick="currentSlide(1)">1</span>
+              <span class="slider__button slider__button-g " onclick="currentSlide(2)">2</span>
+              <span class="slider__button slider__button-g " onclick="currentSlide(3)">3</span>
             </div>
           </div>
         </section>
@@ -245,7 +245,7 @@
                     </p>
                   </li>
                 </ul>
-                <ul class="table__list list">
+                <ul class="table__list table__list-main list">
                   <li class="table__item item">
                     <p class="item__price">
                       База
@@ -255,22 +255,31 @@
                     </p>
                   </li>
                   <li class="table__item item">
+                    <p class="item__desc">
+                      Розовый фильтр
+                    </p>
                     <svg class="item__svg item__svg--yes" width="21.698px" height="16.09px">
                       <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
                     </svg>
                   </li>
                   <li class="table__item item">
+                    <p class="item__desc">
+                      Смайлики
+                    </p>
                     <svg class="item__svg item__svg--no"  width="26.752px" height="26.752px">
                       <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-no"></use>
                     </svg>
                   </li>
                   <li class="table__item item">
+                    <p class="item__desc">
+                      Комментарии
+                    </p>
                     <svg class="item__svg item__svg--no"  width="26.752px" height="26.752px">
                       <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-no"></use>
                     </svg>
                   </li>
                 </ul>
-                <ul class="table__list list">
+                <ul class="table__list table__list-main list">
                   <li class="table__item table__item--active item">
                     <p class="item__price">
                       Стандарт
@@ -307,7 +316,7 @@
                     </svg>
                   </li>
                 </ul>
-                <ul class="table__list list">
+                <ul class="table__list table__list-main list">
                   <li class="table__item item">
                     <p class="item__price">
                       Анлим
@@ -317,16 +326,25 @@
                     </p>
                   </li>
                   <li class="table__item item">
+                    <p class="item__desc">
+                      Розовый фильтр
+                    </p>
                     <svg class="item__svg item__svg--yes" width="21.698px" height="16.09px">
                       <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
                     </svg>
                   </li>
                   <li class="table__item item">
+                    <p class="item__desc">
+                      Смайлики
+                    </p>
                     <svg class="item__svg item__svg--yes" width="21.698px" height="16.09px">
                       <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
                     </svg>
                   </li>
                   <li class="table__item item">
+                    <p class="item__desc">
+                      Комментарии
+                    </p>
                     <svg class="item__svg item__svg--yes" width="21.698px" height="16.09px">
                       <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
                     </svg>
@@ -342,9 +360,9 @@
                   <!--<label class="controls__radio" for="price-btn-2"></label>-->
                   <!--<label class="controls__radio" for="price-btn-3"></label>-->
                 <!--</div>-->
-                <span class="slider__button slider__button-p">1</span>
-                <span class="slider__button slider__button-p slider__button--active">2</span>
-                <span class="slider__button slider__button-p">3</span>
+                <span class="slider__button slider__button-p" onclick="tabletSlide(1)">1</span>
+                <span class="slider__button slider__button-p slider__button--active" onclick="tabletSlide(2)">2</span>
+                <span class="slider__button slider__button-p" onclick="tabletSlide(3)">3</span>
               </div>
             </div>
           </div>

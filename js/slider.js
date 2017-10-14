@@ -1,62 +1,77 @@
 'use strict';
 
-var buttonFirst = document.querySelector(".slider__button-first");
-var buttonSecond = document.querySelector(".slider__button-second");
-var buttonThird = document.querySelector(".slider__button-third");
-
-var sliderSecond = document.querySelector(".recall__item-second");
-var sliderFirst = document.querySelector(".recall__item-first");
-var sliderThird = document.querySelector(".recall__item-third");
-
-buttonSecond.addEventListener("click", function (evt) {
-  evt.preventDefault();
-
-  sliderSecond.classList.add("recall__item--active");
-  buttonSecond.classList.add("slider__button--active");
-
-  sliderFirst.classList.remove("recall__item--active");
-  buttonFirst.classList.remove("slider__button--active");
-
-  sliderThird.classList.remove("recall__item--active");
-  buttonThird.classList.remove("slider__button--active");
-})
-
-buttonFirst.addEventListener("click", function (evt) {
-  evt.preventDefault();
-
-  sliderFirst.classList.add("recall__item--active");
-  buttonFirst.classList.add("slider__button--active");
-
-  sliderSecond.classList.remove("recall__item--active");
-  buttonSecond.classList.remove("slider__button--active");
-
-  sliderThird.classList.remove("recall__item--active");
-  buttonThird.classList.remove("slider__button--active");
-})
-
-buttonThird.addEventListener("click", function (evt) {
-  evt.preventDefault();
-
-  sliderThird.classList.add("recall__item--active");
-  buttonThird.classList.add("slider__button--active");
-
-  sliderSecond.classList.remove("recall__item--active");
-  buttonSecond.classList.remove("slider__button--active");
-
-  sliderFirst.classList.remove("recall__item--active");
-  buttonFirst.classList.remove("slider__button--active");
-})
+// var slideIndex = 0; - Индекс элемента который подсвечиваем
+//  Ищем кол-во элементов в ul
+// Все элементы в массив закинуть
+// Если СлайдИдекс -1 то кол-во элементов присваивает (макс знач)
+// Если СлайдИндекс 5 то = 0
 
 
+// Слайдер отзывов
 
-// var secondSlider = document.querySelector(".lol");
-// var firstSlider = document.querySelector(".kek");
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusFun(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("recall__item");
+  var dots = document.getElementsByClassName("slider__button-g");
+
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display= "none";
+
+  }
+
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace("slider__button--active", "");
+  }
+
+  slides[slideIndex - 1].style.display = "flex";
+  slides[slideIndex - 1].style.flexDirection = "column-reverse";
+  dots[slideIndex - 1].className+= " slider__button--active";
+}
+
 //
-// buttonSecond.addEventListener("click", function (evt) {
-//   evt.preventDefault();
-//   secondSlider.classList.add("recall__item--active");
-//   buttonSecond.classList.add("slider__button--active");
-//   buttonFirst.classList.remove("slider__button--active");
-//   firstSlider.classList.remove("recall__item--active");
-// })
 
+var tabletIndex = 0;
+showTablet(tabletIndex);
+
+function tabletSlide(x) {
+  showTablet(tabletIndex = x);
+  console.log(tabletIndex);
+}
+
+function showTablet(x) {
+  var i;
+  var slidesTablet = document.getElementsByClassName("table__list-main");
+
+  for (i = 0; i < slidesTablet.length; i++) {
+    if (tabletIndex == 1) {
+      slidesTablet[i].style.transform = "translateX(280px)";
+    }
+
+    if (tabletIndex == 2) {
+      slidesTablet[i].style.transform = "translateX(0)";
+    }
+
+    if (tabletIndex == 3) {
+      slidesTablet[i].style.transform = "translateX(-280px)";
+    }
+  }
+}

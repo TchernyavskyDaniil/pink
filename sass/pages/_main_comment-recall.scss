@@ -6,6 +6,7 @@
 @media (min-width: 960px) {
   .main__comment-recall {
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
     width: 960px;
     position: relative;
