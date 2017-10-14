@@ -69,3 +69,12 @@
     left: -17px;
   }
 }
+
+.recall__item {
+  display: none;
+}
+
+.recall__item--active {
+  display: flex;
+  flex-direction: column-reverse;
+}
