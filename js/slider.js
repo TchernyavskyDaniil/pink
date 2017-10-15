@@ -61,17 +61,39 @@ function showTablet(x) {
   var i;
   var slidesTablet = document.getElementsByClassName("table__list-main");
 
-  for (i = 0; i < slidesTablet.length; i++) {
-    if (tabletIndex == 1) {
-      slidesTablet[i].style.transform = "translateX(280px)";
-    }
+  // for (i = 0; i < slidesTablet.length; i++) {
+  //   if (tabletIndex == 1) {
+  //     slidesTablet[i].className += " table__list-left";
+  //   }
+  //
+  //   if (tabletIndex == 2) {
+  //     slidesTablet[i].className += " table__list-center";
+  //   }
+  //
+  //   if (tabletIndex == 3) {
+  //     slidesTablet[i].className += " table__list-right";
+  //   }
+  // }
 
-    if (tabletIndex == 2) {
-      slidesTablet[i].style.transform = "translateX(0)";
+  if (tabletIndex == 1) {
+    for (i = 0; i < slidesTablet.length; i++) {
+      slidesTablet[i].className += " table__list-left";
+      slidesTablet[i].className = slidesTablet[i].className.replace(" table__list-right", "");
     }
+  }
 
-    if (tabletIndex == 3) {
-      slidesTablet[i].style.transform = "translateX(-280px)";
+  if (tabletIndex == 2) {
+    for (i = 0; i < slidesTablet.length; i++) {
+      // slidesTablet[i].className += " table__list-center";
+      slidesTablet[i].className = slidesTablet[i].className.replace(" table__list-left", "");
+      slidesTablet[i].className = slidesTablet[i].className.replace(" table__list-right", "");
+    }
+  }
+
+  if (tabletIndex == 3) {
+    for (i = 0; i < slidesTablet.length; i++) {
+      slidesTablet[i].className += " table__list-right";
+      slidesTablet[i].className = slidesTablet[i].className.replace(" table__list-left", "");
     }
   }
 }
