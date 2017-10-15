@@ -85,7 +85,7 @@
 .footer__svg {
   fill: #ffffff;
   width: 100%;
-  top: -15px;
+  top: -59px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -103,7 +103,7 @@
 @media (min-width: 660px) {
   .footer__svg {
     display: block;
-    top: 0;
+    top: -36px;
     fill: #ffffff;
     width: 100%;
     position: absolute;
@@ -122,6 +122,7 @@
     height: 110px;
     position: absolute;
     left: 50%;
+    top: -2px;
     transform: translateX(-50%);
     z-index: 1;
   }
