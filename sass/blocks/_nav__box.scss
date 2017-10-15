@@ -1,15 +1,31 @@
 .inner__logo {
   z-index: 1;
+  position: absolute;
+  top: 22px;
 }
 
 .inner__toggle {
   z-index: 1;
+  position: absolute;
+  top: 21px;
+  right: 33px;
+}
+
+@media (min-width: 660px) {
+  .inner__logo {
+    top: 33px;
+  }
+
+  .inner__toggle {
+    top: 25px;
+    right: 44px;
+  }
 }
 
 .nav__box-w {
   display: flex;
   flex-direction: column;
-  position: absolute;
+
   width: 100%;
   top: 0;
 }
@@ -82,7 +98,7 @@
 
 @media (min-width: 960px) {
   .nav__box-w {
-    position: relative;
+    align-items: flex-end;
     height: 100%;
   }
 
@@ -112,5 +128,15 @@
 
   .nav__box-w--closed {
     display: flex;
+  }
+}
+
+.nav__box-w-wrapper {
+  position: absolute;
+}
+
+@media (min-width: 960px) {
+  .nav__box-w {
+    position: static;
   }
 }
