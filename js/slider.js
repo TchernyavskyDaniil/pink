@@ -1,10 +1,10 @@
 'use strict';
 
-// var slideIndex = 0; - Индекс элемента который подсвечиваем
-//  Ищем кол-во элементов в ul
-// Все элементы в массив закинуть
-// Если СлайдИдекс -1 то кол-во элементов присваивает (макс знач)
-// Если СлайдИндекс 5 то = 0
+  // var slideIndex = 0; - Индекс элемента который подсвечиваем
+  //  Ищем кол-во элементов в ul
+  // Все элементы в массив закинуть
+  // Если СлайдИдекс -1 то кол-во элементов присваивает (макс знач)
+  // Если СлайдИндекс 5 то = 0
 
 
 // Слайдер отзывов
@@ -35,7 +35,6 @@ function showSlides(n) {
 
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display= "none";
-
   }
 
   for (i = 0; i < dots.length; i++) {
@@ -44,38 +43,30 @@ function showSlides(n) {
 
   slides[slideIndex - 1].style.display = "flex";
   slides[slideIndex - 1].style.flexDirection = "column-reverse";
-  dots[slideIndex - 1].className+= " slider__button--active";
+  dots[slideIndex - 1].className+= "slider__button--active";
 }
 
 //
 
-var tabletIndex = 0;
+var tabletIndex = 2;
 showTablet(tabletIndex);
 
 function tabletSlide(x) {
   showTablet(tabletIndex = x);
-  console.log(tabletIndex);
 }
 
 function showTablet(x) {
   var i;
   var slidesTablet = document.getElementsByClassName("table__list-main");
+  var dotsTablet = document.getElementsByClassName("slider__button-p");
 
-  // for (i = 0; i < slidesTablet.length; i++) {
-  //   if (tabletIndex == 1) {
-  //     slidesTablet[i].className += " table__list-left";
-  //   }
-  //
-  //   if (tabletIndex == 2) {
-  //     slidesTablet[i].className += " table__list-center";
-  //   }
-  //
-  //   if (tabletIndex == 3) {
-  //     slidesTablet[i].className += " table__list-right";
-  //   }
-  // }
+  for (i = 0; i < dotsTablet.length; i++) {
+    dotsTablet[i].className = dotsTablet[i].className.replace("slider__button--active", "");
+  }
 
   if (tabletIndex == 1) {
+    dotsTablet[tabletIndex - 1].className+= "slider__button--active";
+
     for (i = 0; i < slidesTablet.length; i++) {
       slidesTablet[i].className += " table__list-left";
       slidesTablet[i].className = slidesTablet[i].className.replace(" table__list-right", "");
@@ -83,14 +74,17 @@ function showTablet(x) {
   }
 
   if (tabletIndex == 2) {
+    dotsTablet[tabletIndex - 1].className+= "slider__button--active";
+
     for (i = 0; i < slidesTablet.length; i++) {
-      // slidesTablet[i].className += " table__list-center";
       slidesTablet[i].className = slidesTablet[i].className.replace(" table__list-left", "");
       slidesTablet[i].className = slidesTablet[i].className.replace(" table__list-right", "");
     }
   }
 
   if (tabletIndex == 3) {
+    dotsTablet[tabletIndex - 1].className+= "slider__button--active";
+
     for (i = 0; i < slidesTablet.length; i++) {
       slidesTablet[i].className += " table__list-right";
       slidesTablet[i].className = slidesTablet[i].className.replace(" table__list-left", "");
