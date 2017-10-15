@@ -10,11 +10,11 @@ var svgSprite = require("gulp-svg-sprite");
 
 var config = {
   shape: {
-    dimension		: {			// Set maximum dimensions
+    dimension		: {
 
     },
-    spacing: { // Add padding
-      padding			: 20,						// Padding around all shapes
+    spacing: {
+      padding			: 20,
       box				: 'content'
     }
   },
@@ -38,12 +38,6 @@ var configS = {
     }
   },
 };
-
-// var configdest = {
-//   sprite: {
-//     "kek.svg"
-//   },
-// };
 
 gulp.task("sprite", function () {
   return gulp.src("img/*.svg")
