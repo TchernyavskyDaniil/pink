@@ -80,7 +80,7 @@
           Поделитесь своей историей и&nbsp;получите шанс выиграть ценный приз&nbsp;&mdash; 1000 миль на&nbsp;вашу бонусную карту!
         </p>
         <section class="main__feedback feedback">
-          <form class="feedback__form form" action="echo" method="post">
+          <form class="feedback__form form" action="/echo" method="post">
             <div class="wrapper__forms">
               <div class="form__full-name full-name">
                 <fieldset class="full-name__feedback feedback">
@@ -89,19 +89,19 @@
                       <label class="s-name__label label__name" for="s-name">
                         Фамилия:
                       </label>
-                      <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию*">
+                      <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию*" required>
                     </div>
                     <div class="full-name__a-name a-name name">
                       <label class="a-name__label label__name" for="a-name">
                         Имя:
                       </label>
-                      <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя*">
+                      <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя*" required>
                     </div>
                     <div class="full-name__m-name m-name name">
                       <label class="m-name__label label__name" for="m-name">
                         Отчеств:
                       </label>
-                      <input class="m-name__text input__name" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже">
+                      <input class="m-name__text input__name" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже" required>
                     </div>
                   </div>
                 </fieldset>
@@ -142,19 +142,19 @@
                     <label class="s-name__label label__name" for="s-name">
                       Фамилия:
                     </label>
-                    <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию*">
+                    <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию*" required>
                   </div>
                   <div class="full-name__a-name a-name name">
                     <label class="a-name__label label__name" for="a-name">
                       Имя:
                     </label>
-                    <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя*">
+                    <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя*" required>
                   </div>
                   <div class="full-name__m-name m-name name">
                     <label class="m-name__label label__name" for="m-name">
                       Отчеств:
                     </label>
-                    <input class="m-name__text input__name" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже">
+                    <input class="m-name__text input__name" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже" required>
                   </div>
                 </div>
               </fieldset>
@@ -251,13 +251,13 @@
                     <label class="item__label-e label__name" for="number">
                       Номер телефона
                     </label>
-                    <input class="item__text-e input__name" name="number" id="number" placeholder="Номер, пожалуйста">
+                    <input class="item__text-e input__name" name="number" id="number" placeholder="Номер, пожалуйста" required>
                   </li>
                   <li class="field__item-e item name">
                     <label class="item__label-e label__name" for="e-mail">
                       Адрес почты
                     </label>
-                    <input class="item__text-e input__name" name="e-mail" id="e-mail" placeholder="Введите почту*">
+                    <input class="item__text-e input__name" name="e-mail" id="e-mail" placeholder="Введите почту*" required>
                   </li>
                 </ul>
               </fieldset>
@@ -282,12 +282,11 @@
                 <legend class="field__text">
                   Опишите свои эмоции
                 </legend>
-                <textarea class="field__textarea" name="emoj" id="emoj" placeholder="Можно прям в красках, не стесняясь в выражениях">
-                </textarea>
+                <textarea class="field__textarea" name="emoj" id="emoj" placeholder="Можно прям в красках, не стесняясь в выражениях" required></textarea>
               </fieldset>
             </div>
             <div class="form__submit form__submit-emoj submit">
-              <button class="submit__button submit__button--disabled btn" type="button">Отправить форму</button>
+              <button class="submit__button submit__button--disabled btn" type="sumbit">Отправить форму</button>
               <p class="submit__text-sub text-sub">
                 <span class="text-sub__star">*</span> — Обязательные поля
               </p>
