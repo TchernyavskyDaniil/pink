@@ -18,6 +18,9 @@ var del = require("del");
 var uglify = require('gulp-uglify');
 var pump = require('pump');
 
+
+//config min js uglify
+
 gulp.task("compress", function (cb) {
   pump([
       gulp.src("js/*.js"),
@@ -27,6 +30,8 @@ gulp.task("compress", function (cb) {
     cb
   );
 });
+
+//end config min js
 
 //config build
 
