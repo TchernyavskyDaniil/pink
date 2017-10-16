@@ -18,6 +18,13 @@ var del = require("del");
 var uglify = require('gulp-uglify');
 var pump = require('pump');
 
+//config build
+
+gulp.task("build", function (done) {
+  run("clean", "sprite", "spriteSymbol", "style", "compress", "images", "webp", "html", "copy", done);
+});
+
+//end config build
 
 //config min js uglify
 
@@ -32,14 +39,6 @@ gulp.task("compress", function (cb) {
 });
 
 //end config min js
-
-//config build
-
-gulp.task("build", function (done) {
-  run("clean", "sprite", "spriteSymbol", "style", "compress", "images", "webp", "html", "copy", done);
-});
-
-//end config build
 
 //sprite config
 
