@@ -1,6 +1,8 @@
 .main__prices {
   background: url("../../img/bg-triangle-white.svg") top #f2f2f2 no-repeat;
-  padding-top: 70px;
+  padding-top: 99px;
+  background-size: 100% auto;
+  min-height: 377px;
 
   .prices__table {
     display: flex;
@@ -22,6 +24,13 @@
   transform: translateX(0);
 }
 
+@media (min-width: 660px) {
+  .main__prices {
+    padding-top: 29px;
+    min-height: 353px;
+  }
+}
+
 @media (min-width: 960px) {
   .main__prices {
     min-height: 520px;
@@ -36,14 +45,6 @@
 .table__wrapper {
   min-height: 286px;
   display: flex;
-}
-
-@media (min-width: 960px) {
-  .prices__wrapper {
-    padding-top: 130px;
-    margin: 0 auto;
-    width: 960px;
-  }
 }
 
 .table__list {
@@ -61,12 +62,12 @@
   border-right: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
   display: flex;
-  height: 62px;
+  height: 60px;
   align-items: center;
   justify-content: space-between;
 
   .item__desc {
-    padding-left: 20px;
+    padding: 0 22px 9px;
   }
 }
 
@@ -78,6 +79,7 @@
   .table__list-tablet {
     display: flex;
     justify-content: flex-end;
+    width: 150px;
   }
 
   .table__list {
@@ -98,14 +100,21 @@
     padding: 7px 15px;
   }
 
-  .item__cost {
-    font-weight: lighter;
+  .prices__wrapper {
+    width: 620px;
+    margin: 0 auto;
   }
 }
 
 @media (min-width: 960px) {
   .table__list {
     width: 236px;
+  }
+
+  .prices__wrapper {
+    padding-top: 152px;
+    margin: 0 auto;
+    width: 960px;
   }
 }
 
@@ -118,21 +127,22 @@
   display: flex;
   flex-direction: column;
   min-width: 276px;
-  min-height: 94px;
+  min-height: 96px;
   text-transform: uppercase;
   align-items: inherit;
   font-size: 18px;
   line-height: 30px;
 
-  .item__cost {
-    margin-top: 0;
-    opacity: 0.8;
-  }
-
   .item__price {
     font-weight: 800;
     margin-bottom: 0;
   }
+}
+
+.item__cost {
+  margin-top: 0;
+  opacity: 0.8;
+  font-size: 24px;
 }
 
 .table__item--active::before {
@@ -143,8 +153,8 @@
   transform: rotate(-45deg);
   width: 30px;
   height: 20px;
-  top: 20px;
-  left: 16px;
+  top: 17px;
+  left: 10px;
   font-size: 14px;
   line-height: 14px;
   font-weight: 700;
@@ -157,11 +167,18 @@
   .table__item:nth-child(1) {
     min-width: 155px;
     position: relative;
+    min-height: 79px;
   }
 
   .table__item:nth-child(1)::before {
     top: 14px;
     left: 6px;
+  }
+
+  .item__cost {
+    font-weight: lighter;
+    font-size: 18px;
+    margin-bottom: 7px;
   }
 
   .item__price {
@@ -181,7 +198,7 @@
   align-items: center;
   flex-direction: row;
   box-sizing: border-box;
-  padding-top: 20px;
+  padding-top: 34px;
   padding-bottom: 20px;
   margin: 0 auto;
 }

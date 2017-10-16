@@ -10,7 +10,7 @@
     margin: 0 auto;
     width: 960px;
     position: relative;
-    padding-top: 30px;
+    padding-top: 152px;
   }
 
   .recall__slider {
@@ -23,7 +23,7 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    top: -65px;
+    top: 58px;
     left: 434px;
   }
 
@@ -35,6 +35,7 @@
   }
 
   .item__title-tablet {
+    padding-top: 23px;
     font-size: 24px;
     line-height: 30px;
   }
@@ -43,10 +44,12 @@
   .recall__right {
     display: block;
     position: absolute;
+    outline: none;
   }
 
   .recall__left {
-    top: 71px;
+    top: 216px;
+    left: -9px;
     background-color: transparent;
     border: none;
     width: 60px;
@@ -55,8 +58,8 @@
   }
 
   .recall__right {
-    top: 71px;
-    right: -20px;
+    top: 215px;
+    right: -9px;
     background-color: transparent;
     border: none;
     width: 60px;
@@ -66,8 +69,17 @@
 }
 
 @media (min-width: 960px) {
-  .recall__left {
-    left: -17px;
+  .item__text-job {
+    display: block;
+    font-size: 18px;
+  }
+
+  .recall__list {
+    padding-top: 19px;
+  }
+
+  .comment__recall {
+    justify-content: flex-end;
   }
 }
 
@@ -78,4 +90,14 @@
 .recall__item--active {
   display: flex;
   flex-direction: column-reverse;
+}
+
+.item__text-job {
+  display: none;
+}
+
+@media (min-width: 660px) {
+  .item__text-job {
+    display: block;
+  }
 }

@@ -2,7 +2,6 @@ header {
   background: url("../../img/bg-back-mobile@1x-min.jpg") no-repeat;
   background-size: 1400px auto;
   min-height: 237px;
-  margin-bottom: 60px;
 }
 
 @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
@@ -56,7 +55,7 @@ header {
   }
 
   .header__wrapper-main {
-    min-height: 740px;
+    min-height: 736px;
     background: none;
   }
 }
@@ -109,7 +108,6 @@ header {
   .nav__inner {
     width: 960px;
     padding-left: 20px;
-    padding-right: 20px;
     box-sizing: border-box;
   }
 
@@ -130,12 +128,6 @@ header {
     fill: white;
     opacity: 0.3;
   }
-}
-
-.inner__toggle {
-  background-color: transparent;
-  outline: none;
-  border: none;
 }
 
 .inner__toggle:hover {
@@ -164,8 +156,8 @@ header {
 }
 
 .wrapper-main__links {
-  padding: 25px 20px 25px 20px;
-  min-height: 271px;
+  padding: 0 20px 0 20px;
+  min-height: 275px;
   background-color: #1d2631;
   position: relative;
 }
@@ -175,6 +167,7 @@ header {
   font-size: 14px;
   line-height: 24px;
   text-align: center;
+  font-weight: lighter;
 }
 
 @media (min-width: 660px) {
@@ -195,15 +188,22 @@ header {
   .wrapper-main__links {
     margin: 0 auto;
     width: 920px;
-    min-height: 715px;
+    min-height: 736px;
     background: url("../../img/iphone-hand-desktop@1x.png") no-repeat bottom;
-    background-position-x: 70px;
+    background-position-x: 11px;
+    padding-left: 0;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background: url("../../img/iphone-hand-desktop@2x.png") no-repeat bottom;
       background-size: 1050px 645px;
-      background-position-x: 70px;
+      background-position-x: 11px;
     }
+  }
+
+  .links__info {
+    margin-bottom: 76px;
+    margin-top: 0;
+    padding-right: 8px;
   }
 }
 
@@ -212,6 +212,8 @@ header {
   flex-direction: column;
   align-items: center;
   min-height: 260px;
+  padding-top: 23px;
+  box-sizing: border-box;
   justify-content: space-around;
 
 
@@ -220,8 +222,8 @@ header {
     content: "";
     width: 100%;
     height: 100%;
-    top: -305px;
-    left: 50%;
+    top: -271px;
+    left: 40%;
     transform: translateX(-50%);
     background: url("../../img/iphone-hand-mobile@1x-min.png") no-repeat center;
 
@@ -230,20 +232,22 @@ header {
       background-size: 258px 286px;
     }
   }
+}
 
-  .links__btn {
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    border-radius: 30px;
-    padding: 10px 30px 10px 30px;
-  }
 
-  .links__market {
-    width: 260px;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
-  }
+.links__market {
+  width: 241px;
+  height: 83px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.links__btn {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  padding: 12px 39px 19px 33px;
 }
 
 .links__title {
@@ -253,7 +257,7 @@ header {
 @media (min-width: 660px) {
   .links__wrapper {
     justify-content: space-around;
-    min-height: 570px;
+    min-height: 536px;
     min-width: 310px;
   }
 
@@ -268,15 +272,28 @@ header {
     text-align: center;
     font-weight: lighter;
     font-size: 40px;
-    line-height: 52px;
-    padding-left: 5px;
+    line-height: 48px;
+    padding-left: 0;
     padding-right: 5px;
+    margin-top: 59px;
+    margin-bottom: 0;
+  }
+
+  .links__market {
+    width: 220px;
+    justify-content: space-between;
+  }
+
+  .links__microsoft {
+    padding-right: 14px;
   }
 }
 
 @media (min-width: 960px) {
   .links__title {
     font-size: 50px;
+    margin-top: 60px;
+    line-height: 58px;
   }
 
   .links__wrapper {
@@ -398,3 +415,52 @@ header {
   }
 }
 
+.inner__logo {
+  z-index: 1;
+  position: absolute;
+  top: 22px;
+}
+
+.inner__toggle {
+  z-index: 1;
+  position: absolute;
+  top: 21px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  right: 12px;
+}
+
+@media (min-width: 660px) {
+  .inner__logo {
+    top: 28px;
+    left: 17px;
+  }
+
+  .inner__toggle {
+    top: 25px;
+    right: 10px;
+  }
+
+  .links__btn {
+    padding: 12px 45px 19px 43px;
+    margin-right: 10px;
+    margin-top: 11px;
+  }
+}
+
+@media (min-width: 960px) {
+  .inner__logo {
+    top: 46px;
+    left: -80px;
+    position: relative;
+  }
+
+  .links__btn {
+    margin-top: 4px;
+  }
+
+  .links__market {
+    padding-bottom: 8px;
+  }
+}

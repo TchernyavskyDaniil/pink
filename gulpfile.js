@@ -36,7 +36,7 @@ gulp.task("compress", function (cb) {
 //config build
 
 gulp.task("build", function (done) {
-  run("clean", "sprite", "spriteSymbol", "style", "compress", "images", "webp", "html", done);
+  run("clean", "sprite", "spriteSymbol", "style", "compress", "images", "webp", "html", "copy", done);
 });
 
 //end config build
@@ -159,10 +159,7 @@ gulp.task("html", function () {
 
 gulp.task("copy", function () {
   return gulp.src([
-    "fonts/**/*.{woff,woff2}",
-    "img/**",
-    "js/**"
-  ], {
+    "fonts/*.{woff,woff2}"], {
     base: "."
   })
     .pipe(gulp.dest("build"));
