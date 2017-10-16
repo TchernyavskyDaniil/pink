@@ -83,6 +83,24 @@
   }
 }
 
+.options__btn--submit:hover {
+  background: #d22856;
+  color: white;
+}
+
+.options__btn--submit:active {
+  color: #e08195;
+}
+
+.options__btn--cansel:hover {
+  opacity: 1;
+}
+
+.options__btn--cansel:active {
+  background-color: #b5b9be;
+  border: 3px solid #b5b9be;
+}
+
 .photos-load__filter {
   background-color: #f2f2f2;
   padding-top: 20px;

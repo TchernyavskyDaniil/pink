@@ -2,9 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Конкурс</title>
     <link href="css/style.css" rel="stylesheet">
     <!-- CSS Style -->
@@ -17,7 +15,7 @@
           <div class="nav__inner inner">
             <div class="nav__inner-wrapper">
               <a class="inner__logo logo" href="index.html">
-                <svg class="logo__svg svg"  width="74.426px" height="22.859px">
+                <svg class="logo__svg svg" width="74.426px" height="22.859px">
                   <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-pink-white-mobile"></use>
                 </svg>
                 <svg class="logo__svg-tablet svg" width="146.3px" height="40.375px">
@@ -80,7 +78,7 @@
           Поделитесь своей историей и&nbsp;получите шанс выиграть ценный приз&nbsp;&mdash; 1000 миль на&nbsp;вашу бонусную карту!
         </p>
         <section class="main__feedback feedback">
-          <form class="feedback__form form" action="echo" method="post">
+          <form class="feedback__form form" action="/echo" method="post">
             <div class="wrapper__forms">
               <div class="form__full-name full-name">
                 <fieldset class="full-name__feedback feedback">
@@ -89,19 +87,19 @@
                       <label class="s-name__label label__name" for="s-name">
                         Фамилия:
                       </label>
-                      <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию*">
+                      <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию*" required="">
                     </div>
                     <div class="full-name__a-name a-name name">
                       <label class="a-name__label label__name" for="a-name">
                         Имя:
                       </label>
-                      <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя*">
+                      <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя*" required="">
                     </div>
                     <div class="full-name__m-name m-name name">
                       <label class="m-name__label label__name" for="m-name">
                         Отчеств:
                       </label>
-                      <input class="m-name__text input__name" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже">
+                      <input class="m-name__text input__name" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже" required="">
                     </div>
                   </div>
                 </fieldset>
@@ -114,7 +112,7 @@
                 </legend>
                 <ul class="field__list-app list-app list">
                   <li class="field__item-app item">
-                    <input class="input__radio-app" type="radio" name="travel" id="ios" value="ios" checked>
+                    <input class="input__radio-app" type="radio" name="travel" id="ios" value="ios" checked="">
                     <label class="item__label-app" for="ios">
                       Pink для iOS
                     </label>
@@ -142,19 +140,19 @@
                     <label class="s-name__label label__name" for="s-name">
                       Фамилия:
                     </label>
-                    <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию*">
+                    <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию*" required="">
                   </div>
                   <div class="full-name__a-name a-name name">
                     <label class="a-name__label label__name" for="a-name">
                       Имя:
                     </label>
-                    <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя*">
+                    <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя*" required="">
                   </div>
                   <div class="full-name__m-name m-name name">
                     <label class="m-name__label label__name" for="m-name">
                       Отчеств:
                     </label>
-                    <input class="m-name__text input__name" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже">
+                    <input class="m-name__text input__name" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже" required="">
                   </div>
                 </div>
               </fieldset>
@@ -167,7 +165,7 @@
                 </legend>
                 <ul class="field__list-app list-app list">
                   <li class="field__item-app item">
-                    <input class="input__radio-app" type="radio" name="travel" id="ios" value="ios" checked>
+                    <input class="input__radio-app" type="radio" name="travel" id="ios" value="ios" checked="">
                     <label class="item__label-app" for="ios">
                       Pink для iOS
                     </label>
@@ -194,13 +192,13 @@
                 </legend>
                 <ul class="field__list list">
                   <li class="field__item field__item--active item">
-                    <input class="item__checkbox" type="checkbox" name="shark" id="shark" checked>
+                    <input class="item__checkbox" type="checkbox" name="shark" id="shark" checked="">
                     <label class="item__label" for="shark">
                       Сделал селфи с акулой
                     </label>
                   </li>
                   <li class="field__item field__item--active item">
-                    <input class="item__checkbox" type="checkbox" name="beach" id="beach" checked>
+                    <input class="item__checkbox" type="checkbox" name="beach" id="beach" checked="">
                     <label class="item__label" for="beach">
                       Обгорел на пляже
                     </label>
@@ -218,7 +216,7 @@
                     </label>
                   </li>
                   <li class="field__item list__item--active item">
-                    <input class="item__checkbox" type="checkbox" name="tower" id="tower" checked>
+                    <input class="item__checkbox" type="checkbox" name="tower" id="tower" checked="">
                     <label class="item__label" for="tower">
                       Удержал башню
                     </label>
@@ -246,18 +244,18 @@
                 <legend class="field__text field__text-e">
                   Контактная информация
                 </legend>
-                <ul class="field__list-e list">
+                <ul class="fie  ld__list-e list">
                   <li class="field__item-e item name">
                     <label class="item__label-e label__name" for="number">
                       Номер телефона
                     </label>
-                    <input class="item__text-e input__name" name="number" id="number" placeholder="Номер, пожалуйста">
+                    <input class="item__text-e input__name" name="number" id="number" placeholder="Номер, пожалуйста" required="">
                   </li>
                   <li class="field__item-e item name">
                     <label class="item__label-e label__name" for="e-mail">
                       Адрес почты
                     </label>
-                    <input class="item__text-e input__name" name="e-mail" id="e-mail" placeholder="Введите почту*">
+                    <input class="item__text-e input__name" type="email" name="e-mail" id="e-mail" placeholder="Введите почту*" required="">
                   </li>
                 </ul>
               </fieldset>
@@ -282,12 +280,11 @@
                 <legend class="field__text">
                   Опишите свои эмоции
                 </legend>
-                <textarea class="field__textarea" name="emoj" id="emoj" placeholder="Можно прям в красках, не стесняясь в выражениях">
-                </textarea>
+                <textarea class="field__textarea" name="emoj" id="emoj" placeholder="Можно прям в красках, не стесняясь в выражениях" required=""></textarea>
               </fieldset>
             </div>
             <div class="form__submit form__submit-emoj submit">
-              <button class="submit__button submit__button--disabled btn" type="button">Отправить форму</button>
+              <button class="submit__button submit__button--disabled btn" type="sumbit">Отправить форму</button>
               <p class="submit__text-sub text-sub">
                 <span class="text-sub__star">*</span> — Обязательные поля
               </p>

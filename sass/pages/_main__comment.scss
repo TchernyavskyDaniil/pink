@@ -12,15 +12,28 @@
   display: none;
 }
 
+.comment__recall {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  justify-content: flex-end;
+}
+
 @media (min-width: 660px) {
   .comment__wrapper {
     width: 660px;
   }
 
+  .comment__recall {
+    justify-content: flex-start;
+    min-height: 262px;
+  }
+
   .comment__effect {
     display: block;
-    margin-bottom: 72px;
     min-height: 420px;
+    width: 640px;
+    margin: 0 auto;
   }
 
   .effect__items {
@@ -28,12 +41,13 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
-    padding-left: 320px;
+    padding-left: 315px;
     background-image: url("../../img/icon-editor-diagram-fill.svg"), url("../../img/icon-timer.svg");
     background-repeat: no-repeat;
     background-position: 23px 116px, 4px 60px;
     background-size: 206px 204px, 242px 277px;
-    min-height: 420px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 
     &::before {
       position: absolute;
@@ -51,6 +65,7 @@
     padding-right: 67px;
     width: 170px;
     margin-bottom: 15px;
+    margin-top: 0;
   }
 
   .effect__desc {
@@ -58,6 +73,8 @@
     font-weight: lighter;
     line-height: 24px;
     padding-right: 45px;
+    margin: 0;
+    margin-bottom: 14px;
   }
 
   .effect__text {
@@ -67,25 +84,8 @@
   }
 }
 
-@media (min-width: 960px) {
-  .main__comment {
-    padding-top: 0;
-    background: #f2f2f2;
-  }
-
-  .comment__effect {
-    margin-bottom: 0;
-  }
-
-  .effect__items {
-    margin-bottom: 73px;
-  }
-}
-
-.comment__recall {
-  .recall__list {
-    padding-left: 0;
-  }
+.recall__list {
+  padding-left: 0;
 }
 
 @media (min-width: 660px) {
@@ -98,14 +98,17 @@
     flex-direction: column-reverse;
   }
 
-  .item__title-tablet::after {
-    content: "25 лет, водитель трамвая";
-    display: block;
-    padding-top: 10px;
+  .item__title-prof {
+    padding: 0;
+    margin-bottom: 9px;
+    margin-top: 0;
+  }
+
+  .item__text-job {
+    margin-top: 0;
     font-size: 14px;
     line-height: 24px;
     text-align: center;
-    font-weight: 400;
   }
 }
 
@@ -143,4 +146,83 @@
 
 .effect__text:active {
   opacity: 0.3;
+}
+
+@media (min-width: 660px) {
+  .main__comment {
+    padding-top: 1px;
+    width: 660px;
+    margin: 0 auto;
+  }
+
+  .recall__list {
+    margin-top: 0;
+  }
+
+  .recall__slider {
+    padding-top: 8px;
+    justify-content: space-evenly;
+  }
+
+  .item__text-tablet {
+    line-height: 28px;
+    margin-bottom: 11px;
+  }
+}
+
+@media (min-width: 960px) {
+  .main__comment {
+    width: 100%;
+    padding-top: 0;
+    background: #f2f2f2;
+  }
+
+  .comment__effect {
+    margin-bottom: 0;
+    width: 960px;
+    min-height: 440px;
+  }
+
+  .effect__items {
+    width: 591px;
+    height: 211px;
+    margin-bottom: 73px;
+    background-position: 29px 98px, 11px 30px;
+    background-size: 253px 253px, 298px 345px;
+    padding-top: 122px;
+    justify-content: space-between;
+    padding-left: 376px;
+    margin-bottom: 0;
+  }
+
+  .effect__slogan {
+    width: 390px;
+  }
+
+  .effect__desc {
+    padding-right: 0;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
+
+  .comment__wrapper {
+    width: 960px;
+  }
+
+  .effect__items::before {
+    position: absolute;
+    content: "24";
+    font-size: 122px;
+    line-height: 150px;
+    color: #d22856;
+    left: 87px;
+    top: 146px;
+    font-weight: 700;
+  }
+
+  .effect__text {
+    font-size: 18px;
+    line-height: 34px;
+  }
 }

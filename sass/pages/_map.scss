@@ -1,6 +1,7 @@
 .footer__map {
   min-height: 210px;
   position: relative;
+  margin-top: 13px;
 }
 
 .map__api {
@@ -36,7 +37,6 @@
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background: url("../../img/bg-map-desktop@2x.jpg") no-repeat;
       background-size: 100%;
-      background-position: 49px -411px;
     }
   }
 }
