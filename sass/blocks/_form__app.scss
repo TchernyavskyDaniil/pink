@@ -82,3 +82,20 @@
   display: none;
 }
 
+@media (min-width: 960px) {
+  .form__app {
+    margin-right: 14px;
+    width: 449px;
+  }
+
+  .app__field {
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .field__list-app {
+    padding-left: 108px;
+    margin-top: 24px;
+  }
+}
+

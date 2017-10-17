@@ -123,3 +123,12 @@
   border: 2px solid #d22856;
   outline: none;
 }
+
+
+@media (min-width: 960px) {
+  .full-name__feedback {
+    margin-right: 33px;
+    margin-top: 14px;
+    padding-left: 0;
+  }
+}

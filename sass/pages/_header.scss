@@ -353,6 +353,10 @@ header {
     margin: 0 auto;
   }
 
+  .header__photo {
+    min-height: 285px;
+  }
+
   .wrapper__header-min {
     min-height: 390px;
   }
@@ -365,11 +369,13 @@ header {
 
   .info__title {
     padding: 0;
+    margin-top: 0;
   }
 
   .photo__info {
     width: 960px;
     margin: 0 auto;
+    padding-top: 0;
     min-height: 280px;
     display: flex;
     align-items: center;

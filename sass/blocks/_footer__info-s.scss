@@ -24,6 +24,10 @@
     justify-content: space-around;
     flex-direction: row;
   }
+
+  .info-s__social-links {
+    padding-left: 3px;
+  }
 }
 
 .info-s__link {
@@ -87,6 +91,8 @@
 @media (min-width: 660px) {
   .developer__link {
     padding-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 24px;
   }
 
   .footer__info-s {
@@ -95,6 +101,12 @@
 
   .main__footer-hide {
     display: flex;
+    padding-top: 28px;
+  }
+
+  .social-links__link {
+    width: 49px;
+    height: 49px;
   }
 }
 
@@ -117,5 +129,6 @@
 
   .main__footer-hide {
     display: flex;
+    padding-top: 16px;
   }
 }

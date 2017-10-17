@@ -50,5 +50,22 @@
 
   .form__submit {
     order: 6;
+    padding-top: 37px;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__full-name {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  .form__emoj {
+    margin-top: 40px;
+  }
+
+  .form__submit {
+    padding-top: 19px;
+    margin-left: 9px;
   }
 }
