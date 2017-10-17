@@ -4,9 +4,16 @@
   flex-direction: column;
 }
 
+.emoj__field {
+  padding-right: 25px;
+  padding-left: 17px;
+  padding-top: 14px;
+  min-width: 274px;
+}
+
 .field__textarea {
   border: 2px solid #e5e5e5;
-  min-height: 197px;
+  min-height: 183px;
   width: 100%;
   //padding-left: 21px;
   //padding-right: 21px;

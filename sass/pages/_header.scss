@@ -317,8 +317,13 @@ header {
   color: rgba(210, 40, 86, 0.3);
 }
 
+.header__photo {
+  min-height: 329px;
+}
+
 .photo__info {
   text-align: center;
+  padding-top: 37px;
 }
 
 .info__wrapper {
@@ -335,7 +340,6 @@ header {
 
 @media (min-width: 660px) {
   .info__title {
-    padding-top: 60px;
     font-size: 50px;
     line-height: 60px;
     padding-left: 60px;

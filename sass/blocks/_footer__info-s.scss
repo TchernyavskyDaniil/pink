@@ -26,6 +26,10 @@
   }
 }
 
+.info-s__link {
+  padding-top: 18px;
+}
+
 .info-s__link:hover {
   .info-s__svg {
     fill: #d22856;
@@ -73,6 +77,7 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
+  margin-bottom: 22px;
 
   .link__text {
     color: black;

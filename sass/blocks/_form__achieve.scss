@@ -17,12 +17,19 @@
   }
 }
 
+.achieve__field {
+  .field__list {
+    padding-top: 18px;
+  }
+}
+
 .field__text {
   color: #d22856;
   padding-left: 25px;
   padding-right: 25px;
   font-size: 14px;
-  line-height: 30px;
+  padding-top: 34px;
+  line-height: 21px;
   text-transform: uppercase;
   font-weight: lighter;
 }
@@ -34,7 +41,11 @@
   .item {
     display: flex;
     flex-direction: column-reverse;
-    padding-bottom: 20px;
+    padding-bottom: 52px;
+  }
+
+  .item:nth-child(6) {
+    padding-bottom: 21px;
   }
 }
 

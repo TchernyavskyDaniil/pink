@@ -21,12 +21,14 @@
 
   .form__submit {
     order: 6;
+    padding-top: 31px;
   }
 }
 
 @media (min-width: 660px) {
   .form__full-name {
     order: 1;
+    width: 660px;
   }
 
   .form__achieve {

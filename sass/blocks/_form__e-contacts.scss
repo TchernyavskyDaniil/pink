@@ -4,23 +4,33 @@
 
 .field__list-e {
   padding-left: 0;
-}
-
-.field__item-e {
-  margin-top: 20px;
+  padding-top: 11px;
 }
 
 .field__text-e {
   display: none;
 }
 
+.e-contacts__field {
+  padding-bottom: 12px;
+}
+
 @media (min-width: 660px) {
+  .item__label-e {
+    padding-top: 0;
+  }
+
   .field__item-e {
     flex-direction: column-reverse;
     width: 500px;
     margin: 0 auto;
     align-items: flex-start;
     position: relative;
+  }
+
+  .field__text {
+    padding-top: 9px;
+    padding-left: 19px;
   }
 
   .field__text-e {
@@ -76,4 +86,8 @@
   .field__item-e {
     width: 40%;
   }
+}
+
+.e-contacts__field {
+  padding-right: 0;
 }

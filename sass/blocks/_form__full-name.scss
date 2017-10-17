@@ -3,6 +3,14 @@
   border: 0;
 }
 
+.full-name__feedback {
+  padding-right: 0;
+}
+
+.form__full-name {
+  margin: 0 auto;
+}
+
 .form__text {
   font-size: 14px;
   line-height: 30px;
@@ -11,10 +19,18 @@
 }
 
 .full-name__wrapper {
-  min-height: 396px;
+  min-height: 376px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+}
+
+.full-name__s-name {
+  margin-top: 16px;
+}
+
+.full-name__a-name {
+  margin-top: 4px;
 }
 
 @media (min-width: 660px) {
@@ -22,6 +38,7 @@
     font-size: 18px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 56px;
 
     &::after {
       content: "Пожалуйста, заполните форму ниже:";
@@ -34,29 +51,40 @@
   flex-direction: column;
   min-width: 300px;
   min-height: 100px;
+}
 
-  .label__name {
-    font-size: 14px;
-    text-transform: uppercase;
-    line-height: 30px;
-    text-align: left;
-    padding-left: 15px;
-    padding-bottom: 5px;
-    color: #d22856;
-  }
+.label__name {
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 27px;
+  padding-bottom: 5px;
+  color: #d22856;
+}
 
+.a-name__label {
+  padding-left: 28px;
+  padding-bottom: 2px;
 }
 
 .input__name {
-  width: 276px;
+  width: 252px;
   height: 59px;
   font-size: 18px;
   line-height: 30px;
   border: 2px solid #e5e5e5;
-  padding-left: 15px;
+  padding-left: 25px;
+  margin-left: 4px;
+  margin-bottom: 13px;
 }
 
 @media (min-width: 660px) {
+  .label__name {
+    padding-left: 5px;
+    padding-top: 26px;
+  }
+
   .name {
     flex-direction: row;
     min-width: 300px;
@@ -65,8 +93,25 @@
   }
 
   .input__name {
-    width: 100%;
-    margin-left: 25px;
+    width: 77%;
+    margin-left: 20px;
+    margin-top: 27px;
+  }
+
+  .full-name__a-name {
+    margin-top: 11px;
+  }
+
+  .a-name__text {
+    width: 83%;
+  }
+
+  .m-name__label {
+    padding-top: 38px;
+  }
+
+  .m-name__text {
+    margin-top: 35px;
   }
 }
 
