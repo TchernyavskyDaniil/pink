@@ -38,14 +38,19 @@
   padding-right: 10px;
 }
 
-.item {
-  display: flex;
-  flex-direction: column-reverse;
-  padding-bottom: 52px;
+.desc__item {
+  flex-direction: column;
+  padding-bottom: 0;
 }
 
 .item:nth-child(6) {
   padding-bottom: 21px;
+}
+
+.field__item {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 52px;
 }
 
 @media (min-width: 660px) {
@@ -88,7 +93,6 @@
 
   .field__item {
     width: 260px;
-    padding-bottom: 0;
     align-items: center;
     padding-left: 26px;
     padding-top: 28px;
@@ -109,5 +113,4 @@
   .item:nth-child(6) {
     padding-bottom: 0;
   }
-
 }
