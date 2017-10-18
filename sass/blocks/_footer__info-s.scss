@@ -81,7 +81,7 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
-  margin-bottom: 22px;
+  margin-bottom: 25px;
 
   .link__text {
     color: black;
@@ -101,7 +101,7 @@
 
   .main__footer-hide {
     display: flex;
-    padding-top: 28px;
+    padding-top: 0;
   }
 
   .social-links__link {
@@ -130,5 +130,9 @@
   .main__footer-hide {
     display: flex;
     padding-top: 16px;
+  }
+  
+  .info-s {
+    padding-top: 67px;
   }
 }

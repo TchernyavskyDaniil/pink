@@ -18,8 +18,8 @@
   .content__text {
     font-size: 18px;
     line-height: 30px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 30px;
   }
 }
 
@@ -28,8 +28,8 @@
   flex-direction: column;
   border-top: 1px solid #dddfe0;
   padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 40px;
+  padding-bottom: 42px;
+  margin-top: 17px;
 }
 
 .options__scale {
@@ -50,11 +50,11 @@
 
 .scale__line {
   position: absolute;
-  min-width: 272px;
+  min-width: 240px;
   height: 2px;
   background: black;
   top: 80px;
-  right: -12px;
+  right: 6px;
 }
 
 .options__btn {
@@ -68,10 +68,12 @@
     padding: 10px 30px 10px 30px;
     font-size: 18px;
     line-height: 18px;
+    margin-top: 20px;
+    min-height: 54px;
   }
 
   &--cansel {
-    margin-top: 20px;
+    margin-top: 13px;
     color: #cec8c9;
     border: 3px solid #cec8c9;
     border-radius: 30px;
@@ -80,6 +82,7 @@
     font-size: 18px;
     line-height: 18px;
     opacity: 0.5;
+    min-height: 51px;
   }
 }
 
@@ -104,6 +107,7 @@
 .photos-load__filter {
   background-color: #f2f2f2;
   padding-top: 20px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,9 +116,15 @@
 .menu__icons {
   display: flex;
   flex-direction: row;
-  padding-top: 40px;
+  padding-top: 45px;
+  padding-left: 15px;
   justify-content: space-around;
   height: 100px;
+}
+
+.icons__content {
+  padding-left: 9px;
+  padding-top: 6px;
 }
 
 .background__img-mobile {
@@ -127,10 +137,10 @@
 
 @media (min-width: 660px) {
   .photos-load__filter {
-    padding-top: 50px;
+    padding-top: 55px;
     padding-bottom: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 16px;
+    padding-right: 32px;
   }
 
   .filter__wrapper {
@@ -139,7 +149,6 @@
 
   .filter__options {
     width: 300px;
-    padding-left: 40px;
   }
 
   .options__scale {
@@ -153,7 +162,7 @@
   .menu__icons {
     flex-direction: column;
     padding-top: 0;
-    height: 230px;
+    height: 210px;
   }
 
   .icons__crop,
@@ -161,23 +170,27 @@
   .icons__fill {
     position: relative;
     display: flex;
-    width: 320px;
+    width: 300px;
+    min-height: 36px;
     border-bottom: 1px solid #dddfe0;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 29px;
+    padding-top: 0;
   }
 
   .scale__line {
-    top: 18px;
-    min-width: 240px;
+    top: 8px;
+    min-width: 202px;
   }
 
   .scale__border {
-    top: 7px;
+    top: 3px;
+    width: 10px;
+    height: 10px;
   }
 
   .border-crop {
-    left: 200px;
+    left: 176px;
   }
 
   .line-crop,
@@ -185,8 +198,8 @@
     left: 30px;
   }
 
-  .border-content {
-    left: 125px;
+  .line-fill {
+    top: 10px;
   }
 
   .line-content,
@@ -194,15 +207,45 @@
     left: 45px;
   }
 
+  .border-fill {
+    left: 55px;
+    top: 4px;
+  }
+
   .option__wrapper {
     border-top: 0;
+    padding-bottom: 7px;
+    padding-left: 44px;
+  }
+
+  .border-content {
+    left: 126px;
+    top: 5px;
+  }
+
+  .line-content {
+    left: 30px;
+    top: 11px;
+  }
+
+  .options__btn--cansel {
+    margin-top: 27px;
+    width: 260px;
+  }
+
+  .options__btn--submit {
+    width: 260px;
   }
 }
 
 @media (min-width: 960px) {
   .main__photos-load {
-    width: 960px;
+    width: 945px;
     margin: 0 auto;
+  }
+
+  .photos-load__filter {
+    padding-top: 47px;
   }
 
   .filter__wrapper {
@@ -211,10 +254,12 @@
   }
 
   .option__wrapper {
-    width: 380px;
+    width: 408px;
     min-height: 50px;
     flex-direction: row;
+    justify-content: space-between;
     margin-top: 100px;
+    padding-left: 20px;
   }
 
   .options__btn {
@@ -222,7 +267,7 @@
   }
 
   .options__btn--cansel {
-    margin-top: 0;
+    margin-top: 18px;
   }
 
   .filter__options {
@@ -231,8 +276,54 @@
   }
 
   .filter__background {
-    width: 50%;
+    width: 40%;
+    padding-top: 5px;
     display: flex;
     justify-content: center;
+  }
+
+  .content__text {
+    padding-top: 0;
+    margin-top: 5px;
+  }
+
+  .background__img-mobile {
+    height: 400px;
+  }
+
+  .icons__crop,
+  .icons__content,
+  .icons__fill {
+    padding-left: 6px;
+  }
+
+  .scale__line {
+    left: 54px;
+    top: 23px;
+    min-width: 285px;
+  }
+
+  .border-content {
+    left: 212px;
+    top: 16px;
+  }
+
+  .border-fill {
+    left: 289px;
+    top: 17px;
+  }
+
+  .border-crop {
+    left: 112px;
+    top: 13px;
+  }
+
+  .line-fill {
+    left: 44px;
+  }
+
+  .line-crop {
+    top: 19px;
+    left: 44px;
   }
 }
