@@ -1,7 +1,7 @@
 .photos__text-w {
   width: 280px;
   margin: 0 auto;
-  padding-top: 1px;
+  padding-top: 4px;
   padding-bottom: 20px;
 }
 
@@ -86,7 +86,7 @@
 .top-day {
   font-size: 12px;
   line-height: 24px;
-  font-weight: lighter;
+  font-weight: bold;
   text-transform: uppercase;
   background-color: #d22856;
   color: #ffffff;
@@ -124,7 +124,7 @@
   font-weight: lighter;
   padding-left: 17px;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 17px;
 }
 
 .user-review__likes {
@@ -142,7 +142,7 @@
   background-color: #f2f2f2;
   width: 280px;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 15px;
   color: #283645;
 }
 
@@ -236,7 +236,7 @@
 
 .photos__item {
   min-height: 321px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .photos__item:nth-child(2),
@@ -250,7 +250,7 @@
 }
 
 .photos__tablet {
-  padding-top: 15px;
+  padding-top: 18px;
 }
 
 @media (min-width: 660px) {

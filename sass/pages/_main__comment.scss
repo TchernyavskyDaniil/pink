@@ -15,7 +15,7 @@
 .comment__recall {
   display: flex;
   flex-direction: column;
-  min-height: 300px;
+  min-height: 310px;
   justify-content: flex-end;
 }
 
@@ -31,7 +31,7 @@
 
   .comment__effect {
     display: block;
-    min-height: 420px;
+    min-height: 415px;
     width: 640px;
     margin: 0 auto;
   }
@@ -44,7 +44,7 @@
     padding-left: 315px;
     background-image: url("../../img/icon-editor-diagram-fill.svg"), url("../../img/icon-timer.svg");
     background-repeat: no-repeat;
-    background-position: 23px 116px, 4px 60px;
+    background-position: 28px 111px, 12px 55px;
     background-size: 206px 204px, 242px 277px;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -52,11 +52,12 @@
     &::before {
       position: absolute;
       content: "24";
-      font-size: 96px;
+      font-size: 97px;
+      font-weight: bold;
       line-height: 150px;
       color: #d22856;
-      left: 70px;
-      top: 133px;
+      left: 73px;
+      top: 131px;
     }
   }
 
@@ -72,7 +73,6 @@
     font-size: 14px;
     font-weight: lighter;
     line-height: 24px;
-    padding-right: 45px;
     margin: 0;
     margin-bottom: 14px;
   }

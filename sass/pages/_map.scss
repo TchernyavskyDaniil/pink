@@ -28,15 +28,25 @@
       background-size: 100%;
     }
   }
+
+  .footer__map {
+    margin-top: 9px;
+  }
 }
 
 @media (min-width: 960px) {
   .map__api {
     width: 100%;
+    min-height: 485px;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background: url("../../img/bg-map-desktop@2x.jpg") no-repeat;
       background-size: 100%;
     }
+  }
+
+  .footer__map {
+    margin-top: 15px;
+    min-height: 510px;
   }
 }

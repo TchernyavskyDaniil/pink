@@ -54,22 +54,20 @@
   }
 }
 
-.links__phone {
-  .phone__text {
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-top: 9px;
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 800;
-  }
+.phone__text {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 9px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+}
 
-  .phone__number {
-    margin-top: 0;
-    font-size: 24px;
-    line-height: 29px;
-    color: #d22856;
-  }
+.phone__number {
+  margin-top: 0;
+  font-size: 24px;
+  line-height: 29px;
+  color: #d22856;
 }
 
 .links__mail {
@@ -90,7 +88,12 @@
   .links__invite {
     margin: 0 auto;
     width: 300px;
-    padding-top: 15px;
+    padding-top: 11px;
+  }
+
+  .phone__number,
+  .mail__link {
+    padding-top: 5px;
   }
 }
 
@@ -135,13 +138,14 @@
     font-weight: 800;
     margin-bottom: 0;
   }
+}
 
-  .invite__address {
-    font-size: 24px;
-    line-height: 29px;
-    margin-top: 0;
-    color: #d22856;
-  }
+
+.invite__address {
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 0;
+  color: #d22856;
 }
 
 .main__footer-hide {
@@ -158,10 +162,6 @@
     justify-content: space-around;
   }
 
-  .main__footer {
-    width: 100%;
-  }
-
   .info-s__wrapper {
     width: 620px;
     margin: 0 auto;
@@ -176,22 +176,22 @@
     width: 100%;
   }
 
-  .footer__map {
-    min-height: 510px;
-  }
-
   .links__phone {
+    order: 1;
     padding-right: 0;
-    padding-top: 19px;
+    padding-top: 15px;
     padding-left: 16px;
   }
 
   .links__mail {
-    margin-top: 9px;
+    order: 3;
+    margin-top: 4px;
   }
 
   .links__invite {
-    padding-left: 0;
+    order: 2;
+    margin-left: 17px;
+    text-align: right;
   }
 
   .invite__text {
@@ -209,14 +209,24 @@
     justify-content: space-between;
   }
 
-  .invite__address {
-    width: 300px;
-  }
-
   .phone__number,
   .mail__link,
   .invite__address {
-    padding-top: 30px;
+    padding-top: 23px;
+  }
+
+  .invite__address {
+    width: 300px;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 0;
+    text-align: center;
+    padding-left: 49px;
+    color: #d22856;
+  }
+
+  .mail__link {
+    font-weight: 300;
   }
 }
 
