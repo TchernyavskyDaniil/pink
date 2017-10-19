@@ -40,11 +40,11 @@
 
 .inner__toggle-off  {
   .toggle__svg--open {
-    display: block;
+    display: none;
   }
 
   .toggle__svg--close {
-    display: none;
+    display: block;
   }
 }
 
