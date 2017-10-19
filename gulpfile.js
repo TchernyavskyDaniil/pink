@@ -17,11 +17,12 @@ var run = require("run-sequence");
 var del = require("del");
 var uglify = require('gulp-uglify');
 var pump = require('pump');
+var htmlmin = require('gulp-htmlmin');
 
 //config build
 
 gulp.task("build", function (done) {
-  run("clean", "sprite", "spriteSymbol", "style", "compress", "images", "webp", "html", "copy", done);
+  run("clean", "sprite", "spriteSymbol", "style", "compress", "images", "webp", "html", "minify", "copy", done);
 });
 
 //end config build
@@ -39,6 +40,16 @@ gulp.task("compress", function (cb) {
 });
 
 //end config min js
+
+//config min html
+
+gulp.task('minify', function() {
+  return gulp.src('*.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('build'));
+});
+
+//end config min html
 
 //sprite config
 
