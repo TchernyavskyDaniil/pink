@@ -11,6 +11,7 @@
     "gulp": "3.9.x",
     "gulp-browserify": "^0.5.1",
     "gulp-csso": "^3.0.0",
+    "gulp-htmlmin": "^3.0.0",
     "gulp-imagemin": "^3.4.0",
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "7.0.x",

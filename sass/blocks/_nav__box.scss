@@ -38,6 +38,16 @@
   display: none;
 }
 
+.inner__toggle-off  {
+  .toggle__svg--open {
+    display: block;
+  }
+
+  .toggle__svg--close {
+    display: none;
+  }
+}
+
 .toggle__box-w--closed {
   .toggle__svg--open {
     display: none;
