@@ -207,12 +207,17 @@
     min-height: 89px;
   }
 
+  .info-section__user-review {
+    min-height: 134px;
+  }
+
   .user-review__text-table {
     margin-bottom: 0;
   }
 
   .photos__wrapper {
-    margin-top: 12px;
+    margin-top: 19px;
+    padding-top: 15px;
   }
 }
 
@@ -263,6 +268,10 @@
     justify-content: space-between;
   }
 
+  .photos__item {
+    margin-bottom: 24px;
+  }
+
   .photo__img {
     display: none;
   }
@@ -273,7 +282,7 @@
 
   .user-review__likes:nth-of-type(1),
   .user-review__likes:nth-of-type(3){
-    padding-top: 7px;
+    padding-top: 3px;
   }
 
   .user-review__likes {
@@ -294,6 +303,7 @@
 
   .likes__text {
     padding-left: 22px;
+    font-size: 13px;
     margin-bottom: 0;
   }
 }
@@ -346,6 +356,11 @@
 
   .photos__list {
     margin-bottom: 0;
+  }
+
+  .user-review__likes-main {
+    margin-top: 12px;
+    padding-right: 15px;
   }
 }
 

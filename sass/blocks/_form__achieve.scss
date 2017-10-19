@@ -12,7 +12,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
-    margin-top: 8px;
+    margin-top: 12px;
     padding-top: 0;
     min-height: 540px;
   }
@@ -27,10 +27,13 @@
   padding-left: 25px;
   padding-right: 25px;
   font-size: 14px;
-  padding-top: 34px;
-  line-height: 21px;
+  padding-top: 37px;
+  line-height: 20px;
   text-transform: uppercase;
-  font-weight: lighter;
+}
+
+.field__text-app {
+  line-height: 19px;
 }
 
 .field__list {
@@ -68,17 +71,18 @@
   font-size: 18px;
   line-height: 30px;
   text-align: left;
-  font-weight: lighter;
   user-select: none;
 }
 
 @media (min-width: 960px) {
   .achieve__field {
-    min-height: 246px;
+    min-height: 235px;
     padding-bottom: 0;
-    width: 908px;
+    padding-left: 0;
+    padding-right: 0;
     margin: 0 auto;
-    margin-top: 6px;
+    margin-top: 14px;
+    width: 934px;
   }
 
   .field__list {
@@ -94,16 +98,32 @@
   .field__item {
     width: 260px;
     align-items: center;
-    padding-left: 26px;
+    padding-left: 34px;
     padding-top: 28px;
   }
 
+  .field__item:nth-child(1) {
+    padding-left: 50px;
+  }
+
+  .field__item:nth-child(3) {
+    width: 220px;
+    padding-right: 35px;
+    align-items: flex-start;
+  }
+
   .field__item:nth-child(4) {
-    padding-left: 18px;
+    padding-left: 26px;
+  }
+
+  .field__item:nth-child(5) {
+    padding-left: 42px;
   }
 
   .field__item:nth-child(6) {
     margin-right: 10px;
+    width: 245px;
+    align-items: flex-start;
   }
 
   .item {

@@ -77,6 +77,9 @@
         <p class="form__text form__text-main">
           Поделитесь своей историей и&nbsp;получите шанс выиграть ценный приз&nbsp;&mdash; 1000 миль на&nbsp;вашу бонусную карту!
         </p>
+        <p class="form__text form__text-sub">
+          Пожалуйста, заполните форму ниже:
+        </p>
         <section class="main__feedback feedback">
           <form class="feedback__form form" action="/echo" method="post">
             <div class="wrapper__forms">
@@ -93,7 +96,7 @@
                       <label class="a-name__label label__name" for="a-name">
                         Имя:
                       </label>
-                      <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя*" required="">
+                      <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя  *" required="">
                     </div>
                     <div class="full-name__m-name m-name name">
                       <label class="m-name__label label__name" for="m-name">
@@ -140,13 +143,13 @@
                     <label class="s-name__label label__name" for="s-name">
                       Фамилия:
                     </label>
-                    <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию*" required="">
+                    <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию  *" required="">
                   </div>
                   <div class="full-name__a-name a-name name">
                     <label class="a-name__label label__name" for="a-name">
                       Имя:
                     </label>
-                    <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя*" required="">
+                    <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя  *" required="">
                   </div>
                   <div class="full-name__m-name m-name name">
                     <label class="m-name__label label__name" for="m-name">
@@ -159,7 +162,7 @@
             </div>
             <div class="form__app form__display app">
               <fieldset class="app__field field">
-                <legend class="field__text">
+                <legend class="field__text field__text-app">
                   С каким приложением путешествовали?
                 </legend>
                 <ul class="field__list-app list-app list">
@@ -192,39 +195,27 @@
                 <ul class="field__list list">
                   <li class="field__item field__item--active item">
                     <input class="item__checkbox" type="checkbox" name="shark" id="shark" checked="">
-                    <label class="item__label" for="shark">
-                      Сделал селфи с акулой
-                    </label>
-                  </li>
-                  <li class="field__item field__item--active item">
-                    <input class="item__checkbox" type="checkbox" name="beach" id="beach" checked="">
-                    <label class="item__label" for="beach">
-                      Обгорел на пляже
-                    </label>
+                    <label class="item__label" for="shark">Сделал селфи с акулой</label>
                   </li>
                   <li class="field__item item">
                     <input class="item__checkbox" type="checkbox" name="Chack" id="Chack">
-                    <label class="item__label" for="Chack">
-                      Видел Часа Норриса
-                    </label>
-                  </li>
-                  <li class="field__item item">
-                    <input class="item__checkbox" type="checkbox" name="Suv" id="Suv">
-                    <label class="item__label" for="Suv">
-                      Накупил сувениров
-                    </label>
+                    <label class="item__label" for="Chack">Видел Часа Норриса</label>
                   </li>
                   <li class="field__item list__item--active item">
                     <input class="item__checkbox" type="checkbox" name="tower" id="tower" checked="">
-                    <label class="item__label" for="tower">
-                      Удержал башню
-                    </label>
+                    <label class="item__label" for="tower">Удержал башню</label>
+                  </li>
+                  <li class="field__item field__item--active item">
+                    <input class="item__checkbox" type="checkbox" name="beach" id="beach" checked="">
+                    <label class="item__label" for="beach">Обгорел на пляже</label>
+                  </li>
+                  <li class="field__item item">
+                    <input class="item__checkbox" type="checkbox" name="Suv" id="Suv">
+                    <label class="item__label" for="Suv">Накупил сувениров</label>
                   </li>
                   <li class="field__item item">
                     <input class="item__checkbox" type="checkbox" name="hotel" id="hotel">
-                    <label class="item__label" for="hotel">
-                      Разгромил отель
-                    </label>
+                    <label class="item__label" for="hotel">Разгромил отель</label>
                   </li>
                 </ul>
               </fieldset>
@@ -325,7 +316,7 @@
           </div>
         </section>
       </main>
-      <footer class="main__footer-hide footer__info-s info-s">
+      <footer class="main__footer-hide footer__info-s footer__form info-s">
         <div class="info-s__wrapper">
           <a class="info-s__link link" href="index.html" alt="Переход на главную страницу">
             <svg class="info-s__svg svg" width="146.3px" height="40.375px">

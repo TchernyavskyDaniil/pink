@@ -347,17 +347,26 @@ header {
     padding-left: 60px;
     padding-right: 60px;
   }
+
+  .header__photo {
+    min-height: 330px;
+  }
+
+  .photo__info {
+    text-align: center;
+    padding-top: 34px;
+  }
 }
 
 @media (min-width: 960px) {
   .info__wrapper {
     width: 920px;
     margin: 0 auto;
-    padding-top: 64px;
+    padding-top: 57px;
   }
 
   .header__photo {
-    min-height: 285px;
+    min-height: 280px;
   }
 
   .wrapper__header-min {

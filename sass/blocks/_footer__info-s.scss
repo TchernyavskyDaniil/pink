@@ -94,7 +94,12 @@
   .developer__link {
     padding-bottom: 0;
     padding-bottom: 0;
-    margin-top: 24px;
+    margin-top: 27px;
+  }
+
+  .link__text {
+    padding-left: 21px;
+    font-size: 14px;
   }
 
   .footer__info-s {
@@ -104,6 +109,10 @@
   .main__footer-hide {
     display: flex;
     padding-top: 0;
+  }
+
+  .footer__form {
+    padding-top: 46px;
   }
 
   .social-links__link {
@@ -136,5 +145,13 @@
 
   .info-s {
     padding-top: 12px;
+  }
+
+  .footer__info-photo {
+    padding-top: 71px;
+  }
+
+  .footer__form {
+    padding-top: 17px;
   }
 }

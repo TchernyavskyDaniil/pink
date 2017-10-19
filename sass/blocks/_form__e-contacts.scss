@@ -18,7 +18,7 @@
 @media (min-width: 660px) {
   .item__label-e {
     padding-top: 0;
-    padding-left: 15px;
+    padding-left: 19px;
   }
 
   .field__item-e {
@@ -27,12 +27,13 @@
     margin: 0 auto;
     padding-right: 11px;
     margin-right: 51px;
+    padding-top: 2px;
     align-items: flex-start;
     position: relative;
   }
 
   .field__text {
-    padding-top: 9px;
+    padding-top: 3px;
     padding-left: 19px;
   }
 
@@ -46,7 +47,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
-    margin-top: 46px;
+    margin-top: 55px;
     padding-bottom: 3px;
   }
 
@@ -54,6 +55,7 @@
     width: 100%;
     box-sizing: border-box;
     margin-left: 0;
+    margin-top: 26px;
   }
 
   .field__item-e:nth-child(1)::after {
@@ -107,12 +109,27 @@
   .e-contacts__field {
     width: 923px;
     padding-top: 0;
-    margin-top: 0;
+    margin-top: 9px;
     margin-left: 11px;
   }
 
   .field__item-e:nth-child(1) {
     margin-left: 47px;
+  }
+
+  .field__item-e:nth-child(1)::after {
+    top: 30px;
+    right: 7px;
+  }
+
+  .field__item-e:nth-child(2)::after {
+    top: 30px;
+    right: 6px;
+  }
+
+  .field__text {
+    padding-top: 0;
+    padding-left: 25px;
   }
 }
 

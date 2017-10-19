@@ -3,7 +3,7 @@
 }
 
 .app__field {
-  min-height: 327px;
+  min-height: 325px;
 }
 
 @media (min-width: 660px) {
@@ -11,7 +11,8 @@
     border: 2px solid #e5e5e5;
     margin-left: 20px;
     margin-right: 20px;
-    min-height: 300px;
+    min-height: 290px;
+    margin-top: 6px;
   }
 }
 
@@ -21,12 +22,13 @@
   align-items: baseline;
   min-height: 220px;
   justify-content: space-around;
+  margin-top: 10px;
 }
 
 @media (min-width: 660px) {
   .field__list-app {
     padding-left: 79px;
-    padding-top: 4px;
+    padding-top: 10px;
   }
 }
 
@@ -38,7 +40,6 @@
 .item__label-app {
   font-size: 18px;
   line-height: 30px;
-  font-weight: lighter;
   position: relative;
   padding-left: 18px;
 
@@ -82,6 +83,12 @@
   display: none;
 }
 
+@media (min-width: 660px) {
+  .item__label-app {
+    padding-left: 10px;
+  }
+}
+
 @media (min-width: 960px) {
   .form__app {
     margin-right: 14px;
@@ -94,8 +101,8 @@
   }
 
   .field__list-app {
-    padding-left: 108px;
-    margin-top: 24px;
+    padding-left: 97px;
+    margin-top: 11px;
   }
 }
 
