@@ -4,6 +4,11 @@
 
 .app__field {
   min-height: 325px;
+  text-align: left;
+}
+
+.field__item-app {
+  width: 200px;
 }
 
 @media (min-width: 660px) {
@@ -13,6 +18,7 @@
     margin-right: 20px;
     min-height: 290px;
     margin-top: 6px;
+    text-align: left;
   }
 }
 
@@ -77,6 +83,14 @@
   .item__label-app {
     padding-left: 10px;
   }
+
+  .field__item-app {
+    width: 200px;
+  }
+
+  .field__item-app {
+    width: 200px;
+  }
 }
 
 @media (min-width: 960px) {
@@ -88,11 +102,16 @@
   .app__field {
     margin-right: 0;
     padding-right: 0;
+    text-align: left;
   }
 
   .field__list-app {
     padding-left: 97px;
     margin-top: 11px;
+  }
+
+  .field__item-app {
+    width: 200px;
   }
 }
 
