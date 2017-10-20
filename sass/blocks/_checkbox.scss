@@ -23,18 +23,6 @@
   }
 }
 
-.item__checkbox:checked + .item__label::before {
-  background: url("../../img/sprite/sprite.svg") #ffffff;
-  background-position: -955px 589px;
-  content: '';
-  position: absolute;
-  top: -4px;
-  left: 0;
-  width: 35px;
-  height: 35px;
-  border: 2px solid #e5e5e5;
-}
-
 .item__checkbox:not(checked) + .item__label:before {
   background: #ffffff;
   content: '';
@@ -55,4 +43,17 @@
 .item__checkbox + .item__label:active::before,
 .input__radio-app + .item__label-app:active::before {
   border: 2px solid #d22856;
+}
+
+.item__checkbox + .item__label:active .item__label-svg,
+.item__checkbox:checked + .item__label .item__label-svg {
+  position: absolute;
+  display: block;
+  top: 4px;
+  left: 5px;
+  fill: #d22856;
+}
+
+.item__label-svg {
+  display: none;
 }

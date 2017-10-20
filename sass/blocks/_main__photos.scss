@@ -13,6 +13,11 @@
   font-weight: lighter;
 }
 
+.text__number {
+  max-width: 80px;
+  overflow: hidden;
+}
+
 @media (min-width: 660px) {
   .photos__text-w {
     width: 450px;
@@ -233,6 +238,8 @@
   padding-left: 22px;
   margin-bottom: 12px;
   color: #d22856;
+  overflow: hidden;
+  max-width: 120px;
 }
 
 .title__minutes {
