@@ -275,12 +275,13 @@
     left: 64px;
     top: -283px;
     border: 1px solid black;
+    background-size: 294px auto;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       width: 220px;
       height: 300px;
-      left: 24px;
-      top: -298px;
+      left: 20px;
+      top: -301px;
       border: none;
       background: url("../../img/iphone-screen-3-desktop@2x.png") no-repeat center;
       background-size: 294px auto;

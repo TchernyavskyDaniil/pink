@@ -3,12 +3,24 @@
   margin: 0 auto;
 }
 
+.filter__wrapper {
+  width: 280px;
+}
+
 .content__text {
   font-size: 14px;
   line-height: 30px;
   margin-top: 17px;
   text-align: center;
   font-weight: lighter;
+}
+
+.scale__line {
+  cursor: pointer;
+}
+
+.scale__border {
+  cursor: pointer;
 }
 
 @media (min-width: 660px) {
@@ -19,7 +31,7 @@
   .content__text {
     font-size: 18px;
     line-height: 30px;
-    padding-top: 23px;
+    padding-top: 28px;
     padding-bottom: 30px;
   }
 }
@@ -146,6 +158,7 @@
 
   .filter__wrapper {
     display: flex;
+    width: 600px;
   }
 
   .filter__options {
@@ -171,7 +184,7 @@
   .icons__fill {
     position: relative;
     display: flex;
-    width: 279px;
+    width: 94%;
     min-height: 36px;
     border-bottom: 1px solid #dddfe0;
     padding-bottom: 10px;
@@ -254,7 +267,7 @@
   }
 
   .filter__wrapper {
-    width: 100%;
+    width: 900px;
     justify-content: space-evenly;
   }
 

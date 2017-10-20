@@ -150,10 +150,12 @@
 
 .likes__svg {
   fill: #d22856;
+  cursor: pointer;
 }
 
 .crop__svg {
   fill: #d22856;
+  cursor: pointer;
 }
 
 .crop__svg:focus {
@@ -163,6 +165,7 @@
 .fill__svg {
   fill: grey;
   opacity: 0.3;
+  cursor: pointer;
 }
 
 .content__svg {
