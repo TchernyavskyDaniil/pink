@@ -26,6 +26,12 @@
 }
 
 @media (min-width: 660px) {
+  .field__text-emoj {
+    padding-left: 7px;
+    padding-right: 10px;
+    padding-top: 0;
+  }
+
   .emoj__field {
     border: 2px solid #e5e5e5;
     margin-left: 20px;
@@ -68,5 +74,10 @@
     min-height: 195px;
     margin-left: 9px;
     margin-right: 8px;
+  }
+
+  .field__text-emoj {
+    padding-left: 34px;
+    padding-right: 34px;
   }
 }

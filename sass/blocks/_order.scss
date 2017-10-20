@@ -50,7 +50,7 @@
 
   .form__submit {
     order: 6;
-    padding-top: 25px;
+    padding-top: 27px;
   }
 }
 
@@ -62,11 +62,17 @@
 
   .form__emoj {
     margin-top: 44px;
+    width: 960px;
   }
 
   .form__submit {
+    width: 960px;
     padding-top: 17px;
     margin-left: 9px;
     margin-right: 0;
+  }
+
+  .form__achieve {
+    width: 960px;
   }
 }

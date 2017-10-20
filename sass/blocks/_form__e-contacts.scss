@@ -68,7 +68,7 @@
     height: 59px;
     position: absolute;
     content: "";
-    top: 27px;
+    top: 28px;
     right: 8px;
     background-image: url("../../img/sprite/sprite.svg");
     background-position: -1007px 601px;
@@ -107,18 +107,19 @@
   .field__item-e {
     width: 40%;
     padding-left: 0;
-    margin-top: 4px;
+    margin-top: 6px;
   }
 
   .e-contacts__field {
-    width: 923px;
+    width: 925px;
     padding-top: 0;
     margin-top: 9px;
     margin-left: 11px;
+    margin-right: 0;
   }
 
   .field__item-e:nth-child(1) {
-    margin-left: 47px;
+    margin-left: 43px;
   }
 
   .field__item-e:nth-child(1)::after {

@@ -20,6 +20,7 @@
 
 .field__list {
   padding-top: 18px;
+
 }
 
 .field__text {
@@ -61,8 +62,8 @@
     min-height: 480px;
     display: flex;
     flex-direction: column;
-    margin-left: 35px;
-    margin-top: 24px;
+    margin-left: 38px;
+    margin-top: 29px;
     margin-bottom: 7px;
   }
 }
@@ -103,27 +104,40 @@
   }
 
   .field__item:nth-child(1) {
-    padding-left: 50px;
+    padding-left: 54px;
+    order: 1;
+  }
+
+  .field__item:nth-child(2) {
+    order: 4;
   }
 
   .field__item:nth-child(3) {
-    width: 220px;
-    padding-right: 35px;
+    width: 270px;
+    padding-left: 30px;
+    padding-right: 0;
     align-items: flex-start;
+    order: 2;
   }
 
   .field__item:nth-child(4) {
-    padding-left: 26px;
+    padding-left: 21px;
+    order: 5;
+    align-items: flex-end;
   }
 
   .field__item:nth-child(5) {
-    padding-left: 42px;
+    padding-left: 0;
+    order: 3;
+    width: 253px;
+    align-items: flex-start;
   }
 
   .field__item:nth-child(6) {
     margin-right: 10px;
     width: 245px;
     align-items: flex-start;
+    order: 6;
   }
 
   .item {

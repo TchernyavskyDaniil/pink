@@ -54,16 +54,6 @@
     top: -6px;
     left: -50px;
   }
-  //&:after {
-  //  border-radius: 50%;
-  //  background-color: #d22856;
-  //  content: "";
-  //  width: 20px;
-  //  height: 20px;
-  //  position: absolute;
-  //  left: -40.5px;
-  //  top: 3px;
-  //}
 }
 
 .input__radio-app + .item__label-app:active::after,
@@ -72,11 +62,11 @@
   border-radius: 50%;
   background-color: #d22856;
   content: "";
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   position: absolute;
-  left: -40.5px;
-  top: 3px;
+  left: -38.5px;
+  top: 6px;
 }
 
 .input__radio-app + .item__label-app::after {
@@ -91,8 +81,8 @@
 
 @media (min-width: 960px) {
   .form__app {
-    margin-right: 14px;
-    width: 449px;
+    margin-right: 8px;
+    width: 455px;
   }
 
   .app__field {

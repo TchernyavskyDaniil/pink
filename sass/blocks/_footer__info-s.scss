@@ -29,7 +29,8 @@
   }
 
   .info-s__social-links {
-    padding-left: 3px;
+    padding-left: 22px;
+    padding-top: 0px;
   }
 }
 
@@ -97,7 +98,6 @@
 @media (min-width: 660px) {
   .developer__link {
     padding-bottom: 0;
-    padding-bottom: 0;
     margin-top: 27px;
   }
 
@@ -116,7 +116,7 @@
   }
 
   .footer__form {
-    padding-top: 46px;
+    padding-top: 34px;
   }
 
   .social-links__link {
@@ -156,7 +156,7 @@
   }
 
   .footer__form {
-    padding-top: 17px;
+    padding-top: 24px;
   }
 
   .link__text {
@@ -167,7 +167,7 @@
 
   .info-s__social-links {
     height: 82px;
-    justify-content: flex-start;
+    justify-content: center;
     padding-left: 31px;
   }
 
