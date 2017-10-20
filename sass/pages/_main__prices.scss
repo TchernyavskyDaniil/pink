@@ -1,6 +1,6 @@
 .main__prices {
   background: url("../../img/bg-triangle-white.svg") top #f2f2f2 no-repeat;
-  padding-top: 94px;
+  padding-top: 91px;
   background-size: 102% auto;
   min-height: 377px;
 
@@ -27,13 +27,13 @@
 @media (min-width: 660px) {
   .main__prices {
     padding-top: 29px;
-    min-height: 353px;
+    min-height: 349px;
   }
 }
 
 @media (min-width: 960px) {
   .main__prices {
-    min-height: 526px;
+    min-height: 522px;
     padding-top: 0;
   }
 }
@@ -85,7 +85,7 @@
   .table__list {
     width: 155px;
     justify-content: flex-end;
-    padding-bottom: 70px;
+    padding-bottom: 13px;
     transform: translateX(0px);
   }
 
@@ -96,9 +96,9 @@
   .item__desc-table {
     font-size: 14px;
     line-height: 30px;
-    font-weight: lighter;
     min-width: 154px;
-    padding: 7px 15px;
+    padding-left: 15px;
+    margin-top: 9px;
   }
 
   .prices__wrapper {
@@ -113,7 +113,7 @@
   }
 
   .prices__wrapper {
-    padding-top: 152px;
+    padding-top: 145px;
     margin: 0 auto;
     width: 960px;
   }
@@ -180,11 +180,12 @@
   .item__cost {
     font-weight: lighter;
     font-size: 18px;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
   }
 
   .item__price {
     font-size: 16px;
+    margin-top: 9px;
   }
 
   .table__item {
@@ -219,7 +220,7 @@
 
 @media (min-width: 960px) {
   .table__item:nth-child(1) {
-    width: 236px;
+    width: 234px;
     min-height: 96px;
   }
 
@@ -240,6 +241,17 @@
   .item__desc-table {
     font-size: 18px;
     line-height: 30px;
+    padding-left: 27px;
+    padding-top: 4px;
+  }
+
+  .table__list-wrapper {
+    width: 703px;
+  }
+
+  .table__item:nth-child(1)::before {
+    top: 17px;
+    left: 12px;
   }
 }
 

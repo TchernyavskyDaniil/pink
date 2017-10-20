@@ -58,6 +58,7 @@
   .slogan__about {
     width: 769px;
     padding-top: 28px;
+    padding-left: 3px;
   }
 
   .about__title-sub {
@@ -75,7 +76,7 @@
   background: url("../../img/bg-triangle-white.svg") top #f2f2f2 no-repeat;
   background-size: 100% auto;
   padding-top: 65px;
-  margin-top: 33px;
+  margin-top: 29px;
 }
 
 @media (min-width: 660px) {
@@ -95,7 +96,7 @@
 
 @media (min-width: 960px) {
   .about__features {
-    margin-top: 81px;
+    margin-top: 86px;
     flex-direction: row;
     align-items: flex-end;
   }
@@ -157,12 +158,12 @@
     height: 528px;
     left: 18px;
     top: 0;
-    background-position-y: 6px;
+    background-position-y: 2px;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background: url("../../img/iphone-screen-3-tablet@2x.png") no-repeat;
       background-size: 270px auto;
-      background-position-y: 6px;
+      background-position-y: 2px;
     }
   }
 
@@ -205,10 +206,12 @@
 
   .desc__item:nth-child(1) {
     padding-top: 61px;
+    padding-left: 16px;
   }
 
   .desc__item:nth-child(2) {
     margin-right: 30px;
+    margin-top: 33px;
   }
 
   .desc__item::before {
@@ -301,8 +304,8 @@
     font-size: 18px;
     line-height: 30px;
     text-align: center;
-    padding-right: 29px;
-    padding-left: 0;
-    padding-top: 15px;
+    padding-right: 37px;
+    padding-left: 15px;
+    padding-top: 13px;
   }
 }

@@ -11,7 +11,7 @@ header {
 }
 
 .header__wrapper-main {
-  padding-top: 393px;
+  padding-top: 395px;
 }
 
 @media (min-width: 660px) {
@@ -55,7 +55,7 @@ header {
   }
 
   .header__wrapper-main {
-    min-height: 740px;
+    min-height: 738px;
     background: none;
   }
 }
@@ -181,6 +181,7 @@ header {
     font-weight: lighter;
     font-size: 18px;
     line-height: 24px;
+    padding-right: 8px;
   }
 }
 
@@ -188,22 +189,22 @@ header {
   .wrapper-main__links {
     margin: 0 auto;
     width: 920px;
-    min-height: 740px;
+    min-height: 738px;
     background: url("../../img/iphone-hand-desktop@1x.png") no-repeat bottom;
-    background-position-x: 11px;
+    background-position-x: 18px;
     padding-left: 0;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background: url("../../img/iphone-hand-desktop@2x.png") no-repeat bottom;
       background-size: 1050px 645px;
-      background-position-x: 11px;
+      background-position-x: 18px;
     }
   }
 
   .links__info {
-    margin-bottom: 74px;
+    margin-bottom: 78px;
     margin-top: 0;
-    padding-right: 8px;
+    padding-right: 3px;
   }
 }
 
@@ -212,7 +213,7 @@ header {
   flex-direction: column;
   align-items: center;
   min-height: 260px;
-  padding-top: 21px;
+  padding-top: 27px;
   box-sizing: border-box;
   justify-content: space-around;
 
@@ -479,9 +480,9 @@ header {
   }
 
   .links__btn {
-    margin-top: 8px;
+    margin-top: 6px;
     padding: 9px 2px 15px 2px;
-    min-width: 289px;
+    min-width: 291px;
     min-height: 24px;
     font-size: 21px;
     text-align: center;
@@ -489,5 +490,6 @@ header {
 
   .links__market {
     padding-bottom: 8px;
+    padding-left: 9px;
   }
 }

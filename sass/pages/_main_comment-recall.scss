@@ -3,6 +3,45 @@
   display: none;
 }
 
+.item__title-prof {
+  order: 1;
+  margin-top: 0;
+}
+
+.item__text-review {
+  margin-top: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 29px;
+}
+
+.recall__item {
+  justify-content: flex-end;
+  min-height: 256px;
+}
+
+@media (min-width: 660px) {
+  .item__title-prof {
+    order: 0;
+  }
+
+  .main__comment-recall {
+    min-height: 267px;
+  }
+
+  .recall__list {
+    display: flex;
+    min-height: 184px;
+    margin-top: 0;
+    flex-direction: column-reverse;
+  }
+
+  .recall__item {
+    min-height: 184px;
+    justify-content: flex-start;
+  }
+}
+
 @media (min-width: 960px) {
   .main__comment-recall {
     display: flex;
@@ -32,10 +71,13 @@
     line-height: 30px;
     padding-right: 96px;
     padding-left: 96px;
+    margin-bottom: 16px;
   }
 
   .item__title-tablet {
-    padding-top: 23px;
+    padding-top: 19px;
+    margin-bottom: 5px;
+    padding-left: 4px;
     font-size: 24px;
     line-height: 30px;
   }
@@ -48,8 +90,8 @@
   }
 
   .recall__left {
-    top: 216px;
-    left: -9px;
+    top: 214px;
+    left: -5px;
     background-color: transparent;
     border: none;
     width: 60px;
@@ -58,11 +100,12 @@
   }
 
   .recall__right {
-    top: 215px;
-    right: 0;
+    top: 213px;
+    right: 4px;
+    padding-right: 0;
     background-color: transparent;
     border: none;
-    width: 40px;
+    width: 30px;
     height: 40px;
     cursor: pointer;
   }
@@ -72,14 +115,17 @@
   .item__text-job {
     display: block;
     font-size: 18px;
+    padding-left: 38px;
   }
 
   .recall__list {
-    padding-top: 19px;
+    padding-top: 33px;
+    min-height: 234px;
   }
 
   .comment__recall {
     justify-content: flex-end;
+    min-height: 264px;
   }
 }
 
@@ -101,3 +147,4 @@
     display: block;
   }
 }
+

@@ -3,7 +3,7 @@
 //}
 
 .field__list-e {
-  padding-left: 0;
+  padding-left: 6px;
   padding-top: 11px;
 }
 
@@ -13,6 +13,10 @@
 
 .e-contacts__field {
   padding-bottom: 12px;
+}
+
+.item__label-e {
+  padding-left: 22px;
 }
 
 @media (min-width: 660px) {

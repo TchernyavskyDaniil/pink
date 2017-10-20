@@ -123,12 +123,18 @@
   }
 
   .item__svg--yes {
-    margin-right: 103px;
+    margin-right: 100px;
+    padding-top: 2px;
   }
 
   .item__svg--no {
-    margin-right: 87px;
-    margin-bottom: 6px;
+    margin-right: 85px;
+    margin-bottom: 4px;
+  }
+
+  .item__svg-main {
+    height: 74px;
+    width: 74px;
   }
 
   .footer__svg-desktop {
@@ -136,7 +142,7 @@
     height: 110px;
     position: absolute;
     left: 50%;
-    top: -6px;
+    top: -15px;
     transform: translateX(-50%);
     z-index: 1;
   }
@@ -162,6 +168,10 @@
 
 .link__svg {
   fill: #d22856;
+}
+
+.developer__link-svg {
+  padding-right: 18px;
 }
 
 @media (min-width: 660px) {

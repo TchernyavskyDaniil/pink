@@ -82,13 +82,13 @@
   .links__phone {
     display: inline-flex;
     flex-direction: column;
-    padding-right: 50px;
+    padding-left: 20px;
   }
 
   .links__invite {
     margin: 0 auto;
     width: 300px;
-    padding-top: 11px;
+    padding-top: 9px;
   }
 
   .phone__number,
@@ -127,19 +127,20 @@
   .links__mail {
     display: inline-flex;
     flex-direction: column;
-    padding-left: 50px;
+    padding-left: 90px;
+  }
+
+  .mail__link {
+    font-size: 23px;
   }
 }
 
-.links__invite {
-  .invite__text {
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 800;
-    margin-bottom: 0;
-  }
+.invite__text {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  margin-bottom: 0;
 }
-
 
 .invite__address {
   font-size: 24px;
@@ -168,6 +169,10 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .invite__text {
+    margin-bottom: 3px;
+  }
 }
 
 
@@ -179,13 +184,13 @@
   .links__phone {
     order: 1;
     padding-right: 0;
-    padding-top: 15px;
-    padding-left: 16px;
+    padding-top: 11px;
+    padding-left: 19px;
   }
 
   .links__mail {
     order: 3;
-    margin-top: 4px;
+    margin-top: 2px;
   }
 
   .links__invite {
