@@ -121,10 +121,10 @@
 .user-review__text {
   font-size: 14px;
   line-height: 24px;
-  font-weight: lighter;
+  font-weight: 400;
   padding-left: 17px;
   margin-top: 0;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
 }
 
 .user-review__likes {
@@ -181,7 +181,7 @@
   }
 
   .info-section__user-review {
-    min-height: 131px;
+    min-height: 133px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -190,6 +190,11 @@
   }
 
   .user-review__title {
+    padding-top: 9px;
+    padding-left: 28px;
+  }
+
+  .user-review__title-main {
     padding-top: 5px;
     padding-left: 28px;
   }
@@ -213,6 +218,7 @@
 
   .user-review__text-table {
     margin-bottom: 0;
+    padding-left: 26px;
   }
 
   .photos__wrapper {
@@ -222,9 +228,10 @@
 }
 
 .likes__text {
-  font-size: 12px;
+  font-size: 13px;
   margin-top: 0;
-  padding-left: 25px;
+  padding-left: 22px;
+  margin-bottom: 12px;
   color: #d22856;
 }
 
@@ -241,7 +248,7 @@
 
 .photos__item {
   min-height: 321px;
-  margin-bottom: 16px;
+  margin-bottom: 19px;
 }
 
 .photos__item:nth-child(2),
@@ -269,7 +276,7 @@
   }
 
   .photos__item {
-    margin-bottom: 24px;
+    margin-bottom: 22px;
   }
 
   .photo__img {
@@ -280,16 +287,11 @@
     display: block;
   }
 
-  .user-review__likes:nth-of-type(1),
-  .user-review__likes:nth-of-type(3){
-    padding-top: 3px;
-  }
-
   .user-review__likes {
     justify-content: space-between;
     flex-direction: row;
     min-width: 140px;
-    padding-top: 29px;
+    padding-top: 0;
     padding-left: 6px;
     padding-bottom: 0;
     padding-right: 31px;
@@ -322,6 +324,15 @@
 }
 
 @media (min-width: 960px) {
+  .top-day {
+    margin-right: 5px;
+  }
+
+  .user-review__title-main {
+    padding-left: 26px;
+    padding-top: 7px;
+  }
+
   .title-main__img-tablet {
     display: none;
   }
@@ -352,6 +363,7 @@
 
   .photos__item {
     padding-bottom: 32px;
+    width: 300px;
   }
 
   .photos__list {
@@ -359,7 +371,7 @@
   }
 
   .user-review__likes-main {
-    margin-top: 12px;
+    margin-top: 4px;
     padding-right: 15px;
   }
 }
