@@ -203,7 +203,7 @@ header {
 
   .links__info {
     margin-bottom: 78px;
-    margin-top: 0;
+    margin-top: 46px;
     padding-right: 3px;
   }
 }
@@ -294,14 +294,20 @@ header {
 @media (min-width: 960px) {
   .links__title {
     font-size: 50px;
-    margin-top: 60px;
+    margin-top: 61px;
     line-height: 60px;
+    width: 300px;
   }
 
   .links__wrapper {
     min-height: 715px;
     width: 300px;
     padding-top: 22px;
+    justify-content: center;
+  }
+
+  .links__info {
+    width: 300px;
   }
 }
 
@@ -480,7 +486,7 @@ header {
   }
 
   .links__btn {
-    margin-top: 6px;
+    margin-top: 50px;
     padding: 9px 2px 15px 2px;
     min-width: 291px;
     min-height: 24px;
@@ -491,5 +497,6 @@ header {
   .links__market {
     padding-bottom: 8px;
     padding-left: 9px;
+    margin-top: 43px;
   }
 }

@@ -87,10 +87,6 @@
   .field__item-app {
     width: 200px;
   }
-
-  .field__item-app {
-    width: 200px;
-  }
 }
 
 @media (min-width: 960px) {
@@ -107,11 +103,25 @@
 
   .field__list-app {
     padding-left: 97px;
+    padding-right: 124px;
     margin-top: 11px;
+    justify-content: flex-start;
   }
 
   .field__item-app {
     width: 200px;
+  }
+
+  .field__item-app:nth-child(1) {
+    margin-top: 23px;
+  }
+
+  .field__item-app:nth-child(2) {
+    margin-top: 43px;
+  }
+
+  .field__item-app:nth-child(3) {
+    margin-top: 47px;
   }
 }
 

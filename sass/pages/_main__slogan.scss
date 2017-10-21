@@ -207,11 +207,17 @@
   .desc__item:nth-child(1) {
     padding-top: 61px;
     padding-left: 16px;
+    width: 325px;
   }
 
   .desc__item:nth-child(2) {
     margin-right: 30px;
     margin-top: 33px;
+    width: 300px;
+  }
+
+  .desc__item:nth-child(3) {
+    width: 286px;
   }
 
   .desc__item::before {

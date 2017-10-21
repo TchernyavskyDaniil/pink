@@ -104,7 +104,7 @@
   .title-main__top-day {
     right: 20px;
     top: 54px;
-    left: unset;
+    left: 85%;
   }
 
   .top-day {
@@ -363,6 +363,7 @@
     right: 5px;
     min-height: 30px;
     padding-bottom: 0;
+    max-width: 140px;
   }
 
   .photos__tablet {
