@@ -1,17 +1,3 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="41" viewBox="0 0 22 41"  id="left-arrow.svg">
-  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""/>
-   </rdf:RDF>
-</x:xmpmeta>                         
-<?xpacket end="w"?></metadata>
-<defs>
-    <style>
-      .cls-1 {
-        opacity: 0.3;
-      }
-    </style>
-  </defs>
-  <image id="left-arrow.svg" class="cls-1" width="22" height="41" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAApBAMAAADDtsRwAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAHlBMVEUoNkX///8oNkUoNkUoNkUoNkUoNkUoNkUoNkUAAABC67eKAAAACXRSTlMAAAU/TQ5IMB1WBWznAAAAAWJLR0QJ8dml7AAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+EKBBARIdeIfU8AAACNSURBVBjTbZHBDYAgDEV7IXLFxAFcgbiBJjABEzAABwfwwOAC0uY3kdPLCynlf6J53HqQcDqFt+yF07kzmuwdaAeaOQXHbHIRroGY7VWEm2bumrnryUNPrpGY7fUI35GYl08PnnrwGPLj8T7OUfPxXbUP7qn2x3+p/2IOKh/MTeWJOav8sRfVF/bY+n0BoQMjFvBftt0AAAAASUVORK5CYII="/>
+<path d="M2.045,20.859L21.458,1.446c0.331-0.331,0.331-0.867,0-1.198c-0.33-0.331-0.867-0.331-1.197,0L0.248,20.261 c-0.331,0.33-0.331,0.867,0,1.197l20.013,20.013c0.164,0.165,0.382,0.248,0.599,0.248s0.434-0.083,0.599-0.248 c0.331-0.331,0.331-0.867,0-1.198L2.045,20.859z"></path>
 </svg>
