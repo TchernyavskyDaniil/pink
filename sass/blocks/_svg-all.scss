@@ -105,6 +105,22 @@
   display: none;
 }
 
+.recall__left,
+.recall__right {
+  fill: #b5b9be;
+  opacity: 0.7;
+}
+
+.recall__left:hover,
+.recall__right:hover {
+  opacity: 1;
+}
+
+.recall__right:active,
+.recall__left:active {
+  opacity: 0.5;
+}
+
 @media (min-width: 660px) {
   .footer__svg {
     display: block;

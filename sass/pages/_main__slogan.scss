@@ -220,7 +220,8 @@
     width: 300px;
     height: 300px;
     position: absolute;
-    top: -325px;
+    top: -301px;
+    left: -15px;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       display: none;
@@ -228,8 +229,13 @@
   }
 
   .desc__item:nth-child(1)::before {
-    left: 20px;
-    top: -293px;
+    left: 12px;
+    top: -268px;
+  }
+
+  .desc__item:nth-child(2)::before {
+    left: -7px;
+    top: -300px;
   }
 
   .desc__item:nth-child(1)::after {
@@ -248,12 +254,13 @@
   .desc__item:nth-child(2)::after {
     content: "";
     background: url("../../img/Iphone-screen-red.png") no-repeat center;
-    width: 164px;
-    height: 256px;
+    width: 165px;
+    height: 258px;
     position: absolute;
-    top: -282px;
-    left: 64px;
+    top: -258px;
+    left: 57px;
     border: 1px solid black;
+    background-size: auto;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       width: 300px;
@@ -269,13 +276,14 @@
   .desc__item:nth-child(3)::after {
     content: "";
     background: url("../../img/Iphone-screen-smile.png") no-repeat center;
-    width: 164px;
-    height: 256px;
+    width: 165px;
+    height: 257px;
     position: absolute;
-    left: 64px;
-    top: -283px;
+    left: 49px;
+    top: -259px;
     border: 1px solid black;
-    background-size: 294px auto;
+    background-size: 179px 300px;
+
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       width: 220px;
