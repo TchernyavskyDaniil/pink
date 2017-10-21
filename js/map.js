@@ -12,7 +12,7 @@ function init(){
     balloonContent: 'Это наш офис'
   }, {
     iconLayout: "default#image",
-    iconImageHref: "../../img/map-marker.svg",
+    iconImageHref: "../../img/icon-map-marker.svg",
     iconImageSize: [36, 36],
     iconImageOffset: [0, 0]
   });
