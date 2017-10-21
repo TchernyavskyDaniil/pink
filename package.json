@@ -9,7 +9,9 @@
     "browser-sync": "2.18.x",
     "del": "^3.0.0",
     "gulp": "3.9.x",
+    "gulp-browserify": "^0.5.1",
     "gulp-csso": "^3.0.0",
+    "gulp-htmlmin": "^3.0.0",
     "gulp-imagemin": "^3.4.0",
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "7.0.x",
@@ -20,11 +22,13 @@
     "gulp-svg-sprites": "^4.1.2",
     "gulp-uglify": "^3.0.0",
     "gulp-webp": "^2.3.0",
+    "picturefill": "^3.0.2",
     "posthtml-include": "^1.1.0",
     "pump": "^1.0.2",
     "run-sequence": "^2.2.0",
-    "stylelint": "8.1.x",
-    "stylelint-config-htmlacademy": "0.1.x"
+    "stylelint": "^8.1.1",
+    "stylelint-config-htmlacademy": "0.1.x",
+    "svg4everybody": "^2.1.9"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",

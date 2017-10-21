@@ -11,7 +11,15 @@ header {
 }
 
 .header__wrapper-main {
-  padding-top: 396px;
+  padding-top: 395px;
+}
+
+.wrapper__header {
+  background-color: #181f26;
+}
+
+.inner__logo {
+  font-size: 0;
 }
 
 @media (min-width: 660px) {
@@ -55,7 +63,7 @@ header {
   }
 
   .header__wrapper-main {
-    min-height: 736px;
+    min-height: 738px;
     background: none;
   }
 }
@@ -143,6 +151,10 @@ header {
   }
 }
 
+.inner__toggle:focus {
+  border: 1px solid #e59700;
+}
+
 @media (min-width: 660px) {
   .inner__toggle {
     padding-top: 20px;
@@ -181,6 +193,7 @@ header {
     font-weight: lighter;
     font-size: 18px;
     line-height: 24px;
+    padding-right: 8px;
   }
 }
 
@@ -188,22 +201,22 @@ header {
   .wrapper-main__links {
     margin: 0 auto;
     width: 920px;
-    min-height: 736px;
+    min-height: 738px;
     background: url("../../img/iphone-hand-desktop@1x.png") no-repeat bottom;
-    background-position-x: 11px;
+    background-position-x: 18px;
     padding-left: 0;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background: url("../../img/iphone-hand-desktop@2x.png") no-repeat bottom;
       background-size: 1050px 645px;
-      background-position-x: 11px;
+      background-position-x: 18px;
     }
   }
 
   .links__info {
-    margin-bottom: 76px;
-    margin-top: 0;
-    padding-right: 8px;
+    margin-bottom: 78px;
+    margin-top: 46px;
+    padding-right: 3px;
   }
 }
 
@@ -212,7 +225,7 @@ header {
   flex-direction: column;
   align-items: center;
   min-height: 260px;
-  padding-top: 23px;
+  padding-top: 27px;
   box-sizing: border-box;
   justify-content: space-around;
 
@@ -220,9 +233,9 @@ header {
   &::before {
     position: absolute;
     content: "";
-    width: 100%;
-    height: 100%;
-    top: -271px;
+    width: 258px;
+    height: 286px;
+    top: -285px;
     left: 40%;
     transform: translateX(-50%);
     background: url("../../img/iphone-hand-mobile@1x-min.png") no-repeat center;
@@ -259,6 +272,7 @@ header {
     justify-content: space-around;
     min-height: 536px;
     min-width: 310px;
+    padding-top: 25px;
   }
 
   .links__wrapper::before {
@@ -292,12 +306,19 @@ header {
 @media (min-width: 960px) {
   .links__title {
     font-size: 50px;
-    margin-top: 60px;
-    line-height: 58px;
+    margin-top: 61px;
+    line-height: 60px;
+    width: 300px;
   }
 
   .links__wrapper {
     min-height: 715px;
+    width: 300px;
+    padding-top: 22px;
+    justify-content: center;
+  }
+
+  .links__info {
     width: 300px;
   }
 }
@@ -317,8 +338,13 @@ header {
   color: rgba(210, 40, 86, 0.3);
 }
 
+.header__photo {
+  min-height: 171px;
+}
+
 .photo__info {
   text-align: center;
+  padding-top: 17px;
 }
 
 .info__wrapper {
@@ -335,11 +361,19 @@ header {
 
 @media (min-width: 660px) {
   .info__title {
-    padding-top: 60px;
     font-size: 50px;
     line-height: 60px;
     padding-left: 60px;
     padding-right: 60px;
+  }
+
+  .header__photo {
+    min-height: 330px;
+  }
+
+  .photo__info {
+    text-align: center;
+    padding-top: 34px;
   }
 }
 
@@ -347,6 +381,11 @@ header {
   .info__wrapper {
     width: 920px;
     margin: 0 auto;
+    padding-top: 57px;
+  }
+
+  .header__photo {
+    min-height: 280px;
   }
 
   .wrapper__header-min {
@@ -361,14 +400,16 @@ header {
 
   .info__title {
     padding: 0;
+    margin-top: 0;
   }
 
   .photo__info {
     width: 960px;
     margin: 0 auto;
+    padding-top: 0;
     min-height: 280px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
 }
 
@@ -457,10 +498,17 @@ header {
   }
 
   .links__btn {
-    margin-top: 4px;
+    margin-top: 50px;
+    padding: 9px 2px 15px 2px;
+    min-width: 291px;
+    min-height: 24px;
+    font-size: 21px;
+    text-align: center;
   }
 
   .links__market {
     padding-bottom: 8px;
+    padding-left: 9px;
+    margin-top: 43px;
   }
 }

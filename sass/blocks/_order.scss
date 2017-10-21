@@ -21,12 +21,14 @@
 
   .form__submit {
     order: 6;
+    padding-top: 31px;
   }
 }
 
 @media (min-width: 660px) {
   .form__full-name {
     order: 1;
+    width: 660px;
   }
 
   .form__achieve {
@@ -48,5 +50,29 @@
 
   .form__submit {
     order: 6;
+    padding-top: 27px;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__full-name {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  .form__emoj {
+    margin-top: 44px;
+    width: 960px;
+  }
+
+  .form__submit {
+    width: 960px;
+    padding-top: 17px;
+    margin-left: 9px;
+    margin-right: 0;
+  }
+
+  .form__achieve {
+    width: 960px;
   }
 }

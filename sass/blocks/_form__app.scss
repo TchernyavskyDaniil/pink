@@ -3,7 +3,12 @@
 }
 
 .app__field {
-  min-height: 337px;
+  min-height: 325px;
+  text-align: left;
+}
+
+.field__item-app {
+  width: 200px;
 }
 
 @media (min-width: 660px) {
@@ -11,7 +16,9 @@
     border: 2px solid #e5e5e5;
     margin-left: 20px;
     margin-right: 20px;
-    min-height: 300px;
+    min-height: 290px;
+    margin-top: 6px;
+    text-align: left;
   }
 }
 
@@ -21,6 +28,14 @@
   align-items: baseline;
   min-height: 220px;
   justify-content: space-around;
+  margin-top: 10px;
+}
+
+@media (min-width: 660px) {
+  .field__list-app {
+    padding-left: 79px;
+    padding-top: 10px;
+  }
 }
 
 .input__radio-app {
@@ -31,8 +46,8 @@
 .item__label-app {
   font-size: 18px;
   line-height: 30px;
-  font-weight: lighter;
   position: relative;
+  padding-left: 18px;
 
   &::before {
     background-color: #ffffff;
@@ -45,16 +60,6 @@
     top: -6px;
     left: -50px;
   }
-  //&:after {
-  //  border-radius: 50%;
-  //  background-color: #d22856;
-  //  content: "";
-  //  width: 20px;
-  //  height: 20px;
-  //  position: absolute;
-  //  left: -40.5px;
-  //  top: 3px;
-  //}
 }
 
 .input__radio-app + .item__label-app:active::after,
@@ -63,14 +68,60 @@
   border-radius: 50%;
   background-color: #d22856;
   content: "";
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   position: absolute;
-  left: -40.5px;
-  top: 3px;
+  left: -38.5px;
+  top: 6px;
 }
 
 .input__radio-app + .item__label-app::after {
   display: none;
+}
+
+@media (min-width: 660px) {
+  .item__label-app {
+    padding-left: 10px;
+  }
+
+  .field__item-app {
+    width: 200px;
+  }
+}
+
+@media (min-width: 960px) {
+  .form__app {
+    margin-right: 8px;
+    width: 455px;
+  }
+
+  .app__field {
+    margin-right: 0;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .field__list-app {
+    padding-left: 97px;
+    padding-right: 124px;
+    margin-top: 11px;
+    justify-content: flex-start;
+  }
+
+  .field__item-app {
+    width: 200px;
+  }
+
+  .field__item-app:nth-child(1) {
+    margin-top: 23px;
+  }
+
+  .field__item-app:nth-child(2) {
+    margin-top: 43px;
+  }
+
+  .field__item-app:nth-child(3) {
+    margin-top: 47px;
+  }
 }
 

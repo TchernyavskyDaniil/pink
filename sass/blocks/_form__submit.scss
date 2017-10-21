@@ -37,9 +37,26 @@
   }
 }
 
+.text-sub__hidden {
+  display: none;
+}
+
+@media (min-width: 660px) {
+  .submit__button {
+    min-width: 300px;
+  }
+}
+
 @media (min-width: 960px) {
-  .form__submit {
-    margin-right: 0;
-    margin-left: 0;
+  .text-sub__hidden {
+    display: inline-block;
+  }
+
+  .submit__button {
+    margin-left: 2px;
+  }
+
+  .submit__text-sub {
+    margin-right: 9px;
   }
 }

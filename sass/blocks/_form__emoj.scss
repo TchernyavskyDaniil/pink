@@ -4,31 +4,50 @@
   flex-direction: column;
 }
 
+.emoj__field {
+  padding-right: 31px;
+  padding-left: 13px;
+  padding-top: 12px;
+  margin-left: 8px;
+  margin-bottom: 0;
+  margin-right: 10px;
+  min-width: 205px;
+}
+
 .field__textarea {
   border: 2px solid #e5e5e5;
-  min-height: 197px;
+  min-height: 181px;
   width: 100%;
-  //padding-left: 21px;
-  //padding-right: 21px;
-  padding-top: 15px;
+  padding-top: 17px;
+  padding-left: 16px;
+  font-size: 19px;
   border-radius: 2px;
-  //padding: 17px 20px 0px 20px;
+  line-height: 29px;
 }
 
 @media (min-width: 660px) {
+  .field__text-emoj {
+    padding-left: 7px;
+    padding-right: 10px;
+    padding-top: 0;
+  }
+
   .emoj__field {
     border: 2px solid #e5e5e5;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 17px;
+    padding-top: 16px;
+    min-height: 273px;
   }
 
   .field__textarea {
-    width: 500px;
-    min-height: 200px;
-    margin-top: 20px;
+    width: 478px;
+    min-height: 170px;
+    margin-top: 17px;
     margin-bottom: 20px;
+    margin-left: 13px;
   }
 
   .form__submit-emoj {
@@ -42,6 +61,24 @@
 
 @media (min-width: 960px) {
   .field__textarea {
-    width: 820px;
+    min-height: 105px;
+    width: 796px;
+    margin-left: 20px;
+  }
+
+  .field__textarea {
+    min-height: 105px;
+  }
+
+  .emoj__field {
+    min-height: 195px;
+    margin-left: 11px;
+    margin-right: 8px;
+    margin-top: 15px;
+  }
+
+  .field__text-emoj {
+    padding-left: 34px;
+    padding-right: 34px;
   }
 }

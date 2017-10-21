@@ -16,6 +16,7 @@
   background-color: #283645;
   border-bottom: 1px solid black;
   border-top: 1px solid #485461;
+  min-height: 62px;
 }
 
 .box-w__item-main {
@@ -36,6 +37,16 @@
 
 .nav__box-w--closed {
   display: none;
+}
+
+.inner__toggle-off  {
+  .toggle__svg--open {
+    display: none;
+  }
+
+  .toggle__svg--close {
+    display: none;
+  }
 }
 
 .toggle__box-w--closed {
@@ -78,14 +89,17 @@
   }
 
   .box-w__item {
+    padding-top: 8px;
     background: transparent;
     border: none;
+    min-height: 49px;
   }
 
   .box-w__link {
     color: white;
     font-size: 18px;
     line-height: 18px;
+    padding-top: 9px;
     padding-bottom: 20px;
     text-transform: none;
     font-weight: 400;
@@ -98,7 +112,6 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: end;
-    padding-bottom: 10px;
   }
 
   .nav__box-w--closed {

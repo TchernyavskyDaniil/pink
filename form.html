@@ -14,7 +14,8 @@
         <nav class="header__nav nav">
           <div class="nav__inner inner">
             <div class="nav__inner-wrapper">
-              <a class="inner__logo logo" href="index.html">
+              <a class="inner__logo logo" href="index.html" tabindex="1">
+                Пинк
                 <svg class="logo__svg svg" width="74.426px" height="22.859px">
                   <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-pink-white-mobile"></use>
                 </svg>
@@ -25,7 +26,7 @@
                   <use xlink:href="../../img/sprite/sprite-symbols.svg#logotype-white-desktop"></use>
                 </svg>
               </a>
-              <button class="inner__toggle toggle">
+              <button class="inner__toggle toggle" tabindex="1">
                 <svg class="toggle__svg toggle__svg--open svg" width="49.945px" height="24.007px">
                   <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-menu-burger"></use>
                 </svg>
@@ -34,27 +35,27 @@
                 </svg>
               </button>
             </div>
-            <div class="nav__box-w nav__box-w--closed box-w">
+            <div class="nav__box-w box-w">
               <ul class="box-w__list">
                 <li class="box-w__item box-w__item-main">
                 </li>
                 <li class="box-w__item">
-                  <a class="box-w__link" href="index.html">
+                  <a class="box-w__link" href="index.html" tabindex="1">
                     Главная
                   </a>
                 </li>
                 <li class="box-w__item">
-                  <a class="box-w__link" href="photo.html">
+                  <a class="box-w__link" href="photo.html" tabindex="1">
                     Фотографии
                   </a>
                 </li>
                 <li class="box-w__item">
-                  <a class="box-w__link box-w__link--active" href="form.html">
+                  <a class="box-w__link box-w__link--active" href="form.html" tabindex="1">
                     Конкурс
                   </a>
                 </li>
                 <li class="box-w__item">
-                  <a class="box-w__link" href="https://htmlacademy.ru/">
+                  <a class="box-w__link" href="https://htmlacademy.ru/" tabindex="1">
                     HTML Academy
                   </a>
                 </li>
@@ -63,19 +64,19 @@
           </div>
         </nav>
         <div class="header__photo photo">
-          <!-- background IMG -->
           <section class="photo__info info">
             <div class="info__wrapper">
               <h1 class="info__title">
-                Кокурс на самое безбашенное путешествие с Пинк
+                Конкурс на самое безбашенное путешествие с Пинк
               </h1>
             </div>
           </section>
         </div>
       </header>
       <main class="wrapper__main wrapper__main-form main">
-        <p class="form__text">
+        <p class="form__text form__text-main">
           Поделитесь своей историей и&nbsp;получите шанс выиграть ценный приз&nbsp;&mdash; 1000 миль на&nbsp;вашу бонусную карту!
+          <span class="form__text form__text-sub">Пожалуйста, заполните форму ниже:</span>
         </p>
         <section class="main__feedback feedback">
           <form class="feedback__form form" action="/echo" method="post">
@@ -87,145 +88,103 @@
                       <label class="s-name__label label__name" for="s-name">
                         Фамилия:
                       </label>
-                      <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию*" required="">
+                      <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию  *" required="">
                     </div>
                     <div class="full-name__a-name a-name name">
                       <label class="a-name__label label__name" for="a-name">
                         Имя:
                       </label>
-                      <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя*" required="">
+                      <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя  *" required="">
                     </div>
                     <div class="full-name__m-name m-name name">
                       <label class="m-name__label label__name" for="m-name">
-                        Отчеств:
+                        Отчество:
                       </label>
                       <input class="m-name__text input__name" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже" required="">
                     </div>
                   </div>
                 </fieldset>
-
               </div>
               <div class="form__app app">
-              <fieldset class="app__field field">
-                <legend class="field__text">
-                  С каким приложением путешествовали?
-                </legend>
-                <ul class="field__list-app list-app list">
-                  <li class="field__item-app item">
-                    <input class="input__radio-app" type="radio" name="travel" id="ios" value="ios" checked="">
-                    <label class="item__label-app" for="ios">
-                      Pink для iOS
-                    </label>
-                  </li>
-                  <li class="field__item-app item-app item">
-                    <input class="input__radio-app" type="radio" name="travel" id="android" value="android">
-                    <label class="item__label-app" for="android">
-                      Pink на Android
-                    </label>
-                  </li>
-                  <li class="field__item-app item-app item">
-                    <input class="input__radio-app" type="radio" name="travel" id="wphone" value="wphone">
-                    <label class="item__label-app" for="wphone">
-                      Windows Phone
-                    </label>
-                  </li>
-                </ul>
-              </fieldset>
-            </div>
-            </div>
-            <div class="form__full-name form__display full-name">
-              <fieldset class="full-name__feedback feedback">
-                <div class="full-name__wrapper">
-                  <div class="full-name__s-name s-name name">
-                    <label class="s-name__label label__name" for="s-name">
-                      Фамилия:
-                    </label>
-                    <input class="s-name__text input__name" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию*" required="">
-                  </div>
-                  <div class="full-name__a-name a-name name">
-                    <label class="a-name__label label__name" for="a-name">
-                      Имя:
-                    </label>
-                    <input class="a-name__text input__name" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя*" required="">
-                  </div>
-                  <div class="full-name__m-name m-name name">
-                    <label class="m-name__label label__name" for="m-name">
-                      Отчеств:
-                    </label>
-                    <input class="m-name__text input__name" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже" required="">
-                  </div>
-                </div>
-              </fieldset>
-
-            </div>
-            <div class="form__app form__display app">
-              <fieldset class="app__field field">
-                <legend class="field__text">
-                  С каким приложением путешествовали?
-                </legend>
-                <ul class="field__list-app list-app list">
-                  <li class="field__item-app item">
-                    <input class="input__radio-app" type="radio" name="travel" id="ios" value="ios" checked="">
-                    <label class="item__label-app" for="ios">
-                      Pink для iOS
-                    </label>
-                  </li>
-                  <li class="field__item-app item-app item">
-                    <input class="input__radio-app" type="radio" name="travel" id="android" value="android">
-                    <label class="item__label-app" for="android">
-                      Pink на Android
-                    </label>
-                  </li>
-                  <li class="field__item-app item-app item">
-                    <input class="input__radio-app" type="radio" name="travel" id="wphone" value="wphone">
-                    <label class="item__label-app" for="wphone">
-                      Windows Phone
-                    </label>
-                  </li>
-                </ul>
-              </fieldset>
-            </div>
+                <fieldset class="app__field field">
+                  <legend class="field__text field__text-app" align="center">
+                    С каким приложением путешествовали?
+                  </legend>
+                  <ul class="field__list-app list-app list">
+                    <li class="field__item-app item">
+                      <input class="input__radio-app" type="radio" name="travel" id="ios" value="ios" checked="">
+                      <label class="item__label-app" for="ios">
+                        Pink для iOS
+                      </label>
+                    </li>
+                    <li class="field__item-app item-app item">
+                      <input class="input__radio-app" type="radio" name="travel" id="android" value="android">
+                      <label class="item__label-app" for="android">
+                        Pink на Android
+                      </label>
+                    </li>
+                    <li class="field__item-app item-app item">
+                      <input class="input__radio-app" type="radio" name="travel" id="wphone" value="wphone">
+                      <label class="item__label-app" for="wphone">
+                        Windows Phone
+                      </label>
+                    </li>
+                  </ul>
+                </fieldset>
+              </div>
             <div class="form__achieve achieve">
               <fieldset class="achieve__field field">
-                <legend class="field__text">
+                <legend class="field__text field__text-travel" align="center">
                   Ваши безбашенные достижения в путешествии
                 </legend>
                 <ul class="field__list list">
                   <li class="field__item field__item--active item">
                     <input class="item__checkbox" type="checkbox" name="shark" id="shark" checked="">
                     <label class="item__label" for="shark">
-                      Сделал селфи с акулой
-                    </label>
+                      <svg class="item__label-svg svg" width="31px" height="21px">
+                        <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
+                      </svg>
+                      Сделал селфи с акулой</label>
                   </li>
                   <li class="field__item field__item--active item">
                     <input class="item__checkbox" type="checkbox" name="beach" id="beach" checked="">
                     <label class="item__label" for="beach">
-                      Обгорел на пляже
-                    </label>
+                      <svg class="item__label-svg svg" width="31px" height="21px">
+                        <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
+                      </svg>
+                      Обгорел на пляже</label>
                   </li>
                   <li class="field__item item">
                     <input class="item__checkbox" type="checkbox" name="Chack" id="Chack">
                     <label class="item__label" for="Chack">
-                      Видел Часа Норриса
-                    </label>
+                      <svg class="item__label-svg svg" width="31px" height="21px">
+                        <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
+                      </svg>
+                      Видел Чака Норриса</label>
                   </li>
                   <li class="field__item item">
                     <input class="item__checkbox" type="checkbox" name="Suv" id="Suv">
                     <label class="item__label" for="Suv">
-                      Накупил сувениров
-                    </label>
+                      <svg class="item__label-svg svg" width="31px" height="21px">
+                        <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
+                      </svg>
+                      Накупил сувениров</label>
                   </li>
                   <li class="field__item list__item--active item">
                     <input class="item__checkbox" type="checkbox" name="tower" id="tower" checked="">
                     <label class="item__label" for="tower">
-                      Удержал башню
-                    </label>
+                      <svg class="item__label-svg svg" width="31px" height="21px">
+                        <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
+                      </svg>
+                      Удержал башню</label>
                   </li>
                   <li class="field__item item">
                     <input class="item__checkbox" type="checkbox" name="hotel" id="hotel">
                     <label class="item__label" for="hotel">
-                      Разгромил отель
-                    </label>
+                      <svg class="item__label-svg svg" width="31px" height="21px">
+                        <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
+                      </svg>
+                      Разгромил отель</label>
                   </li>
                 </ul>
               </fieldset>
@@ -236,20 +195,20 @@
                 <p class="pop-up__text">
                   Проверьте поля, выделенные красным, скорее всего вы&nbsp;забыли их&nbsp;заполнить
                 </p>
-                <button class="pop-up__btn btn" type="button">OK</button>
+                <button class="pop-up__btn btn">OK</button>
               </div>
             </div>
             <div class="form__e-contacts e-contacts">
               <fieldset class="e-contacts__field field">
-                <legend class="field__text field__text-e">
+                <legend class="field__text field__text-e" align="center">
                   Контактная информация
                 </legend>
-                <ul class="fie  ld__list-e list">
+                <ul class="field__list-e list">
                   <li class="field__item-e item name">
                     <label class="item__label-e label__name" for="number">
                       Номер телефона
                     </label>
-                    <input class="item__text-e input__name" name="number" id="number" placeholder="Номер, пожалуйста" required="">
+                    <input class="item__text-e input__name" type="tel" name="number" id="number" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Номер, пожалуйста" required="">
                   </li>
                   <li class="field__item-e item name">
                     <label class="item__label-e label__name" for="e-mail">
@@ -277,45 +236,46 @@
             </div>
             <div class="form__emoj emoj">
               <fieldset class="emoj__field field">
-                <legend class="field__text">
+                <legend class="field__text field__text-emoj" align="center">
                   Опишите свои эмоции
                 </legend>
                 <textarea class="field__textarea" name="emoj" id="emoj" placeholder="Можно прям в красках, не стесняясь в выражениях" required=""></textarea>
               </fieldset>
             </div>
             <div class="form__submit form__submit-emoj submit">
-              <button class="submit__button submit__button--disabled btn" type="sumbit">Отправить форму</button>
+              <button class="submit__button submit__button--disabled btn">Отправить форму</button>
               <p class="submit__text-sub text-sub">
-                <span class="text-sub__star">*</span> — Обязательные поля
+                <span class="text-sub__star">*</span> — Обязательные <span class="text-sub__hidden">для заполнения</span> поля
               </p>
+            </div>
             </div>
           </form>
         </section>
         <section class="main__footer footer__info-s info-s">
-          <a class="info-s__link link" href="index.html" alt="Переход на главную страницу">
+          <a class="info-s__link link" href="index.html" title="Логотип Pink">
             <svg class="info-s__svg svg" width="146.3px" height="40.375px">
               <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-pink-footer"></use>
             </svg>
           </a>
           <div class="info-s__social-links social-links">
-            <a class="social-links__link social-links__link--twitter link" href="https://twitter.com/" alt="Переход на нашу страницу сайта Twitter">
+            <a class="social-links__link social-links__link--twitter link" href="https://twitter.com/" title="Логотип Twitter">
               <svg class="link__svg svg" width="17.5px" height="14.663px">
                 <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-twitter"></use>
               </svg>
             </a>
-            <a class="social-links__link social-links__link--facebook link" href="https://facebook.com/" alt="Переход на нашу страницу сайта Facebook">
+            <a class="social-links__link social-links__link--facebook link" href="https://facebook.com/" title="Логотип Facebook">
               <svg class="link__svg svg" width="8.673px" height="18.944px">
                 <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-facebook"></use>
               </svg>
             </a>
-            <a class="social-links__link social-links__link--youtube link" href="https://youtube.com/" alt="Переход на нашу страницу сайта Youtube">
+            <a class="social-links__link social-links__link--youtube link" href="https://youtube.com/" title="Логотип Youtube">
               <svg class="link__svg svg" width="14.64px" height="13.96px">
                 <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-youtube"></use>
               </svg>
             </a>
           </div>
           <div class="footer__developer developer">
-            <a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" alt="Переход на нашу страницу интенсива HTML Academy">
+            <a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" title="HTMLAcademy">
               <p class="link__text">
                 Разработано
               </p>
@@ -326,32 +286,32 @@
           </div>
         </section>
       </main>
-      <footer class="main__footer-hide footer__info-s info-s">
+      <footer class="main__footer-hide footer__info-s footer__form info-s">
         <div class="info-s__wrapper">
-          <a class="info-s__link link" href="index.html" alt="Переход на главную страницу">
+          <a class="info-s__link link" href="index.html" title="Логотип Pink">
             <svg class="info-s__svg svg" width="146.3px" height="40.375px">
               <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-pink-footer"></use>
             </svg>
           </a>
           <div class="info-s__social-links social-links">
-            <a class="social-links__link social-links__link--twitter link" href="https://twitter.com/" alt="Переход на нашу страницу сайта Twitter">
+            <a class="social-links__link social-links__link--twitter link" href="https://twitter.com/" title="Логотип Twitter">
               <svg class="link__svg svg" width="17.5px" height="14.663px">
                 <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-twitter"></use>
               </svg>
             </a>
-            <a class="social-links__link social-links__link--facebook link" href="https://facebook.com/" alt="Переход на нашу страницу сайта Facebook">
+            <a class="social-links__link social-links__link--facebook link" href="https://facebook.com/" title="Логотип Facebook">
               <svg class="link__svg svg" width="8.673px" height="18.944px">
                 <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-facebook"></use>
               </svg>
             </a>
-            <a class="social-links__link social-links__link--youtube link" href="https://youtube.com/" alt="Переход на нашу страницу сайта Youtube">
+            <a class="social-links__link social-links__link--youtube link" href="https://youtube.com/" title="Логотип Youtube">
               <svg class="link__svg svg" width="14.64px" height="13.96px">
                 <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-youtube"></use>
               </svg>
             </a>
           </div>
           <div class="footer__developer developer">
-            <a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" alt="Переход на нашу страницу интенсива HTML Academy">
+            <a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" title="HTMLAcademy">
               <p class="link__text">
                 Разработано
               </p>
@@ -364,5 +324,10 @@
       </footer>
     </div>
     <script src="js/hamburger.js"></script>
+    <script src="js/picturefill.min.js"></script>
+    <script src="js/svg4everybody.min.js"></script>
+    <script>
+      svg4everybody();
+    </script>
   </body>
 </html>

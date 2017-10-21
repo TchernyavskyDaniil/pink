@@ -3,6 +3,8 @@
 var buttonOpen = document.querySelector(".inner__toggle");
 var nav = document.querySelector(".nav__box-w");
 
+buttonOpen.classList.remove("inner__toggle-off");
+nav.classList.add("nav__box-w--closed");
 nav.classList.add("nav__box-w-wrapper");
 
 buttonOpen.addEventListener("click", function (evt) {

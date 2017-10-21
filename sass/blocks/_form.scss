@@ -3,3 +3,9 @@
   flex-direction: column;
   text-align: center;
 }
+
+@media (min-width: 960px) {
+  .form {
+    margin-top: 17px;
+  }
+}
