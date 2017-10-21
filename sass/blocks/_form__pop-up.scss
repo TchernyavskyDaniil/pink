@@ -1,5 +1,9 @@
 .form__pop-up {
-  box-shadow: 0px 2px 1px 0px #b0b6bb;
+  position: absolute;
+  z-index: 100;
+  background: white;
+  top: 810px;
+  box-shadow: 2px 2px 15px 0 #b0b6bb;
   min-height: 289px;
 
   .pop-up__wrapper {

@@ -246,6 +246,19 @@
     fill: #d22856;
     opacity: 1;
   }
+
+  .crop__svg:hover,
+  .fill__svg:hover,
+  .content__svg:hover {
+    fill: #b5b9be;
+    opacity: 1;
+  }
+
+  .crop__svg:active,
+  .fill__svg:active,
+  .content__svg:active {
+    fill: #d22856;
+  }
 }
 
 @media (min-width: 960px) {
@@ -261,5 +274,11 @@
   .content__svg:hover {
     fill: #b5b9be;
     opacity: 1;
+  }
+
+  .crop__svg:active,
+  .fill__svg:active,
+  .content__svg:active {
+    fill: #d22856;
   }
 }
