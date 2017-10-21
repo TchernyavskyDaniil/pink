@@ -34,6 +34,14 @@
   border: 2px solid #e5e5e5;
 }
 
+.item__checkbox:not(cheked) + .item__label:focus::before {
+  border: 1px solid rgb(229, 151, 0);
+}
+
+.item__checkbox:checked + .item__label:focus::before {
+  border: 1px solid rgb(229, 151, 0);
+}
+
 .item__checkbox + .item__label:hover::before,
 .input__radio-app + .item__label-app:hover::before {
   cursor: pointer;

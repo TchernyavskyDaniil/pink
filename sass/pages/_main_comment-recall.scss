@@ -94,9 +94,13 @@
     left: -5px;
     background-color: transparent;
     border: none;
-    width: 60px;
-    height: 40px;
+    width: 40px;
+    height: 46px;
     cursor: pointer;
+  }
+
+  .recall__left:focus {
+    border: 1px solid rgb(229, 151, 0);
   }
 
   .recall__right {
@@ -106,8 +110,12 @@
     background-color: transparent;
     border: none;
     width: 30px;
-    height: 40px;
+    height: 45px;
     cursor: pointer;
+  }
+
+  .recall__right:focus {
+    border: 1px solid rgb(229, 151, 0);
   }
 }
 

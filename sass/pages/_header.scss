@@ -18,6 +18,10 @@ header {
   background-color: #181f26;
 }
 
+.inner__logo {
+  font-size: 0;
+}
+
 @media (min-width: 660px) {
   header {
     min-height: 440px;
@@ -145,6 +149,10 @@ header {
     fill: #d22856;
     opacity: 0.3;
   }
+}
+
+.inner__toggle:focus {
+  border: 1px solid #e59700;
 }
 
 @media (min-width: 660px) {
