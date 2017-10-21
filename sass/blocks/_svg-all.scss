@@ -153,27 +153,28 @@
   cursor: pointer;
 }
 
+.content__svg,
+.fill__svg,
 .crop__svg {
-  fill: #d22856;
+  fill: #b5b9be;
   cursor: pointer;
-}
-
-.crop__svg:focus {
-  fill: #d22856;
-}
-
-.fill__svg {
-  fill: grey;
-  opacity: 0.3;
-  cursor: pointer;
-}
-
-.content__svg {
-  fill: grey;
-  opacity: 0.3;
+  opacity: 0.7;
 }
 
 .link__svg {
+  fill: #d22856;
+}
+
+.crop__svg:hover,
+.fill__svg:hover,
+.content__svg:hover {
+  fill: #b5b9be;
+  opacity: 1;
+}
+
+.crop__svg:active,
+.fill__svg:active,
+.content__svg:active {
   fill: #d22856;
 }
 
@@ -182,12 +183,6 @@
 }
 
 @media (min-width: 660px) {
-  .fill__svg,
-  .content__svg {
-    fill: #d22856;
-    opacity: 1;
-  }
-
   .developer__link-svg {
     padding-right: 0;
   }
@@ -221,4 +216,9 @@
   .developer__link-svg {
     margin-bottom: 8px;
   }
+}
+
+.icon__svg--active {
+  fill: #d22856;
+  opacity: 1;
 }

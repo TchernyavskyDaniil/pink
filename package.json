@@ -26,7 +26,8 @@
     "pump": "^1.0.2",
     "run-sequence": "^2.2.0",
     "stylelint": "8.1.x",
-    "stylelint-config-htmlacademy": "0.1.x"
+    "stylelint-config-htmlacademy": "0.1.x",
+    "svg4everybody": "^2.1.9"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
