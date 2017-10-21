@@ -254,4 +254,11 @@
     fill: #d22856;
     opacity: 1;
   }
+
+  .crop__svg:hover,
+  .fill__svg:hover,
+  .content__svg:hover {
+    fill: #b5b9be;
+    opacity: 1;
+  }
 }
