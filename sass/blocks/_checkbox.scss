@@ -3,6 +3,10 @@
   opacity: 0;
 }
 
+.item__checkbox {
+  opacity: 0;
+}
+
 .item__checkbox:not(:checked) + .item__label,
 .item__checkbox:checked + .item__label {
   position: relative;
@@ -47,6 +51,7 @@
 
 .item__checkbox + .item__label:active .item__label-svg,
 .item__checkbox:checked + .item__label .item__label-svg {
+  content: "";
   position: absolute;
   display: block;
   top: 4px;
