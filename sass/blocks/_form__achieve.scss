@@ -12,15 +12,10 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 37px;
-    margin-top: 12px;
+    margin-top: 16px;
     padding-top: 0;
     min-height: 550px;
   }
-}
-
-.field__list {
-  padding-top: 18px;
-
 }
 
 .field__text {
@@ -38,6 +33,7 @@
 }
 
 .field__list {
+  padding-top: 18px;
   padding-left: 7px;
   padding-right: 10px;
 }
@@ -65,6 +61,10 @@
     margin-left: 38px;
     margin-top: 29px;
     margin-bottom: 7px;
+  }
+
+  .field__text {
+    text-align: center;
   }
 }
 
@@ -147,5 +147,4 @@
   .item:nth-child(6) {
     padding-bottom: 0;
   }
-
 }

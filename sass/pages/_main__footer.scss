@@ -97,13 +97,11 @@
   }
 }
 
-.links__mail {
-  .mail__text {
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 800;
-    margin-bottom: 0;
-  }
+.mail__text {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  margin-bottom: 0;
 }
 
 .mail__link {
@@ -120,7 +118,7 @@
 
 .mail__link:active {
   opacity: 0.3;
-  border-bottom: none ;
+  border-bottom: none;
 }
 
 @media (min-width: 660px) {

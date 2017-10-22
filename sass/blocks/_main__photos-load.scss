@@ -15,14 +15,6 @@
   font-weight: lighter;
 }
 
-.scale__line {
-  cursor: pointer;
-}
-
-.scale__border {
-  cursor: pointer;
-}
-
 @media (min-width: 660px) {
   .photos-load__content {
     width: 620px;
@@ -59,6 +51,7 @@
   top: 73px;
   right: 38px;
   z-index: 1;
+  cursor: pointer;
 }
 
 .scale__border:active {
@@ -72,22 +65,11 @@
   background: black;
   top: 80px;
   right: 6px;
+  cursor: pointer;
 }
 
 .options__btn {
   cursor: pointer;
-
-  &--submit {
-    color: #d22856;
-    border: 3px solid #d22856;
-    border-radius: 30px;
-    background-color: #f2f2f2;
-    padding: 10px 30px 10px 30px;
-    font-size: 18px;
-    line-height: 18px;
-    margin-top: 20px;
-    min-height: 54px;
-  }
 
   &--cansel {
     margin-top: 13px;
@@ -101,6 +83,19 @@
     opacity: 0.5;
     min-height: 51px;
   }
+}
+
+.options__btn--submit {
+  color: #d22856;
+  border: 3px solid #d22856;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  padding: 10px 30px 10px 30px;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  min-height: 54px;
 }
 
 .options__btn--submit:hover {

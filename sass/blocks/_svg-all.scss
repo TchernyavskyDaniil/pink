@@ -232,11 +232,13 @@
 
   .developer__link-svg {
     margin-bottom: 8px;
+    padding-right: 2px;
   }
 }
+
 .crop__svg.icon__svg--active {
-    fill: #d22856;
-    opacity: 1;
+  fill: #d22856;
+  opacity: 1;
 }
 
 @media (min-width: 660px) {
