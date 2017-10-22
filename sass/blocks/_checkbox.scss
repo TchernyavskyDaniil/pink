@@ -18,7 +18,7 @@
   }
 }
 
-.item__checkbox:not(:checked) + .item__label:before {
+.item__checkbox:not(:checked) + .item__label::before {
   background: #ffffff;
   content: "";
   position: absolute;
@@ -29,10 +29,7 @@
   border: 2px solid #e5e5e5;
 }
 
-.item__checkbox:not(:checked) + .item__label:focus::before {
-  border: 1px solid rgb(229, 151, 0);
-}
-
+.item__checkbox:not(:checked) + .item__label:focus::before,
 .item__checkbox:checked + .item__label:focus::before {
   border: 1px solid rgb(229, 151, 0);
 }
