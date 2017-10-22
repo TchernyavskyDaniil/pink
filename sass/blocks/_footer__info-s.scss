@@ -103,6 +103,11 @@
   .developer__link {
     padding-bottom: 0;
     margin-top: 27px;
+    padding-top: 6px;
+  }
+
+  .info-s__link {
+    padding-top: 28px;
   }
 
   .info-s__svg-desktop {
@@ -154,6 +159,10 @@
 @media (min-width: 960px) {
   .info-s__svg {
     display: none;
+  }
+
+  .developer__link {
+    margin-top: 15px;
   }
 
   .info-s__svg-desktop {
