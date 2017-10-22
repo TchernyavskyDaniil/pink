@@ -266,13 +266,18 @@
 
 .photos__item {
   min-height: 321px;
-  margin-bottom: 19px;
+  margin-bottom: 11px;
 }
 
 .photos__item:nth-child(2),
-.photos__item:nth-child(4),
+.photos__item:nth-child(4) {
+  margin-bottom: 2px;
+  padding-top: 0;
+}
+
 .photos__item:nth-child(5) {
-  margin-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 3px;
 }
 
 .photo__img-tablet {
