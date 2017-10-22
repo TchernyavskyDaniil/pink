@@ -1,9 +1,5 @@
-.item__checkbox:not(:checked) {
-  position: absolute;
-  opacity: 0;
-}
-
 .item__checkbox {
+  position: absolute;
   opacity: 0;
 }
 
@@ -22,7 +18,7 @@
   }
 }
 
-.item__checkbox:not(:checked) + .item__label::before {
+.item__checkbox + .item__label::before {
   background: #ffffff;
   content: "";
   position: absolute;
