@@ -18,6 +18,7 @@
 .recall__item {
   justify-content: flex-end;
   min-height: 256px;
+  display: none;
 }
 
 @media (min-width: 660px) {
@@ -135,10 +136,6 @@
     justify-content: flex-end;
     min-height: 264px;
   }
-}
-
-.recall__item {
-  display: none;
 }
 
 .recall__item--active {

@@ -18,11 +18,6 @@
   }
 }
 
-.field__list {
-  padding-top: 18px;
-
-}
-
 .field__text {
   color: #d22856;
   padding-left: 25px;
@@ -38,6 +33,7 @@
 }
 
 .field__list {
+  padding-top: 18px;
   padding-left: 7px;
   padding-right: 10px;
 }
@@ -147,5 +143,4 @@
   .item:nth-child(6) {
     padding-bottom: 0;
   }
-
 }

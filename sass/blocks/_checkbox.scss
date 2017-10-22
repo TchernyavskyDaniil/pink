@@ -9,10 +9,6 @@
   position: relative;
   padding: 0 0 0 38px;
   cursor: pointer;
-}
-
-.item__checkbox:not(checked) + .item__label,
-.item__checkbox:checked + .item__label {
   padding-left: 67px;
 }
 

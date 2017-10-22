@@ -20,6 +20,7 @@
 .photos__tablet {
   padding-left: 0;
   margin-top: 0;
+  padding-top: 18px;
 }
 
 .text__number {
@@ -270,16 +271,12 @@
 
 .photos__item:nth-child(2),
 .photos__item:nth-child(4),
-.photos__item:nth-child(5){
+.photos__item:nth-child(5) {
   margin-bottom: 0;
 }
 
 .photo__img-tablet {
   display: block;
-}
-
-.photos__tablet {
-  padding-top: 18px;
 }
 
 @media (min-width: 660px) {

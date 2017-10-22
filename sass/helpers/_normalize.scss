@@ -11,8 +11,6 @@
 
 html {
   line-height: 1.15; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -77,7 +75,6 @@ figure {
  */
 
 hr {
-  -webkit-box-sizing: content-box;
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
@@ -103,7 +100,6 @@ pre {
 
 a {
   background-color: transparent; /* 1 */
-  -webkit-text-decoration-skip: objects; /* 2 */
 }
 
 /**
@@ -114,7 +110,6 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted; /* 2 */
 }
 
@@ -161,8 +156,8 @@ dfn {
  */
 
 mark {
-  background-color: #ff0;
-  color: #000;
+  background-color: #ffff00f0;
+  color: #000000;
 }
 
 /**

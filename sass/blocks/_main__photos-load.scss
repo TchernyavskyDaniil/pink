@@ -15,14 +15,6 @@
   font-weight: lighter;
 }
 
-.scale__line {
-  cursor: pointer;
-}
-
-.scale__border {
-  cursor: pointer;
-}
-
 @media (min-width: 660px) {
   .photos-load__content {
     width: 620px;
@@ -59,6 +51,7 @@
   top: 73px;
   right: 38px;
   z-index: 1;
+  cursor: pointer;
 }
 
 .scale__border:active {
@@ -72,6 +65,7 @@
   background: black;
   top: 80px;
   right: 6px;
+  cursor: pointer;
 }
 
 .options__btn {
