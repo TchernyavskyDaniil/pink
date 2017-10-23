@@ -72,3 +72,9 @@
 .item-app__label-radio:focus::before {
   border: 1px solid rgb(77, 144, 254);
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 960px)  {
+  .item__checkbox:focus {
+    height: 36px;
+  }
+}
