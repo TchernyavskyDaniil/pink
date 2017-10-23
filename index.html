@@ -7,7 +7,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="body__wrapper wrapper">
+    <div class="wrapper">
       <header class="wrapper__header header-index header">
         <nav class="header__nav nav">
           <div class="nav__inner inner">
@@ -102,7 +102,7 @@
               Нам есть, что вам предложить!
             </h2>
           </div>
-          <div class="about__features features">
+          <div class="slogan__features features">
             <div class="features__desc desc">
               <ul class="desc__list list">
                 <li class="desc__item item">
@@ -154,8 +154,8 @@
             </div>
           </div>
         </section>
-        <section class="main__comment-recall comment-recall">
-          <div class="comment__recall recall">
+        <section class="main__comment-review comment-review">
+          <div class="comment-review__recall recall">
             <ul class="recall__list list">
               <li class="recall__item recall__item--active item">
                 <p class="item__text item__text-job text">
@@ -370,7 +370,7 @@
                 </ul>
                 </div>
               </div>
-              <div class="items__slider slider">
+              <div class="table__slider slider">
                 <span class="slider__button slider__button-p " onclick="tabletSlide(1)" title="Левый слайдер" tabindex="1">1</span>
                 <span class="slider__button slider__button-p slider__button--active " onclick="tabletSlide(2)" title="Начальный слайдер" tabindex="1">2</span>
                 <span class="slider__button slider__button-p " onclick="tabletSlide(3)" title="Правый слайдер" tabindex="1">3</span>
@@ -412,9 +412,9 @@
               </article>
             </section>
             <div class="footer__map map" tabindex="-1">
-              <svg class="footer__svg svg" version="1.0" width="100%">
-                <use xlink:href="../../img/sprite/sprite-symbols.svg#bg-triangle-white-footer"></use>
-              </svg>
+              <!--<svg class="footer__svg svg" version="1.0" width="100%">-->
+                <!--<use xlink:href="../../img/sprite/sprite-symbols.svg#bg-triangle-white-footer"></use>-->
+              <!--</svg>-->
               <svg class="footer__svg-desktop svg" width="100%" height="94.074">
                 <use xlink:href="../../img/sprite/sprite-symbols.svg#bg-triangle-white-footer"></use>
               </svg>
@@ -424,9 +424,9 @@
           </div>
         </section>
       </main>
-      <footer class="main__footer-hide footer__info-s info-s">
+      <footer class="wrapper__info-s info-s__footer-hide info-s__index info-s">
         <div class="info-s__wrapper">
-          <a class="info-s__link link" href="index.html" title="Логотип Pink" tabindex="1">
+          <a class="wrapper__link link" href="index.html" title="Логотип Pink" tabindex="1">
             <svg class="info-s__svg svg" width="146.3px" height="40.375px">
               <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-pink-footer"></use>
             </svg>
@@ -434,7 +434,7 @@
               <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-pink-blue-desktop"></use>
             </svg>
           </a>
-          <div class="info-s__social-links social-links">
+          <div class="wrapper__social-links social-links">
             <a class="social-links__link social-links__link--twitter link" href="https://twitter.com/" title="Логотип Twitter" tabindex="1">
               <svg class="link__svg svg" width="17.5px" height="14.663px">
                 <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-twitter"></use>
@@ -451,7 +451,7 @@
               </svg>
             </a>
           </div>
-          <div class="footer__developer developer">
+          <div class="wrapper__developer developer">
             <a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" title="В HTMLAcademy" tabindex="1">
               <p class="link__text">
                 Разработано

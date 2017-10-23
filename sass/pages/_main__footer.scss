@@ -147,12 +147,29 @@
   color: #d22856;
 }
 
-.main__footer-hide {
-  display: none;
+.info-s__footer-hide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 278px;
+  padding-top: 23px;
+  justify-content: space-between;
+}
+
+.info-s__wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 275px;
+  justify-content: space-between;
 }
 
 @media (min-width: 660px) {
-  .main__footer-hide {
+  .wrapper__info-s {
+    display: none;
+  }
+
+  .info-s__footer-hide {
     display: flex;
     align-items: center;
     min-height: 126px;
@@ -166,6 +183,8 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    min-height: 110px;
   }
 
   .invite__text {
@@ -175,6 +194,14 @@
 
 
 @media (min-width: 960px) {
+  .wrapper__info-s {
+    display: none;
+  }
+
+  .info-s__footer-hide {
+    display: flex;
+  }
+
   .footer__wrapper {
     width: 100%;
   }

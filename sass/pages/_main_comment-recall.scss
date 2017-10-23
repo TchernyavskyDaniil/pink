@@ -26,7 +26,7 @@
     order: 0;
   }
 
-  .main__comment-recall {
+  .main__comment-review {
     min-height: 267px;
   }
 
@@ -44,7 +44,7 @@
 }
 
 @media (min-width: 960px) {
-  .main__comment-recall {
+  .main__comment-review {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -57,7 +57,7 @@
     display: none;
   }
 
-  .main__comment-recall::before {
+  .main__comment-review::before {
     content: "";
     background: url("../../img/quotes.svg") no-repeat center;
     position: absolute;
@@ -132,7 +132,7 @@
     min-height: 234px;
   }
 
-  .comment__recall {
+  .comment-review__recall {
     justify-content: flex-end;
     min-height: 264px;
   }

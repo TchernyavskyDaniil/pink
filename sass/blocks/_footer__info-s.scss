@@ -7,7 +7,7 @@
   justify-content: space-between;
 }
 
-.info-s__social-links {
+.wrapper__social-links {
   min-width: 200px;
   padding-top: 7px;
   text-align: center;
@@ -15,6 +15,10 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.info-s__index {
+  display: none;
 }
 
 @media (min-width: 660px) {
@@ -28,23 +32,23 @@
     padding-top: 23px;
   }
 
-  .info-s__social-links {
-    padding-left: 22px;
+  .wrapper__social-links {
     padding-top: 0;
+    padding-left: 32px;
   }
 }
 
-.info-s__link {
+.wrapper__link {
   padding-top: 18px;
 }
 
-.info-s__link:hover {
+.wrapper__link:hover {
   .info-s__svg {
     fill: #d22856;
   }
 }
 
-.info-s__link:active {
+.wrapper__link:active {
   .info-s__svg {
     fill: black;
     opacity: 0.3;
@@ -88,7 +92,8 @@
   padding-bottom: 20px;
   font-size: 14px;
   margin-bottom: 30px;
-  padding-left: 18px;
+  padding-right: 20px;
+  padding-left: 29px;
 
   .link__text {
     color: black;
@@ -104,9 +109,14 @@
     padding-bottom: 0;
     margin-top: 27px;
     padding-top: 6px;
+    padding-right: 0;
   }
 
-  .info-s__link {
+  .info-s__index {
+    display: flex;
+  }
+
+  .wrapper__link {
     padding-top: 28px;
   }
 
@@ -119,16 +129,12 @@
     font-size: 14px;
   }
 
-  .footer__info-s {
-    display: none;
-  }
-
   .main__footer-hide {
     display: flex;
     padding-top: 0;
   }
 
-  .footer__form {
+  .info-s__form {
     padding-top: 34px;
   }
 
@@ -162,15 +168,13 @@
   }
 
   .developer__link {
-    margin-top: 15px;
+    margin-top: 12px;
+    padding-top: 14px;
+    padding-right: 3px;
   }
 
   .info-s__svg-desktop {
     display: block;
-  }
-
-  .footer__info-s {
-    display: none;
   }
 
   .main__footer-hide {
@@ -182,11 +186,11 @@
     padding-top: 17px;
   }
 
-  .footer__info-photo {
-    padding-top: 71px;
+  .info-s__photo {
+    padding-top: 77px;
   }
 
-  .footer__form {
+  .info-s__form {
     padding-top: 24px;
   }
 
@@ -196,10 +200,10 @@
     margin-top: 3px;
   }
 
-  .info-s__social-links {
+  .wrapper__social-links {
     height: 82px;
     justify-content: center;
-    padding-left: 21px;
+    padding-left: 29px;
   }
 
   .social-links__link {
@@ -209,7 +213,7 @@
     height: 47px;
   }
 
-  .info-s__link {
+  .wrapper__link {
     padding-top: 12px;
     padding-left: 4px;
   }

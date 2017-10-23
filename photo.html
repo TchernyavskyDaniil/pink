@@ -7,7 +7,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="body__wrapper wrapper">
+    <div class="wrapper">
       <header class="wrapper__header wrapper__header-min header">
         <nav class="header__nav nav">
           <div class="nav__inner inner">
@@ -80,26 +80,26 @@
               </p>
             </div>
             <div class="photos__wrapper">
-              <section class="photos__list">
-                <div class="photos__item-main">
+              <section class="wrapper__list">
+                <div class="list__title-main">
                   <div class="title-main__wrapper">
-                    <div class="title-main__top-day top-day">
-                      <h2 class="top-day">
+                    <div class="wrapper__top-day top-day">
+                      <h2 class="top-day__title">
                         Панорама дня
                       </h2>
                     </div>
-                    <picture class="title-main__img-wrapper">
+                    <picture class="wrapper__picture">
                       <source type="image/webp" media="(min-width: 960px)" srcset="../../img/panorama-desktop@1x.webp 1x, ../../img/panorama-desktop@2x.webp 2x">
                       <source type="image/webp" media="(min-width: 660px)" srcset="../../img/panorama-tablet@1x.webp 1x, ../../img/panorama-tablet@2x.webp 2x">
                       <source type="image/webp" srcset="../../img/panorama-mobile@1x-min.webp 1x, ../../img/panorama-mobile@2x.webp 2x">
 
                       <source media="(min-width: 960px)" srcset="../../img/panorama-desktop@1x.jpg, ../../img/panorama-desktop@2x.jpg 2x">
                       <source media="(min-width: 660px)" srcset="../../img/panorama-tablet@1x.jpg, ../../img/panorama-tablet@2x.jpg 2x">
-                      <img class="title-main__img-pc" src="../../img/panorama-mobile@1x-min.jpg" srcset="../../img/panorama-mobile@2x.jpg 2x" alt="Главная панорама">
+                      <img class="picture__img-pc" src="../../img/panorama-mobile@1x-min.jpg" srcset="../../img/panorama-mobile@2x.jpg 2x" alt="Главная панорама">
                     </picture>
                   </div>
                   <div class="title-main__user-review user-review">
-                    <h3 class="user-review__title user-review__title-main title-table title">
+                    <h3 class="user-review__title user-review__main title-table title">
                       Анна
                       <span class="title__minutes">(5 минут назад)</span>
                     </h3>
@@ -122,7 +122,7 @@
                     </div>
                   </div>
                 </div>
-                  <ul class="photos__tablet">
+                  <ul class="title-main__photos">
                     <li class="photos__item info-section title-user">
                       <picture class="info-section__photo photo">
                         <source type="image/webp" media="(min-width: 960px)" srcset="../../img/photo-car-desktop@1x.webp, ../../img/photo-car-desktop@2x.webp 2x">
@@ -395,7 +395,7 @@
                       <svg class="content__svg icon__svg--active svg" tabindex="1" width="31.92px" height="31.92px">
                         <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-editor-contrast"></use>
                       </svg>
-                      <div class="options__scale scale-table scale" tabindex="1">
+                      <div class="options__scale scale-table scale-mobile scale" tabindex="1">
                         <p class="visually-hidden">
                           Шкала
                         </p>
@@ -405,18 +405,9 @@
                         </div>
                       </div>
                     </div>
-                    <div class="options__scale scale" tabindex="1">
-                      <p class="visually-hidden">
-                        Шкала
-                      </p>
-                      <div class="scale__border">
-                      </div>
-                      <div class="scale__line">
-                      </div>
-                    </div>
                   </div>
                 </div>
-                <div class="option__wrapper">
+                <div class="options__wrapper">
                   <button class="options__btn options__btn--submit" type="button" tabindex="1">Запостить</button>
                   <button class="options__btn options__btn--cansel" type="button" tabindex="1">Отмена</button>
                 </div>
@@ -424,44 +415,10 @@
             </div>
           </form>
         </section>
-        <section class="main__footer footer__info-s info-s">
-          <a class="info-s__link link" href="index.html" title="Переход на главную страницу" tabindex="1">
-            <svg class="info-s__svg svg" width="146.3px" height="40.375px">
-              <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-pink-footer"></use>
-            </svg>
-          </a>
-          <div class="info-s__social-links social-links">
-            <a class="social-links__link social-links__link--twitter link" href="https://twitter.com/" title="Переход на нашу страницу сайта Twitter" tabindex="1">
-              <svg class="link__svg svg" width="17.5px" height="14.663px">
-                <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-twitter"></use>
-              </svg>
-            </a>
-            <a class="social-links__link social-links__link--facebook link" href="https://facebook.com/" title="Переход на нашу страницу сайта Facebook" tabindex="1">
-              <svg class="link__svg svg" width="8.673px" height="18.944px">
-                <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-facebook"></use>
-              </svg>
-            </a>
-            <a class="social-links__link social-links__link--youtube link" href="https://youtube.com/" title="Переход на нашу страницу сайта Youtube" tabindex="1">
-              <svg class="link__svg svg" width="14.64px" height="13.96px">
-                <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-youtube"></use>
-              </svg>
-            </a>
-          </div>
-          <div class="footer__developer developer">
-            <a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" title="Переход на нашу страницу интенсива HTML Academy" tabindex="1">
-              <p class="link__text">
-                Разработано
-              </p>
-              <svg class="link__svg svg developer__link-svg" width="26.943px" height="34.09px">
-                <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-htmlacademy"></use>
-              </svg>
-            </a>
-          </div>
-        </section>
       </main>
-      <footer class="main__footer-hide footer__info-s footer__info-photo info-s">
+      <footer class="wrapper__info-s info-s__footer-hide info-s__photo info-s">
         <div class="info-s__wrapper">
-          <a class="info-s__link link" href="index.html" title="Переход на главную страницу" tabindex="1">
+          <a class="wrapper__link link" href="index.html" title="Переход на главную страницу" tabindex="1">
             <svg class="info-s__svg svg" width="146.3px" height="40.375px">
               <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-pink-footer"></use>
             </svg>
@@ -469,7 +426,7 @@
               <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-pink-blue-desktop"></use>
             </svg>
           </a>
-          <div class="info-s__social-links social-links">
+          <div class="wrapper__social-links social-links">
             <a class="social-links__link social-links__link--twitter link" href="https://twitter.com/" title="Переход на нашу страницу сайта Twitter" tabindex="1">
               <svg class="link__svg svg" width="17.5px" height="14.663px">
                 <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-twitter"></use>
@@ -486,7 +443,7 @@
               </svg>
             </a>
           </div>
-          <div class="footer__developer developer">
+          <div class="wrapper__developer developer">
             <a class="developer__link link" href="https://htmlacademy.ru/intensive/adaptive" title="Переход на нашу страницу интенсива HTML Academy" tabindex="1">
               <p class="link__text">
                 Разработано

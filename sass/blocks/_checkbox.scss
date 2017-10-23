@@ -35,13 +35,13 @@
 }
 
 .item__checkbox + .item__label:hover::before,
-.input__radio-app + .item__label-app:hover::before {
+.item-app__input-radio + .item-app__label-radio:hover::before {
   cursor: pointer;
   border: 2px solid black;
 }
 
 .item__checkbox + .item__label:active::before,
-.input__radio-app + .item__label-app:active::before {
+.item-app__input-radio + .item-app__label-radio:active::before {
   border: 2px solid #d22856;
 }
 
