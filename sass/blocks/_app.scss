@@ -117,4 +117,25 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
+  .item-app__input-radio {
+    opacity: 1;
+    position: absolute;
+    width: 41px;
+    left: 61px;
+    height: 39px;
+    margin-top: -3px;
+  }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 960px) {
+  /* стили только для IE10 IE11 */
+  .item-app__input-radio {
+    opacity: 1;
+    position: absolute;
+    width: 41px;
+    left: 68px;
+    height: 38px;
+    margin-top: -3px;
+  }
 }
