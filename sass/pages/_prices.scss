@@ -1,6 +1,7 @@
 .main__prices {
   background: url("../../img/bg-triangle-white.svg") top #f2f2f2 no-repeat;
   padding-top: 91px;
+  margin-top: 37px;
   background-size: 102% auto;
   min-height: 377px;
 
@@ -28,6 +29,7 @@
   .main__prices {
     padding-top: 29px;
     min-height: 349px;
+    margin-top: 0;
   }
 }
 
@@ -193,7 +195,7 @@
   }
 }
 
-.items__slider {
+.table__slider {
   display: flex;
   min-width: 70px;
   min-height: 15px;
@@ -208,7 +210,7 @@
 
 
 @media (min-width: 660px) {
-  .items__slider {
+  .table__slider {
     display: none;
   }
 
@@ -257,4 +259,63 @@
 
 .table__list-wrapper {
   display: flex;
+}
+
+.item__svg-main {
+  fill: #d22856;
+  position: absolute;
+}
+
+@media (min-width: 660px) {
+  .item__svg-main {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.item__svg {
+  &--yes {
+    fill: green;
+    padding-right: 18px;
+    margin-left: 50px;
+    margin-top: -2px;
+  }
+
+  &--no {
+    fill: #f25b26;
+    padding-right: 18px;
+    margin-left: 50px;
+    margin-top: -8px;
+  }
+}
+
+@media (min-width: 660px) {
+  .item__svg--yes {
+    margin: 0 auto;
+    padding-right: 0;
+    margin-right: 59px;
+  }
+
+  .item__svg--no {
+    margin: 0 auto;
+    margin-right: 45px;
+  }
+}
+
+@media (min-width: 960px) {
+  .item__svg--yes {
+    margin-right: 100px;
+    padding-top: 2px;
+  }
+
+  .item__svg--no {
+    margin-right: 85px;
+    margin-bottom: 4px;
+  }
+
+  .item__svg-main {
+    height: 74px;
+    width: 74px;
+    top: 0;
+  }
 }

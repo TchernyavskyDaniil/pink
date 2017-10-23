@@ -11,7 +11,8 @@
   margin: 0 auto;
 }
 
-.form__text {
+.main__text,
+.text__span {
   font-size: 14px;
   line-height: 30px;
   font-weight: lighter;
@@ -37,12 +38,13 @@
   margin-top: 4px;
 }
 
-.form__text-sub {
+.text__span-sub {
   display: none;
 }
 
 @media (min-width: 660px) {
-  .form__text {
+  .main__text,
+  .text__span {
     font-size: 18px;
     padding-left: 70px;
     padding-right: 70px;
@@ -52,7 +54,7 @@
     margin-bottom: 2px;
   }
 
-  .form__text-sub {
+  .text__span-sub {
     display: block;
     padding-top: 0;
     margin-top: 0;
@@ -71,7 +73,7 @@
   padding-top: 4px;
 }
 
-.label__name {
+.name__label {
   font-size: 14px;
   text-transform: uppercase;
   line-height: 30px;
@@ -90,7 +92,7 @@
   padding-bottom: 2px;
 }
 
-.input__name {
+.name__input {
   width: 252px;
   height: 59px;
   font-size: 18px;
@@ -102,7 +104,7 @@
 }
 
 @media (min-width: 660px) {
-  .label__name {
+  .name__label {
     padding-left: 5px;
     padding-top: 26px;
   }
@@ -114,7 +116,7 @@
     align-items: center;
   }
 
-  .input__name {
+  .name__input {
     width: 77.5%;
     margin-left: 20px;
     margin-top: 27px;
@@ -137,11 +139,11 @@
   }
 }
 
-.input__name:hover {
+.name__input:hover {
   border: 2px solid black;
 }
 
-.input__name:focus {
+.name__input:focus {
   border: 2px solid #d22856;
   outline: none;
 }
@@ -154,12 +156,12 @@
     padding-left: 0;
   }
 
-  .form__text-sub {
+  .text__span-sub {
     display: inline;
     padding: 0;
   }
 
-  .label__name {
+  .name__label {
     padding-left: 10px;
   }
 }

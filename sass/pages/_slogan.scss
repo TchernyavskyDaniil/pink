@@ -72,7 +72,7 @@
   }
 }
 
-.about__features {
+.slogan__features {
   background: url("../../img/bg-triangle-white.svg") top #f2f2f2 no-repeat;
   background-size: 100% auto;
   padding-top: 65px;
@@ -80,7 +80,7 @@
 }
 
 @media (min-width: 660px) {
-  .about__features {
+  .slogan__features {
     display: flex;
     flex-direction: row-reverse;
     position: relative;
@@ -95,7 +95,7 @@
 }
 
 @media (min-width: 960px) {
-  .about__features {
+  .slogan__features {
     margin-top: 86px;
     flex-direction: row;
     align-items: flex-end;

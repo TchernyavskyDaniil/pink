@@ -10,6 +10,7 @@
 .e-contacts__field {
   padding-bottom: 12px;
   padding-right: 0;
+  padding-top: 11px;
 }
 
 .item__label-e {
@@ -99,6 +100,8 @@
     display: flex;
     margin-bottom: 6px;
     justify-content: space-around;
+    flex-flow: wrap;
+    flex-direction: column;
   }
 
   .field__item-e {
@@ -113,6 +116,7 @@
     margin-top: 9px;
     margin-left: 11px;
     margin-right: 0;
+    min-height: 167px;
   }
 
   .field__item-e:nth-child(1) {

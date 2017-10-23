@@ -129,25 +129,6 @@
   width: 77px;
 }
 
-.slider__button {
-  font-size: 0;
-  line-height: 0;
-  border-radius: 50%;
-  background-color: #bec2c7;
-  width: 6px;
-  height: 6px;
-  cursor: pointer;
-
-  &--active {
-    border: 3px solid black;
-    background-color: #ffffff;
-  }
-}
-
-.slider__button:hover {
-  background-color: #7e868f;
-}
-
 .effect__text:hover {
   color: black;
 }
@@ -171,7 +152,7 @@
 
   .recall__slider {
     justify-content: space-evenly;
-    padding-top: 17px;
+    padding-top: 20px;
     width: 92px;
   }
 }
@@ -236,4 +217,20 @@
     padding-left: 11px;
     width: 300px;
   }
+}
+
+.recall__left,
+.recall__right {
+  fill: #b5b9be;
+  opacity: 0.7;
+}
+
+.recall__left:hover,
+.recall__right:hover {
+  opacity: 1;
+}
+
+.recall__right:active,
+.recall__left:active {
+  opacity: 0.5;
 }

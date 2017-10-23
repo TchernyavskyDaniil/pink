@@ -12,9 +12,10 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 37px;
-    margin-top: 16px;
+    margin-top: 13px;
     padding-top: 0;
-    min-height: 550px;
+    min-height: 540px;
+    padding-bottom: 2px;
   }
 }
 
@@ -43,14 +44,14 @@
   padding-bottom: 0;
 }
 
-.item:nth-child(6) {
-  padding-bottom: 21px;
-}
-
 .field__item {
   display: flex;
   flex-direction: column-reverse;
   padding-bottom: 52px;
+}
+
+.field__item:last-child {
+  padding-bottom: 0;
 }
 
 @media (min-width: 660px) {
@@ -76,35 +77,45 @@
 }
 
 @media (min-width: 960px) {
+  .form__achieve {
+    margin: 0 auto;
+  }
+
   .achieve__field {
-    min-height: 235px;
+    min-height: 237px;
     padding-bottom: 0;
     padding-left: 1px;
     padding-right: 0;
     margin: 0 auto;
     margin-top: 14px;
-    width: 934px;
+    width: 939px;
+    box-sizing: border-box;
   }
 
   .field__list {
+    padding-left: 60px;
+    padding-right: 0;
+    padding-top: 18px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    align-content: space-between;
-    min-height: 140px;
-    margin: 0 auto;
+    min-height: 188px;
+    margin: 0;
+    box-sizing: border-box;
   }
 
   .field__item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+    margin-bottom: 22px;
     width: 260px;
-    align-items: center;
-    padding-left: 34px;
-    padding-top: 28px;
+    justify-content: center;
+    min-height: 26px;
   }
 
   .field__item:nth-child(1) {
-    padding-left: 54px;
     order: 1;
   }
 
@@ -113,38 +124,22 @@
   }
 
   .field__item:nth-child(3) {
-    width: 270px;
-    padding-left: 30px;
-    padding-right: 0;
-    align-items: flex-start;
     order: 2;
   }
 
   .field__item:nth-child(4) {
-    padding-left: 21px;
     order: 5;
-    align-items: flex-end;
   }
 
   .field__item:nth-child(5) {
-    padding-left: 0;
     order: 3;
-    width: 253px;
-    align-items: flex-start;
   }
 
   .field__item:nth-child(6) {
-    margin-right: 10px;
-    width: 245px;
-    align-items: flex-start;
     order: 6;
   }
 
   .item {
-    padding-bottom: 0;
-  }
-
-  .item:nth-child(6) {
     padding-bottom: 0;
   }
 }
