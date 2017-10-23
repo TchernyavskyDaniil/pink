@@ -227,3 +227,24 @@
     padding-top: 11px;
   }
 }
+
+.link__svg {
+  fill: #d22856;
+}
+
+.developer__link-svg {
+  padding-right: 18px;
+}
+
+@media (min-width: 660px) {
+  .developer__link-svg {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .developer__link-svg {
+    margin-bottom: 8px;
+    padding-right: 2px;
+  }
+}

@@ -1,12 +1,17 @@
 header {
   background: url("../../img/bg-back-mobile@1x-min.jpg") no-repeat;
-  background-size: 1400px auto;
+  background-size: 701px auto;
+  background-position: 50%;
+  background-position-y: 8px;
   min-height: 237px;
 }
 
 @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   header {
     background-image: url("../../img/bg-back-mobile@2x.jpg");
+    background-size: 701px auto;
+    background-position: 50%;
+    background-position-y: 8px;
   }
 }
 
@@ -22,12 +27,15 @@ header {
   header {
     min-height: 440px;
     background: url("../../img/bg-back-tablet@1x.jpg");
-    background-size: 1400px auto;
-    background-position: 50% 0;
+    background-size: 1189px auto;
+    background-position: 50%;
+    background-position-y: 8px;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background: url("../../img/bg-back-tablet@2x.jpg");
-      background-size: 1600px auto;
+      background-size: 1189px auto;
+      background-position: 50%;
+      background-position-y: 8px;
     }
   }
 
@@ -46,11 +54,15 @@ header {
 @media (min-width: 960px) {
   header {
     background: url("../../img/bg-back-mobile@1x-min.jpg");
-    background-size: 1400px auto;
+    background-size: 2281px auto;
+    background-position: 50%;
+    background-position-y: -510px;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background: url("../../img/bg-back-mobile@2x.jpg");
-      background-size: 1400px auto;
+      background-size: 2281px auto;
+      background-position: 50%;
+      background-position-y: -510px;
     }
   }
 
@@ -505,4 +517,52 @@ header {
     padding-left: 9px;
     margin-top: 43px;
   }
+}
+
+.logo__svg,
+.toggle__svg,
+.apple__svg {
+  fill: #ffffff;
+
+  &-tablet {
+    display: none;
+  }
+}
+
+.logo__svg-desktop {
+  display: none;
+}
+
+@media (min-width: 660px) {
+  .logo__svg {
+    display: none;
+  }
+
+  .logo__svg-tablet {
+    display: block;
+    fill: white;
+  }
+
+  .logo__svg-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 960px) {
+  .logo__svg {
+    display: none;
+  }
+
+  .logo__svg-tablet {
+    display: none;
+  }
+
+  .logo__svg-desktop {
+    display: block;
+    fill: white;
+  }
+}
+
+.android__svg {
+  fill: rgb(164, 198, 57);
 }

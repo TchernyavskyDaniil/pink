@@ -245,7 +245,7 @@
 }
 
 .likes__text {
-  font-size: 13px;
+  font-size: 12px;
   margin-top: 0;
   padding-left: 22px;
   margin-bottom: 12px;
@@ -284,6 +284,12 @@
 .photo__img-tablet {
   display: block;
 }
+
+.likes__svg {
+  fill: #d22856;
+  cursor: pointer;
+}
+
 
 @media (min-width: 660px) {
   .title-main__photos {
@@ -326,7 +332,7 @@
 
   .likes__text {
     padding-left: 22px;
-    font-size: 13px;
+    font-size: 12px;
     margin-bottom: 0;
   }
 }
