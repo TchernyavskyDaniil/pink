@@ -107,21 +107,22 @@
   background-color: #d22856;
   color: #ffffff;
   padding: 0;
-  padding-top: 2px;
+  padding-top: 6px;
   margin: 0;
+  min-height: 31px;
 }
 
 @media (min-width: 660px) {
   .wrapper__top-day {
     right: 20px;
-    top: 54px;
+    top: 57px;
     left: 76%;
   }
 
   .top-day__title {
     font-size: 12px;
     line-height: 24px;
-    padding-top: 4px;
+    padding-top: 7px;
     padding-bottom: 4px;
   }
 }
@@ -190,6 +191,7 @@
     margin-top: 0;
     padding-left: 27px;
     min-height: 48px;
+    padding-right: 20px;
   }
 
   .user-review__text-table {
@@ -273,7 +275,7 @@
 .photos__item:nth-child(2),
 .photos__item:nth-child(4) {
   margin-bottom: 2px;
-  padding-top: 0;
+  padding-top: 2px;
 }
 
 .photos__item:nth-child(5) {

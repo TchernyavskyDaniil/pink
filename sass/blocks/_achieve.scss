@@ -12,9 +12,10 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 37px;
-    margin-top: 16px;
+    margin-top: 13px;
     padding-top: 0;
-    min-height: 550px;
+    min-height: 540px;
+    padding-bottom: 2px;
   }
 }
 
@@ -47,6 +48,10 @@
   display: flex;
   flex-direction: column-reverse;
   padding-bottom: 52px;
+}
+
+.field__item:last-child {
+  padding-bottom: 0;
 }
 
 @media (min-width: 660px) {

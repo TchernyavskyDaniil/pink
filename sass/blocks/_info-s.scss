@@ -105,6 +105,10 @@
 }
 
 @media (min-width: 660px) {
+  .info-s__photo {
+    padding-top: 5px;
+  }
+
   .developer__link {
     padding-bottom: 0;
     margin-top: 27px;
@@ -114,6 +118,7 @@
 
   .info-s__index {
     display: flex;
+    padding-top: 3px;
   }
 
   .wrapper__link {
@@ -191,7 +196,7 @@
   }
 
   .info-s__form {
-    padding-top: 24px;
+    padding-top: 29px;
   }
 
   .link__text {
@@ -246,5 +251,11 @@
   .developer__link-svg {
     margin-bottom: 8px;
     padding-right: 2px;
+  }
+
+  .info-s__photo {
+    .wrapper__social-links {
+      padding-left: 42px;
+    }
   }
 }
