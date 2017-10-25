@@ -335,18 +335,18 @@
   }
 }
 
-.wrapper__link {
+.wrapper__link-logo {
   padding-top: 18px;
 }
 
 .wrapper__link:hover {
-  .info-s__svg {
+  .link-logo__svg {
     fill: #d22856;
   }
 }
 
 .wrapper__link:active {
-  .info-s__svg {
+  .link-logo__svg {
     fill: black;
     opacity: 0.3;
   }
@@ -397,7 +397,7 @@
   }
 }
 
-.info-s__svg-desktop {
+.link-logo__svg-desktop {
   display: none;
 }
 
@@ -418,11 +418,11 @@
     padding-top: 3px;
   }
 
-  .wrapper__link {
+  .wrapper__link-logo {
     padding-top: 28px;
   }
 
-  .info-s__svg-desktop {
+  .link-logo__svg-desktop {
     display: none;
   }
 
@@ -465,7 +465,7 @@
 }
 
 @media (min-width: 960px) {
-  .info-s__svg {
+  .link-logo__svg {
     display: none;
   }
 
@@ -475,7 +475,7 @@
     padding-right: 3px;
   }
 
-  .info-s__svg-desktop {
+  .link-logo__svg-desktop {
     display: block;
   }
 
@@ -515,7 +515,7 @@
     height: 47px;
   }
 
-  .wrapper__link {
+  .wrapper__link-logo {
     padding-top: 12px;
     padding-left: 4px;
   }
