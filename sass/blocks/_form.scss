@@ -1114,4 +1114,16 @@
   .form__achieve {
     width: 960px;
   }
+
+  input[type="radio"]:focus + label {
+    border: 1px solid rgb(77, 144, 254);
+  }
+
+  .item__checkbox {
+    display: none;
+  }
+
+  input[type="checkbox"]:focus + label {
+    border: 1px solid rgb(77, 144, 254);
+  }
 }
