@@ -72,13 +72,13 @@
         </div>
       </header>
       <main class="wrapper__main wrapper__main-form main">
-        <p class="main__text main__text-head">
+        <p class="main__text main__text-head text">
           Поделитесь своей историей и&nbsp;получите шанс выиграть ценный приз&nbsp;&mdash; 1000 миль на&nbsp;вашу бонусную карту!
           <span class="text__span text__span-sub">Пожалуйста, заполните форму ниже:</span>
         </p>
         <section class="main__feedback feedback">
-          <form class="feedback__form form" action="/echo" method="post">
-            <div class="wrapper__forms">
+          <form class="feedback__form form wrapper" action="/echo" method="post">
+            <div class="wrapper__forms form">
               <div class="form__full-name full-name">
                 <fieldset class="full-name__feedback feedback">
                   <div class="full-name__wrapper">
@@ -86,19 +86,19 @@
                       <label class="s-name__label name__label" for="s-name">
                         Фамилия:
                       </label>
-                      <input class="s-name__text name__input" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию *" required="">
+                      <input class="s-name__text name__input" type="text" name="s-name" id="s-name" placeholder="Укажите фамилию *" required="" tabindex="2">
                     </div>
                     <div class="full-name__a-name a-name name">
                       <label class="a-name__label name__label" for="a-name">
                         Имя:
                       </label>
-                      <input class="a-name__text name__input" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя *" required="">
+                      <input class="a-name__text name__input" type="text" name="a-name" id="a-name" placeholder="Введите ваше имя *" required="" tabindex="2">
                     </div>
                     <div class="full-name__m-name m-name name">
                       <label class="m-name__label name__label" for="m-name">
                         Отчество:
                       </label>
-                      <input class="m-name__text name__input" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже" required="">
+                      <input class="m-name__text name__input" type="text" name="m-name" id="m-name" placeholder="Ну и отчество тоже" required="" tabindex="2">
                     </div>
                   </div>
                 </fieldset>
@@ -109,22 +109,28 @@
                     С каким приложением путешествовали?
                   </legend>
                   <ul class="field__list-app list-app list">
-                    <li class="field__item-app item">
-                      <input class="item-app__input-radio" type="radio" name="travel" id="ios" value="ios" checked="">
+                    <li class="field__item-app item-app item">
                       <label class="item-app__label-radio" for="ios">
-                        Pink для iOS
+                        <input class="item-app__input-radio" type="radio" name="travel" id="ios" value="ios" checked="" tabindex="3">
+                        <span class="item-app__component">
+                          Pink для iOS
+                        </span>
                       </label>
                     </li>
                     <li class="field__item-app item-app item">
-                      <input class="item-app__input-radio" type="radio" name="travel" id="android" value="android">
                       <label class="item-app__label-radio" for="android">
-                        Pink на Android
+                        <input class="item-app__input-radio" type="radio" name="travel" id="android" value="android" tabindex="3">
+                        <span class="item-app__component">
+                          Pink на Android
+                        </span>
                       </label>
                     </li>
                     <li class="field__item-app item-app item">
-                      <input class="item-app__input-radio" type="radio" name="travel" id="wphone" value="wphone">
                       <label class="item-app__label-radio" for="wphone">
-                        Windows Phone
+                        <input class="item-app__input-radio" type="radio" name="travel" id="wphone" value="wphone" tabindex="3">
+                        <span class="item-app__component">
+                          Windows Phone
+                        </span>
                       </label>
                     </li>
                   </ul>
@@ -137,57 +143,69 @@
                 </legend>
                 <ul class="field__list list">
                   <li class="field__item field__item--active item">
-                    <input class="item__checkbox" type="checkbox" name="shark" id="shark" checked="">
                     <label class="item__label" for="shark">
-                      <svg class="item__label-svg svg" width="31px" height="21px">
-                        <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
-                      </svg>
-                      Сделал селфи с акулой
+                      <input class="item__checkbox" type="checkbox" name="shark" id="shark" checked="" tabindex="5">
+                      <span class="item__component">
+                        <svg class="item__label-svg svg" width="31px" height="21px">
+                          <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
+                        </svg>
+                        Сделал селфи с акулой
+                      </span>
                     </label>
                   </li>
                   <li class="field__item field__item--active item">
-                    <input class="item__checkbox" type="checkbox" name="beach" id="beach" checked="">
                     <label class="item__label" for="beach">
-                      <svg class="item__label-svg svg" width="31px" height="21px">
-                        <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
-                      </svg>
-                      Обгорел на пляже
+                      <input class="item__checkbox" type="checkbox" name="beach" id="beach" checked="" tabindex="5">
+                      <span class="item__component">
+                        <svg class="item__label-svg svg" width="31px" height="21px">
+                          <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
+                        </svg>
+                        Обгорел на пляже
+                      </span>
                     </label>
                   </li>
                   <li class="field__item item">
-                    <input class="item__checkbox" type="checkbox" name="Chack" id="Chack">
                     <label class="item__label" for="Chack">
-                      <svg class="item__label-svg svg" width="31px" height="21px">
-                        <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
-                      </svg>
-                      Видел Чака Норриса
+                      <input class="item__checkbox" type="checkbox" name="Chack" id="Chack" tabindex="5">
+                      <span class="item__component">
+                        <svg class="item__label-svg svg" width="31px" height="21px">
+                          <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
+                        </svg>
+                        Видел Чака Норриса
+                      </span>
                     </label>
                   </li>
                   <li class="field__item item">
-                    <input class="item__checkbox" type="checkbox" name="Suv" id="Suv">
                     <label class="item__label" for="Suv">
-                      <svg class="item__label-svg svg" width="31px" height="21px">
-                        <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
-                      </svg>
-                      Накупил сувениров
+                      <input class="item__checkbox" type="checkbox" name="Suv" id="Suv" tabindex="5">
+                      <span class="item__component">
+                        <svg class="item__label-svg svg" width="31px" height="21px">
+                          <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
+                        </svg>
+                        Накупил сувениров
+                      </span>
                     </label>
                   </li>
                   <li class="field__item field__item--active item">
-                    <input class="item__checkbox" type="checkbox" name="tower" id="tower" checked="">
                     <label class="item__label" for="tower">
-                      <svg class="item__label-svg svg" width="31px" height="21px">
-                        <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
-                      </svg>
-                      Удержал башню
+                      <input class="item__checkbox" type="checkbox" name="tower" id="tower" checked="" tabindex="5">
+                      <span class="item__component">
+                        <svg class="item__label-svg svg" width="31px" height="21px">
+                          <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
+                        </svg>
+                        Удержал башню
+                      </span>
                     </label>
                   </li>
                   <li class="field__item item">
-                    <input class="item__checkbox" type="checkbox" name="hotel" id="hotel">
                     <label class="item__label" for="hotel">
-                      <svg class="item__label-svg svg" width="31px" height="21px">
-                        <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
-                      </svg>
-                      Разгромил отель
+                      <input class="item__checkbox" type="checkbox" name="hotel" id="hotel" tabindex="5">
+                      <span class="item__component">
+                        <svg class="item__label-svg svg" width="31px" height="21px">
+                          <use xlink:href="../../img/sprite/sprite-symbols.svg#icon-yes"></use>
+                        </svg>
+                        Разгромил отель
+                      </span>
                     </label>
                   </li>
                 </ul>
@@ -212,13 +230,13 @@
                     <label class="item__label-e name__label" for="number">
                       Номер телефона
                     </label>
-                    <input class="item__text-e name__input" type="tel" name="number" id="number" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Номер, пожалуйста" required="">
+                    <input class="item__text-e name__input" type="tel" name="number" id="number" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Номер, пожалуйста" required="" tabindex="4">
                   </li>
                   <li class="field__item-e item name">
                     <label class="item__label-e name__label" for="e-mail">
                       Адрес почты
                     </label>
-                    <input class="item__text-e name__input" type="email" name="e-mail" id="e-mail" placeholder="Введите почту*" required="">
+                    <input class="item__text-e name__input" type="email" name="e-mail" id="e-mail" placeholder="Введите почту*" required="" tabindex="4">
                   </li>
                 </ul>
               </fieldset>
@@ -243,7 +261,7 @@
                 <legend class="field__text field__text-emoj">
                   Опишите свои эмоции
                 </legend>
-                <textarea class="field__textarea" name="emoj" id="emoj" placeholder="Можно прям в красках, не стесняясь в выражениях" required=""></textarea>
+                <textarea class="field__textarea" name="emoj" id="emoj" placeholder="Можно прям в красках, не стесняясь в выражениях" required="" tabindex="6"></textarea>
               </fieldset>
             </div>
             <div class="form__submit form__submit-emoj submit">
@@ -257,15 +275,15 @@
         </section>
       </main>
       <footer class="wrapper__info-s info-s__footer-hide info-s__form info-s">
-        <div class="info-s__wrapper">
-          <a class="wrapper__link link" href="index.html" title="Логотип Pink">
+        <div class="info-s__wrapper wrapper">
+          <a class="wrapper__link-logo link-logo" href="index.html" title="Логотип Pink">
             <p class="visually-hidden">
               Логотип Pink
             </p>
-            <svg class="info-s__svg svg" width="146.3px" height="40.375px">
+            <svg class="link-logo__svg svg" width="146.3px" height="40.375px">
               <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-pink-footer"></use>
             </svg>
-            <svg class="info-s__svg info-s__svg-desktop svg" width="146.3px" height="40.375px">
+            <svg class="link-logo__svg link-logo__svg-desktop svg" width="146.3px" height="40.375px">
               <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-pink-blue-desktop"></use>
             </svg>
           </a>
@@ -303,7 +321,7 @@
               <p class="visually-hidden">
                 В HTML Academy, переход на сайт
               </p>
-              <svg class="link__svg svg developer__link-svg" width="26.943px" height="34.09px">
+              <svg class="link__svg svg link__developer-svg" width="26.943px" height="34.09px">
                 <use xlink:href="../../img/sprite/sprite-symbols.svg#logo-htmlacademy"></use>
               </svg>
             </a>
