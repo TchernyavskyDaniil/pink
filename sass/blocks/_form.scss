@@ -704,18 +704,19 @@
   min-height: 220px;
   justify-content: space-around;
   margin-top: 10px;
+  padding-left: 58px;
 }
 
 @media (min-width: 660px) {
   .field__list-app {
-    padding-left: 83px;
+    padding-left: 96px;
     padding-top: 10px;
   }
 }
 
 .item-app__input-radio {
   opacity: 0;
-  position: relative;
+  position: absolute;
 }
 
 .item-app__label-radio {
@@ -737,8 +738,8 @@
   }
 }
 
-.item-app__input-radio + .item-app__label-radio:active::after,
-.item-app__input-radio:checked + .item-app__label-radio::after {
+.item-app__input-radio + .item-app__component:active::after,
+.item-app__input-radio:checked + .item-app__component::after {
   display: block;
   border-radius: 50%;
   background-color: #d22856;
@@ -750,7 +751,7 @@
   top: 6px;
 }
 
-.item-app__input-radio + .item-app__label-radio::after {
+.item-app__input-radio + .item-app__component::after {
   display: none;
 }
 
@@ -790,26 +791,10 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
-  .item-app__input-radio {
-    opacity: 1;
-    position: absolute;
-    width: 43px;
-    left: 61px;
-    height: 39px;
-    margin-top: -3px;
-  }
 }
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 960px) {
-  .item-app__input-radio {
-    opacity: 1;
-    position: absolute;
-    width: 41px;
-    left: 68px;
-    height: 38px;
-    margin-top: -3px;
-  }
+
 }
 
 .form__emoj {
@@ -988,18 +973,18 @@
 }
 
 .item__checkbox:not(:checked) + .item__component:focus,
-.item__checkbox:checked + .item__label:focus::before {
+.item__checkbox:checked + .item__component:focus::before {
   border: 1px solid rgb(229, 151, 0);
 }
 
 .item__checkbox + .item__component:hover::before,
-.item-app__input-radio + .item-app__label-radio:hover::before {
+.item-app__input-radio + .item-app__component:hover::before {
   cursor: pointer;
   border: 2px solid black;
 }
 
 .item__checkbox + .item__component:active::before,
-.item-app__input-radio + .item-app__label-radio:active::before {
+.item-app__input-radio + .item__component-app:active::before {
   border: 2px solid #d22856;
 }
 
@@ -1109,7 +1094,13 @@
   }
 }
 
+
 .item__label input[type="checkbox"]:focus + .item__component {
+  outline: 1px solid rgb(77, 144, 254);
+  outline-offset: 17px;
+}
+
+.item-app__label-radio input[type="radio"]:focus + .item-app__component {
   outline: 1px solid rgb(77, 144, 254);
   outline-offset: 17px;
 }
