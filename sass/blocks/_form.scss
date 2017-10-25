@@ -793,10 +793,6 @@
   }
 }
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 960px) {
-
-}
-
 .form__emoj {
   min-height: 290px;
   display: flex;
@@ -1004,16 +1000,6 @@
   display: none;
 }
 
-@media (min-width: 960px) {
-
-}
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 960px) {
-  .item__checkbox:focus {
-    height: 36px;
-  }
-}
-
 @media (max-width: 480px) {
   .form__full-name {
     order: 1;
@@ -1093,7 +1079,6 @@
     width: 960px;
   }
 }
-
 
 .item__label input[type="checkbox"]:focus + .item__component {
   outline: 1px solid rgb(77, 144, 254);
