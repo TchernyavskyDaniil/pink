@@ -1,14 +1,1 @@
-'use strict';
-
-var buttonOpen = document.querySelector(".inner__toggle");
-var nav = document.querySelector(".nav__box-w");
-
-buttonOpen.classList.remove("inner__toggle-off");
-nav.classList.add("nav__box-w--closed");
-nav.classList.add("nav__box-w-wrapper");
-
-buttonOpen.addEventListener("click", function (evt) {
-  evt.preventDefault();
-  nav.classList.toggle("nav__box-w--closed");
-  buttonOpen.classList.toggle("toggle__box-w--closed");
-});
+"use strict";var buttonOpen=document.querySelector(".inner__toggle"),nav=document.querySelector(".nav__box-w");buttonOpen.classList.remove("inner__toggle-off"),nav.classList.add("nav__box-w--closed"),nav.classList.add("nav__box-w-wrapper"),buttonOpen.addEventListener("click",function(e){e.preventDefault(),nav.classList.toggle("nav__box-w--closed"),buttonOpen.classList.toggle("toggle__box-w--closed")});
