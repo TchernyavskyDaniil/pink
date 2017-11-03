@@ -1,0 +1,325 @@
+.wrapper__main {
+  margin-top: 38px;
+}
+
+@media (min-width: 960px) {
+  .wrapper__main {
+    margin-top: 38px;
+  }
+}
+
+.main__slogan {
+  background-color: #ffffff;
+}
+
+.slogan__about {
+  margin: 0 auto;
+  width: 240px;
+}
+
+.about__title-text,
+.about__title-sub {
+  margin-top: 0;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.about__title-sub {
+  margin-top: 27px;
+  line-height: 30px;
+}
+
+@media (min-width: 660px) {
+  .slogan__about {
+    width: 620px;
+    padding-top: 13px;
+    min-height: 150px;
+  }
+
+  .about__title-sub,
+  .about__title-text {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .about__title-text {
+    margin-bottom: 0;
+  }
+
+  .about__title-sub {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 960px) {
+  .slogan__about {
+    width: 769px;
+    padding-top: 28px;
+    padding-left: 3px;
+  }
+
+  .about__title-sub {
+    width: 600px;
+  }
+
+  .about__title-text,
+  .about__title-sub {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+.slogan__features {
+  background: url("../../img/bg-triangle-white.svg") top #f2f2f2 no-repeat;
+  background-size: 100% auto;
+  padding-top: 65px;
+  margin-top: 29px;
+}
+
+@media (min-width: 660px) {
+  .slogan__features {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    min-height: 440px;
+    margin-top: 36px;
+    padding-top: 48px;
+  }
+
+  .features__desc {
+    padding-left: 302px;
+  }
+}
+
+@media (min-width: 960px) {
+  .slogan__features {
+    margin-top: 86px;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .features__desc {
+    padding-left: 0;
+    margin: 0 auto;
+    width: 960px;
+  }
+}
+
+.desc__list {
+  padding-left: 0;
+}
+
+.item__title {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.item__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 30px 0 30px;
+}
+
+.item__title-features {
+  margin-bottom: 0;
+}
+
+.item__text-features {
+  margin-top: 10px;
+}
+
+.desc__item:nth-child(2),
+.desc__item:nth-child(3) {
+  margin-top: 35px;
+}
+
+.features__img {
+  background: url("../../img/iphone-screen-mobile@1x-min.png") no-repeat center 23px;
+  min-height: 302px;
+
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    background: url("../../img/iphone-screen-mobile@2x.png") no-repeat center 23px;
+    background-size: 160px auto;
+    min-height: 302px;
+  }
+}
+
+@media (min-width: 660px) {
+  .features__img {
+    background: url("../../img/iphone-screen-3-tablet@1x.png") no-repeat;
+    position: absolute;
+    width: 295px;
+    height: 528px;
+    left: 18px;
+    top: 0;
+    background-position-y: 2px;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background: url("../../img/iphone-screen-3-tablet@2x.png") no-repeat;
+      background-size: 270px auto;
+      background-position-y: 2px;
+    }
+  }
+
+  .desc__list {
+    padding-top: 1px;
+    margin-top: 10px;
+    min-height: 400px;
+  }
+
+  .item__title-slogan {
+    text-align: left;
+    padding-left: 30px;
+  }
+
+  .item__text-slogan {
+    text-align: left;
+    font-size: 14px;
+    padding-right: 7px;
+  }
+}
+
+@media (min-width: 960px) {
+  .desc__list {
+    min-height: 300px;
+    display: flex;
+    padding-top: 200px;
+  }
+
+  .desc__item {
+    display: flex;
+    flex-direction: column;
+    min-height: 230px;
+    padding-top: 27px;
+    position: relative;
+  }
+
+  .desc__item:nth-child(1) {
+    padding-top: 61px;
+    padding-left: 14px;
+    width: 325px;
+  }
+
+  .desc__item:nth-child(2) {
+    margin-right: 30px;
+    margin-top: 33px;
+    width: 300px;
+  }
+
+  .desc__item:nth-child(3) {
+    width: 286px;
+  }
+
+  .desc__item::before {
+    content: "";
+    background: url("../../img/iphone-screen-desktop-1@1x.png") no-repeat center;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -301px;
+    left: -15px;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      display: none;
+    }
+  }
+
+  .desc__item:nth-child(1)::before {
+    left: 12px;
+    top: -268px;
+  }
+
+  .desc__item:nth-child(2)::before {
+    left: -7px;
+    top: -300px;
+  }
+
+  .desc__item:nth-child(1)::after {
+    background-color: #9d9d9d;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      content: "";
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      top: -265px;
+      left: 11px;
+      background: url("../../img/iphone-screen-1-desktop@2x.png") no-repeat center;
+      background-size: 294px auto;
+    }
+  }
+
+  .desc__item:nth-child(2)::after {
+    content: "";
+    background: url("../../img/Iphone-screen-red.png") no-repeat center;
+    width: 165px;
+    height: 258px;
+    position: absolute;
+    top: -258px;
+    left: 57px;
+    border: 1px solid black;
+    background-size: auto;
+    background-color: #620929;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      width: 300px;
+      height: 300px;
+      top: -299px;
+      left: -3px;
+      border: none;
+      background: url("../../img/iphone-screen-2-desktop@2x.png") no-repeat center;
+      background-size: 294px auto;
+    }
+  }
+
+  .desc__item:nth-child(3)::after {
+    content: "";
+    background: url("../../img/Iphone-screen-smile.png") no-repeat center;
+    width: 165px;
+    height: 257px;
+    position: absolute;
+    left: 49px;
+    top: -259px;
+    border: 1px solid black;
+    background-size: 179px 300px;
+    background-color: #620929;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      width: 220px;
+      height: 300px;
+      left: 20px;
+      top: -301px;
+      border: none;
+      background: url("../../img/iphone-screen-3-desktop@2x.png") no-repeat center;
+      background-size: 294px auto;
+    }
+  }
+
+  .features__img {
+    display: none;
+  }
+
+  .item__title-slogan {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-right: 44px;
+  }
+
+  .item__text-slogan {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    padding-right: 37px;
+    padding-left: 15px;
+    padding-top: 13px;
+  }
+}
