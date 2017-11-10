@@ -724,6 +724,7 @@
   line-height: 30px;
   position: relative;
   padding-left: 18px;
+  user-select: none;
 
   &::before {
     background-color: #ffffff;
